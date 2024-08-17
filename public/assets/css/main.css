@@ -1,0 +1,1034 @@
+/* General Styles */
+h2 {
+  font-weight: bold;
+}
+
+p {
+  color: #51564e;
+}
+
+img {
+  border-radius: 10px;
+}
+
+body.main-body.dark-mode p {
+  color: #bec2d3;
+}
+body.main-body.dark-mode .month-year-wrp .save-mony {
+  color: #2d66c4;
+}
+body.main-body.dark-mode .Subscriptions-content span{
+  color: #fff;
+}
+body.main-body.dark-mode span{
+  color: #bec2d3;
+}
+.flex-column-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.background-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-eff0ef {
+  background-color: #eff0ef;
+}
+
+/* Creativity Styles */
+.Creativity-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Creativity-content h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.Creativity-content p {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.Creativity-img {
+
+  height: 500px;
+  position: relative;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.graphs img {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.graphs {
+  position: absolute;
+  bottom: 6%;
+  left: 2%;
+}
+
+.avatar img {
+  background-color: #fff;
+  padding: 10px;
+}
+.avatar {
+  position: absolute;
+  top: 7%;
+  right: 3%;
+}
+
+/* Applications Styles */
+.Applications-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Applications-content span:nth-child(1) {
+  font-size: 18px;
+  color: #387ff5;
+  text-align: center;
+}
+
+.Applications-content h2:nth-child(2) {
+  font-size: 48px;
+  text-align: center;
+}
+
+/* Unique Styles */
+.unique-content h2 {
+  font-size: 31px;
+}
+
+.unique-content-img,
+.unique-content-img2,
+.unique-content-img3 {
+  height: 300px;
+  position: relative;
+}
+
+.unique-content-img {
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.unique-content-img2 {
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.unique-content-img3 {
+
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.unique-graph img,
+.unique-graph2 img {
+  @extend .background-white, .padding-10, .border-radius-10;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.unique-graph {
+  position: absolute;
+  bottom: -15%;
+  left: 15%;
+}
+
+.unique-graph2 {
+  position: absolute;
+  right: 22%;
+  top: -11%;
+}
+
+/* Integration Styles */
+.Integration-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Integration-content span {
+  color: #387ff5;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.Integration-content h2 {
+  font-size: 48px;
+  text-transform: capitalize;
+  margin-top: 19px;
+  text-align: center;
+}
+
+.Integration-card {
+  margin-top: 50px;
+  border: 1px solid #e0e2de;
+  border-top: none;
+  border-radius:9px;
+  background-color: #fff;
+}
+
+.card-img {
+  width: 100%;
+  height: 272px;
+  @extend .background-eff0ef, .border-radius-10;
+}
+
+.card-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px 20px;
+}
+
+.card-content a {
+  color: #000;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card-content p {
+  margin-top: 10px;
+}
+
+/* Power Styles */
+.power {
+  padding: 100px;
+  background-color: #eff0ef;
+}
+
+.power-content h2 {
+  font-size: 39px;
+}
+
+.power-img-line {
+  border: 1px solid #c1c5bf;
+  height: 100%;
+  padding: 25px 20px;
+  border-radius: 20px;
+}
+
+.power-img {
+ 
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+}
+
+.power-img img {
+  @extend .background-white, .padding-10, .border-radius-10;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: absolute;
+  right: 20%;
+  bottom: -5%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Accordion Styles */
+.accordion-items i {
+  color: #656b61;
+}
+
+.accordion-items {
+  border: 1px solid #c1c5bf;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* Revolutionize Styles */
+.Revolutionize-coltent {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.Revolutionize-coltent h2 {
+  font-size: 48px;
+}
+
+.Revolutionize-coltent span {
+  color: #3c403a;
+  margin: 10px 0;
+}
+
+/* Solutions Styles */
+.Solutions-content h2 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.Solutions-content p {
+  width: 70%;
+}
+
+.Solutions-img {
+  margin: 20px 0;
+}
+
+.Solutions-img img {
+  @extend .border-radius-10;
+}
+
+/* Operates Styles */
+.Operates-content {
+  @extend .flex-column-center;
+  padding: 50px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Operates-content h2 {
+  font-size: 48px;
+}
+
+.Operates-content p {
+  width: 70%;
+  text-align: center;
+}
+
+/* Chatbot Styles */
+.Chatbot {
+  padding: 100px;
+}
+.Chatbot-content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.Chatbot-content h2 {
+  font-size: 39px;
+}
+
+.Chatbot-content span {
+  color: #3c403a;
+  padding: 10px 0;
+}
+
+.Chatbot-img {
+
+  height: 300px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.Chatbot-img img {
+  background-color: #6099f7;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  right: 36%;
+  bottom: -8%;
+}
+
+/* Our Customize Styles */
+.Our-Customize-content h2 {
+  font-size: 48px;
+}
+
+.Our-Customize-content p {
+  width: 80%;
+}
+
+.Our-Customize-img {
+  margin-top: 40px;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 35px !important;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Case Study Styles */
+.Case-study {
+  padding: 100px;
+  background-color: #eff0ef;
+}
+
+.Case-study-content span {
+  color: #6099f7;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.Case-study-content h2 {
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+.Case-study-content p {
+  color: #3c403a;
+  width: 80%;
+}
+.faq {
+  padding-bottom: 50px;
+}
+.blog_batg {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid #b8bccc;
+  border-radius: 15px;
+  width: 80px;
+  padding: 5px;
+  margin: 30px 0px;
+  text-transform: uppercase;
+}
+.blog_contant h2 {
+  font-size: 48px;
+}
+.blog_contant p {
+  color: #51564e;
+}
+.Featured_Blog h2 {
+  font-size: 48px;
+}
+.blogs_card_img img {
+  object-fit: cover;
+  width: 100%;
+}
+.blogs_card_content a {
+  text-decoration: none;
+}
+.blogs_card_content h2 {
+  font-size: 32px;
+  color: #000;
+}
+.blogs_card_content,
+.date {
+  margin: 10px 0px;
+}
+.date span{
+  color: #51564E;
+}
+
+.Others_card_img img {
+  object-fit: cover;
+  width: 100%;
+}
+.Report {
+  margin: 10px 0px;
+}
+.Report span{
+color: #51564E;
+}
+.Others_card_body a {
+  text-decoration: none;
+}
+.Others_card_body a h6 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+.Others .container h2 {
+  font-size: 48px;
+}
+/* blogs post detils  */
+body.main-body.dark-mode .Navigating_date{
+  color: #bec2d3;
+}
+.Navigating_date {
+  display: flex;
+  align-items: center;
+  color: #51564e;
+  margin: 20px 0px;
+}
+.Navigating_content h2 {
+  font-size: 48px;
+}
+.Navigating_profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0px;
+}
+.blog-detils-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+}
+.Navigating_image img {
+  width: 100%;
+  object-fit: cover;
+}
+.blog_content p {
+  border-left: 4px solid #a2a89e;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.blog_content h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.blog_content span {
+  display: block;
+  
+  font-size: 18px;
+  margin: 20px 0px;
+}
+.Related-posts-content a {
+  color: #000;
+  text-decoration: none;
+}
+.Related-posts-content a h6 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.Related-posts-image img {
+  width: 100%;
+  object-fit: cover;
+}
+/* Term and Condition Styles */
+.General-Terms-content {
+  width: 50%;
+  margin: auto;
+}
+.General-Terms-content h2 {
+  font-size: 48px;
+}
+.General-Terms-content small {
+  color: #3c403a;
+}
+body.main-body.dark-mode .General-Terms-content small {
+  color: #bec2d3;
+}
+.General-Terms-content span {
+  font-size: 18px;
+  font-weight: 500;
+  border-left: 10px solid;
+  height: 100%;
+}
+.left_line {
+  font-size: 18px;
+  font-weight: 700px;
+  border-left: 5px solid #a2a89e;
+  padding-left: 20px;
+  margin: 20px 0px;
+}
+.Acceptance-Terms-content,
+.Changes-Terms-content,
+.Account-Security-content,
+.Payment-content {
+  width: 50%;
+  margin: auto;
+}
+.Acceptance-Terms-content p,
+.Changes-Terms-content p,
+.Account-Security-content p,
+.Payment-content p {
+  font-size: 18px;
+}
+
+.Subscriptions-content {
+  width: 50%;
+  margin: auto;
+}
+.Subscriptions-content span,
+.Dispute-Resolution-content span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #51564e;
+}
+.Subscriptions-content p {
+  font-size: 18px;
+}
+.Restrictions-content,
+.User-Generated-content {
+  width: 50%;
+  margin: auto;
+}
+.Restrictions-content p,
+.User-Generated-content p {
+  font-size: 18px;
+}
+.Restrictions-content span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #51564e;
+  margin: 10px 0px;
+}
+.Restrictions-content ul li,
+.User-Generated-content ul li {
+  font-size: 18px;
+}
+
+.Contribution-Licence-content,
+.Guidelines-Review-content,
+.Third-Party-content,
+.Privacy-Policy-content,
+.the-Services-content,
+.Term-Termination-content,
+.Modifications-Interruptions-content,
+.Governing-Law-content,
+.Dispute-Resolution-content,
+.Corrections-content,
+.Disclaimer-content,
+.Indemmification-content,
+.User-Data-content,
+.Electronic-content,
+.Miscellaneous-content,
+.Contact-US-content {
+  width: 50%;
+  margin: auto;
+}
+.Contribution-Licence-content p,
+.Guidelines-Review-content p,
+.Third-Party-content p,
+.Privacy-Policy-content p,
+.the-Services-content p,
+.Term-Termination-content p,
+.Modifications-Interruptions-content p,
+.Governing-Law-content p,
+.Dispute-Resolution-content p,
+.Corrections-content p,
+.Disclaimer-content p,
+.Indemmification-content p,
+.User-Data-content p,
+.Electronic-content p,
+.Miscellaneous-content p,
+.Contact-US-content p {
+  font-size: 18px;
+}
+
+.Cookies-We-Set-content{
+  width: 50%;
+  margin: auto;
+}
+.Cookies-We-Set-content ul span{
+  color: #51564e;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Cookies-We-Set-content ul li{
+  font-size: 18px;
+  color: #bec2d3;
+}
+
+.Restrictions-content p a{
+  color: #51564E;
+}
+@media (max-width: 991px) {
+  .Creativity-content h2 {
+    font-size: 38px;
+  }
+  .Creativity-content p {
+    font-size: 18px;
+  }
+  .Journey-contant span {
+    font-size: 14px;
+  }
+  .unique-graph {
+    left: -10%;
+  }
+  .unique-graph2 {
+    right: -4%;
+    top: -7%;
+  }
+  .Integration-content h2 {
+    font-size: 38px;
+  }
+  .power-content h2 {
+    font-size: 24px;
+  }
+  .power-content .btn {
+    font-size: 16px;
+  }
+  .power-img img {
+    width: 85%;
+  }
+  .Our-Customize-content h2,
+  .Case-study-content h2,
+  .Chatbot-content h2,
+  .Solutions-content h2 {
+    font-size: 38px;
+  }
+
+  .Solutions-img img {
+    width: 100%;
+  }
+
+  .Chatbot-img img {
+    width: 80%;
+  }
+  .power,
+  .Case-study,
+  .Chatbot {
+    padding: 50px;
+  }
+  .Revolutionize img {
+    width: 100%;
+  }
+  .Revolutionize-coltent h2,
+  .Operates-content h2 {
+    font-size: 38px;
+  }
+  .Operates-content {
+    padding: 20px;
+  }
+  .hide {
+    display: none;
+  }
+  .blog_contant .container h2,
+  .Featured_Blog h2,
+  .Others .container h2 {
+    font-size: 38px;
+  }
+  .Navigating_content h2 {
+    font-size: 38px;
+  }
+  .blog-detils-content {
+    width: 100%;
+    margin: 0;
+  }
+  .blog_content img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .Acceptance-Terms-content,
+  .Changes-Terms-content,
+  .Account-Security-content,
+  .Payment-content,
+  .Subscriptions-content,
+  .General-Terms-content,
+  .Restrictions-content,
+  .User-Generated-content,
+  .Cookies-We-Set-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Contribution-Licence-content,
+  .Guidelines-Review-content,
+  .Third-Party-content,
+  .Privacy-Policy-content,
+  .the-Services-content,
+  .Term-Termination-content,
+  .Modifications-Interruptions-content,
+  .Governing-Law-content,
+  .Dispute-Resolution-content,
+  .Corrections-content,
+  .Disclaimer-content,
+  .Indemmification-content,
+  .User-Data-content,
+  .Electronic-content,
+  .Miscellaneous-content,
+  .Contact-US-content {
+    width: 100%;
+    margin: auto;
+  }
+  .Acceptance-Terms-content p,
+  .Changes-Terms-content p,
+  .Account-Security-content p,
+  .Payment-content p,
+  .Subscriptions-content p,
+  .Acceptance-Terms-content p,
+  .Changes-Terms-content p,
+  .Account-Security-content p,
+  .Payment-content p,
+  .Subscriptions-content p,
+  .Restrictions-content p,
+  .User-Generated-content p {
+    font-size: 16px;
+  }
+  .Restrictions-content ul li,
+  .User-Generated-content ul li {
+    font-size: 16px;
+  }
+
+  .Contribution-Licence-content p,
+  .Guidelines-Review-content p,
+  .Third-Party-content p,
+  .Privacy-Policy-content p,
+  .the-Services-content p,
+  .Term-Termination-content p,
+  .Modifications-Interruptions-content p,
+  .Governing-Law-content p,
+  .Dispute-Resolution-content p,
+  .Corrections-content p,
+  .Disclaimer-content p,
+  .Indemmification-content p,
+  .User-Data-content p,
+  .Electronic-content p,
+  .Miscellaneous-content p,
+  .Contact-US-content p,
+  .Cookies-We-Set-content ul li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 810px) {
+  .Creativity-content h2 {
+    font-size: 28px;
+  }
+  .Creativity-content p {
+    font-size: 16px;
+  }
+  .Journey-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .unique-content h2 {
+    font-size: 24px;
+  }
+  .power-content h2 {
+    font-size: 20px;
+  }
+  .power-img img {
+    right: 26%;
+    width: 80%;
+  }
+  .Our-Customize-content h2,
+  .Case-study-content h2,
+  .Chatbot-content h2,
+  .Solutions-content h2 {
+    font-size: 32px;
+  }
+  .power,
+  .Case-study,
+  .Chatbot {
+    padding: 30px;
+  }
+  .Revolutionize-coltent h2,
+  .Operates-content h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .unique-content-img,
+  .unique-content-img2,
+  .unique-content-img3 {
+    background-position: center;
+  }
+  .unique-graph {
+    left: 8%;
+  }
+  .unique-graph2 {
+    right: 9%;
+    top: -15%;
+  }
+  .power-img {
+    height: 300px;
+  }
+  .Chatbot-img img {
+    width: 69%;
+  }
+  .power,
+  .Case-study,
+  .Chatbot {
+    padding: 50px;
+  }
+  .Chatbot-img,
+  .power-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-img {
+    height: 200px;
+  }
+  .power-img img {
+    width: 76%;
+  }
+  .Operates-content p {
+    width: 100%;
+  }
+  .blog_contant .container h2,
+  .Featured_Blog h2,
+  .Others .container h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 576px) {
+  .card-img {
+    width: 100%;
+    height: 300px;
+  }
+  .power {
+    padding: 30px;
+    background-color: #eff0ef;
+  }
+  .Integration-content h2 {
+    font-size: 24px;
+  }
+  .Applications-content h2:nth-child(2) {
+    font-size: 24px;
+  }
+  .Solutions-content p {
+    width: 100%;
+  }
+  .Our-Customize-content h2,
+  .Case-study-content h2,
+  .Chatbot-content h2,
+  .Solutions-content h2 {
+    font-size: 26px;
+  }
+  .Revolutionize-coltent h2,
+  .Operates-content h2 {
+    font-size: 26px;
+  }
+  .Others_card_body a h6 {
+    font-size: 18px;
+  }
+  .blog_contant h2 {
+    font-size: 32px;
+  }
+  .blog_contant .container h2,
+  .Featured_Blog h2,
+  .Others .container h2 {
+    font-size: 24px;
+  }
+  .Navigating_content h2 {
+    font-size: 28px;
+  }
+  .blog_content h2 {
+    font-size: 24px;
+  }
+  .Acceptance-Terms-content p,
+  .Changes-Terms-content p,
+  .Account-Security-content p,
+  .Payment-content p,
+  .Subscriptions-content p,
+  .Acceptance-Terms-content p,
+  .Changes-Terms-content p,
+  .Account-Security-content p,
+  .Payment-content p,
+  .Subscriptions-content p,
+  .Restrictions-content p,
+  .User-Generated-content p,
+  .Cookies-We-Set-content ul li {
+    font-size: 14px;
+  }
+  .Restrictions-content ul li,
+  .User-Generated-content ul li {
+    font-size: 14px;
+  }
+
+  .Contribution-Licence-content p,
+  .Guidelines-Review-content p,
+  .Third-Party-content p,
+  .Privacy-Policy-content p,
+  .the-Services-content p,
+  .Term-Termination-content p,
+  .Modifications-Interruptions-content p,
+  .Governing-Law-content p,
+  .Dispute-Resolution-content p,
+  .Corrections-content p,
+  .Disclaimer-content p,
+  .Indemmification-content p,
+  .User-Data-content p,
+  .Electronic-content p,
+  .Miscellaneous-content p,
+  .Contact-US-content p {
+    font-size: 14px;
+  }
+  .General-Terms-content h2 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 425px) {
+  .unique-graph2 {
+    right: 25%;
+    top: -15%;
+  }
+  .power,
+  .Case-study,
+  .Chatbot {
+    padding: 20px 10px;
+  }
+  .card-img {
+    height: 240px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-img {
+    height: 210px;
+  }
+  .card-content a {
+    font-size: 18px;
+  }
+  .Our-Customize-content h2,
+  .Case-study-content h2,
+  .Chatbot-content h2,
+  .Solutions-content h2 {
+    font-size: 22px;
+  }
+  .Chatbot {
+    margin-bottom: 100px;
+  }
+  .Navigating_content h2 {
+    font-size: 20px;
+  }
+  .blog_content h2 {
+    font-size: 18px;
+  }
+  .blog_content span {
+    font-size: 14px;
+  }
+  .blog_content p {
+    font-size: 14px;
+  }
+}
