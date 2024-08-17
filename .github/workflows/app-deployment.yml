@@ -1,17 +1,18 @@
-name: Deploy Laravel Application on Contabo Server
+name: Deploy to EC2
 
 on:
   push:
     branches:
       - master
-      - development  # Adjust the branch name as needed
+      - development
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Deploy Laravel Application
+    - name: Deploy to Production (master branch)
+      if: github.ref == 'refs/heads/master'
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.SERVER_PUBLIC_IP }}
@@ -19,28 +20,39 @@ jobs:
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
         script: |
-          # Navigate to the project directory
           cd /home/iatify-fe
-          
-          # Pull the latest changes from the repository
+          git checkout master
           git pull
-          
-          # Sync the application files to the production directory
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
-          
-          # Set correct ownership and permissions
           chown -R www-data:www-data /var/www/html/iatify-prod
           find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-prod -type f -exec chmod 644 {} \;
-
-          # Clear cached configurations
           cd /var/www/html/iatify-prod
           php artisan config:clear
           php artisan cache:clear
           php artisan view:clear
           php artisan config:cache
-
-          # Ensure correct Apache configuration and reload Apache
-          rm /var/www/html/iatify-prod/bootstrap/cache/config.php
           sudo systemctl reload apache2
 
+    - name: Deploy to Development (development branch)
+      if: github.ref == 'refs/heads/development'
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SERVER_PUBLIC_IP }}
+        username: ${{ secrets.SERVER_USERNAME }}
+        password: ${{ secrets.SERVER_PASSWORD }}
+        port: ${{ secrets.SERVER_PORT }}
+        script: |
+          cd /home/iatify-fe
+          git checkout development
+          git pull
+          rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-dev
+          chown -R www-data:www-data /var/www/html/iatify-dev
+          find /var/www/html/iatify-dev -type d -exec chmod 755 {} \;
+          find /var/www/html/iatify-dev -type f -exec chmod 644 {} \;
+          cd /var/www/html/iatify-dev
+          php artisan config:clear
+          php artisan cache:clear
+          php artisan view:clear
+          php artisan config:cache
+          sudo systemctl reload apache2
