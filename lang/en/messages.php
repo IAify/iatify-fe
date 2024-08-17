@@ -615,7 +615,7 @@ return [
   "By leveraging AI technology, our solution streamlines the social media publishing process, saving you time and effort. With automated campaign creation and scheduling, you can focus on other aspects of your business while AI ensures consistent and effective engagement on social media" => "By leveraging AI technology, our solution streamlines the social media publishing process, saving you time and effort. With automated campaign creation and scheduling, you can focus on other aspects of your business while AI ensures consistent and effective engagement on social media",
   "Are there plans to add more social media platforms in the future?" => "Are there plans to add more social media platforms in the future?",
   "Our development team is continuously exploring opportunities to expand our platform's capabilities. While we currently support a wide range of social media platforms, including the most popular ones, we are open to adding more in the future based on user feedback and market demand" => "Our development team is continuously exploring opportunities to expand our platform's capabilities. While we currently support a wide range of social media platforms, including the most popular ones, we are open to adding more in the future based on user feedback and market demand",
-"Write Your Desires, I Can Create Anything"=>"Write Your Desires, I Can Create Anything",
+"Write Your Desires, I Can Create Anything."=>"Write Your Desires, I Can Create Anything.",
   // Ai-social-media. page end
 // ars contct
 "How does Iatify ensure the security of my data?"=>"How does Iatify ensure the security of my data?",
