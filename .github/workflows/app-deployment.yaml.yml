@@ -1,0 +1,25 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - master
+      - development  # Adjust the branch name as needed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to EC2
+        uses: atlassian/ssh-run@0.2.8
+        with:
+          ssh-user: ${{ secrets.SERVER_USERNAME }}
+          ssh-password: ${{ secrets.SERVER_PASSWORD }}
+          server: ${{ secrets.SERVER_PUBLIC_IP }}
+          command: |
+            cd /home/iatify-fe
+            git pull
