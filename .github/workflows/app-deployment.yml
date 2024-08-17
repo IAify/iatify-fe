@@ -1,4 +1,4 @@
-name: Deploy to EC2
+name: Deploy Laravel Application on Contabo Server
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: executing remote ssh commands using password
+    - name: Deploy Laravel Application
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.SERVER_PUBLIC_IP }}
@@ -19,6 +19,28 @@ jobs:
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
         script: |
+          # Navigate to the project directory
           cd /home/iatify-fe
+          
+          # Pull the latest changes from the repository
           git pull
-          ls
+          
+          # Sync the application files to the production directory
+          rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
+          
+          # Set correct ownership and permissions
+          chown -R www-data:www-data /var/www/html/iatify-prod
+          find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
+          find /var/www/html/iatify-prod -type f -exec chmod 644 {} \;
+
+          # Clear cached configurations
+          cd /var/www/html/iatify-prod
+          php artisan config:clear
+          php artisan cache:clear
+          php artisan view:clear
+          php artisan config:cache
+
+          # Ensure correct Apache configuration and reload Apache
+          rm /var/www/html/iatify-prod/bootstrap/cache/config.php
+          sudo systemctl reload apache2
+
