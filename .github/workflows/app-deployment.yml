@@ -27,6 +27,14 @@ jobs:
           git checkout master
           git pull
           
+          # Install Composer dependencies
+          composer install
+          composer update
+
+          # Install Node.js dependencies and build assets
+          npm install
+          npm run build
+
           # Synchronize files to the production directory
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
           chown -R www-data:www-data /var/www/html/iatify-prod
@@ -56,6 +64,14 @@ jobs:
           git checkout development
           git pull
           
+          # Install Composer dependencies
+          composer install
+          composer update
+
+          # Install Node.js dependencies and build assets
+          npm install
+          npm run dev
+
           # Synchronize files to the development directory
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-dev
           chown -R www-data:www-data /var/www/html/iatify-dev
