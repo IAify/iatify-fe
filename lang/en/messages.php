@@ -303,7 +303,8 @@ return [
   'Enterprise, for a very small part' => 'Enterprise, for a very small part',
   'Get plan' => 'Get plan',
   'Professional, the AI tool for smooth scaling' => 'Professional, the AI tool for smooth scaling',
-"Get a Demo"=>"Get a Demo",
+  "Get a Demo"=>"Get a Demo",
+  "Voice Over"=>"Voice Over",
 
   'Compare <br/> plans' => 'Compare <br/> plans',
   "User and Storages" => "User and Storages",
@@ -664,7 +665,7 @@ return [
   "Who is IAtify designed for?"=>"Who is IAtify designed for?",
   "IAtify is designed for a wide range of users including businesses, developers, content creators, and researchers who need advanced AI capabilities for tasks such as text generation, data analysis, and more. Our flexible plans and powerful AI tools cater to both individual users and large organizations."=>"IAtify is designed for a wide range of users including businesses, developers, content creators, and researchers who need advanced AI capabilities for tasks such as text generation, data analysis, and more. Our flexible plans and powerful AI tools cater to both individual users and large organizations.",
   "What happens if I exceed my token quota? Can I still use the software?"=>"What happens if I exceed my token quota? Can I still use the software?",
-  "Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage."=>"Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage.",
+  "Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage."=>"Message.Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage.",
   "How long is your free trial?"=>"How long is your free trial?",
   "Our free trial lasts for 3 days. This period allows you to explore our services and evaluate if they meet your needs."=>"Our free trial lasts for 3 days. This period allows you to explore our services and evaluate if they meet your needs.",
   "How is my data stored? Is it secure?"=>"How is my data stored? Is it secure?",
@@ -867,9 +868,5 @@ return [
 "How can I upgrade my plan if my needs change?"=>"How can I upgrade my plan if my needs change?",
 "You can easily upgrade your plan at any time from your account dashboard. Simply select the plan that suits your updated requirements, and the changes will take effect immediately."=>"You can easily upgrade your plan at any time from your account dashboard. Simply select the plan that suits your updated requirements, and the changes will take effect immediately.",
 // ars pric
-
-
-
-
-
+"Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage."=>"Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage.",
 ];

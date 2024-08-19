@@ -17,10 +17,10 @@ body.main-body.dark-mode p {
 body.main-body.dark-mode .month-year-wrp .save-mony {
   color: #2d66c4;
 }
-body.main-body.dark-mode .Subscriptions-content span{
+body.main-body.dark-mode .Subscriptions-content span {
   color: #fff;
 }
-body.main-body.dark-mode span{
+body.main-body.dark-mode span {
   color: #bec2d3;
 }
 .flex-column-center {
@@ -76,7 +76,6 @@ body.main-body.dark-mode span{
 }
 
 .Creativity-img {
-
   height: 500px;
   position: relative;
   border-radius: 20px;
@@ -149,7 +148,6 @@ body.main-body.dark-mode span{
 }
 
 .unique-content-img3 {
-
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -202,7 +200,7 @@ body.main-body.dark-mode span{
   margin-top: 50px;
   border: 1px solid #e0e2de;
   border-top: none;
-  border-radius:9px;
+  border-radius: 9px;
   background-color: #fff;
 }
 
@@ -250,7 +248,6 @@ body.main-body.dark-mode span{
 }
 
 .power-img {
- 
   height: 100%;
   position: relative;
   border-radius: 20px;
@@ -269,6 +266,9 @@ body.main-body.dark-mode span{
 /* Accordion Styles */
 .accordion-items i {
   color: #656b61;
+  position: absolute;
+  right: 3%;
+  top: 20%;
 }
 
 .accordion-items {
@@ -357,7 +357,6 @@ body.main-body.dark-mode span{
 }
 
 .Chatbot-img {
-
   height: 300px;
   position: relative;
   border-radius: 20px;
@@ -434,6 +433,7 @@ body.main-body.dark-mode span{
 }
 .blog_contant h2 {
   font-size: 48px;
+  font-weight: 700;
 }
 .blog_contant p {
   color: #51564e;
@@ -449,15 +449,18 @@ body.main-body.dark-mode span{
   text-decoration: none;
 }
 .blogs_card_content h2 {
-  font-size: 32px;
+  font-size: 31px;
   color: #000;
+  font-weight: 700;
 }
 .blogs_card_content,
 .date {
   margin: 10px 0px;
 }
-.date span{
-  color: #51564E;
+.date span {
+  color: #51564e;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .Others_card_img img {
@@ -467,22 +470,25 @@ body.main-body.dark-mode span{
 .Report {
   margin: 10px 0px;
 }
-.Report span{
-color: #51564E;
+.Report span {
+  font-size: 14px;
+  color: #51564e;
+  font-weight: 400;
 }
 .Others_card_body a {
   text-decoration: none;
 }
 .Others_card_body a h6 {
   color: #000;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
+  font-weight: 700;
 }
 .Others .container h2 {
   font-size: 48px;
 }
 /* blogs post detils  */
-body.main-body.dark-mode .Navigating_date{
+body.main-body.dark-mode .Navigating_date {
   color: #bec2d3;
 }
 .Navigating_date {
@@ -524,7 +530,7 @@ body.main-body.dark-mode .Navigating_date{
 }
 .blog_content span {
   display: block;
-  
+
   font-size: 18px;
   margin: 20px 0px;
 }
@@ -652,22 +658,22 @@ body.main-body.dark-mode .General-Terms-content small {
   font-size: 18px;
 }
 
-.Cookies-We-Set-content{
+.Cookies-We-Set-content {
   width: 50%;
   margin: auto;
 }
-.Cookies-We-Set-content ul span{
+.Cookies-We-Set-content ul span {
   color: #51564e;
   font-size: 18px;
   font-weight: bold;
 }
-.Cookies-We-Set-content ul li{
+.Cookies-We-Set-content ul li {
   font-size: 18px;
   color: #bec2d3;
 }
 
-.Restrictions-content p a{
-  color: #51564E;
+.Restrictions-content p a {
+  color: #51564e;
 }
 @media (max-width: 991px) {
   .Creativity-content h2 {

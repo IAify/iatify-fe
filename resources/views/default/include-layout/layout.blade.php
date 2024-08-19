@@ -17,6 +17,7 @@
         id="particle-js-js"></script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>@yield('title')</title>
 </head>
 
@@ -30,10 +31,10 @@
                             <a style="cursor: pointer;" class="dropdown-btn">@lang('messages.Language')<i
                                     class="fa-solid fa-angle-down"></i></a>
                             <div class="dropdown-content-1">
-                                <a href="locale/en">@lang('messages.English')</a>
-                                <a href="locale/gr">@lang('messages.German')</a>
-                                <a href="locale/sp">@lang('messages.Spanish')</a>
-                                <a href="locale/fr">@lang('messages.French')</a>
+                                <a href="{{ route('locale', ['lang' => 'en']) }}">@lang('messages.English')</a>
+                                <a href="{{ route('locale', ['lang' => 'gr']) }}">@lang('messages.German')</a>
+                                <a href="{{ route('locale', ['lang' => 'sp']) }}">@lang('messages.Spanish')</a>
+                                <a href="{{ route('locale', ['lang' => 'fr']) }}">@lang('messages.French')</a>
                             </div>
                         </li>
 
@@ -43,8 +44,8 @@
                 </div>
                 <div class="top-subpage">
                     <ul>
-                        <li><a href="{{ route('faq') }}">@lang('messages.Faq')</a></li>
-                        <li><a href="{{ route('blog') }}">@lang('messages.Blog')</a></li>
+                        <li><a href="{{ lang_route('faq') }}">@lang('messages.Faq')</a></li>
+                        <li><a href="{{ lang_route('blog') }}">@lang('messages.Blog')</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,9 +55,10 @@
                         <div class="nav-links-main">
 
                             <div class="logo">
-                                <a href="{{ route('home') }}"><img src="{{ asset('public/assets/images/iatify png.png') }}"
-                                        class="nor-logo" alt="logo">
-                                    <img src="{{ asset('public/assets/images/iatify white.png') }}" class="dark-logo"
+                                <a href="{{ lang_route('home') }}"><img
+                                        src="{{ asset('assets/images/iatify png.png') }}" class="nor-logo"
+                                        alt="logo">
+                                    <img src="{{ asset('assets/images/iatify white.png') }}" class="dark-logo"
                                         alt="White logo"></a>
                             </div>
                             <div class="nav-links d-lg-block d-none">
@@ -69,7 +71,7 @@
                                                 <div class="col-4">
                                                     <div class="future">
                                                         <h6><span>@lang('messages.The future of AI')</span>
-                                                            <a href="{{ route('AiGenerator') }}"
+                                                            <a href="{{ lang_route('aiGenerator') }}"
                                                                 class="d-flex align-items-center mt-2">
                                                                 <div class="future-content mt-2">
                                                                     <h5>@lang('messages.AI Generator')</h5>
@@ -79,7 +81,7 @@
                                                                     <i class="fa-solid fa-chevron-right"></i>
                                                                 </div>
                                                             </a>
-                                                            <a href="{{ route('CustomizeChatbot') }}"
+                                                            <a href="{{ lang_route('CustomizeChatbot') }}"
                                                                 class="d-flex align-items-center mt-2">
                                                                 <div class="future-content mt-2">
                                                                     <h5>@lang('messages.Customize your Chatbot')</h5>
@@ -89,7 +91,7 @@
                                                                     <i class="fa-solid fa-chevron-right"></i>
                                                                 </div>
                                                             </a>
-                                                            <a href="{{ route('AIFIleChatAIVison') }}"
+                                                            <a href="{{ lang_route('AIFIleChatAIVision') }}"
                                                                 class="d-flex align-items-center mt-2">
                                                                 <div class="future-content mt-2">
                                                                     <h5>@lang('messages.AI File Chat & AI Vison')</h5>
@@ -104,7 +106,7 @@
                                                 <div class="col-4">
                                                     <div class="future">
                                                         <h6><span>@lang('messages.Create and share everywhere')</span>
-                                                            <a href="{{ route('AIWriter') }}"
+                                                            <a href="{{ lang_route('AIWriter') }}"
                                                                 class="d-flex align-items-center mt-2 p-0 ">
                                                                 <div class="future-content mt-2">
                                                                     <h5>@lang('messages.AI Writer')</h5>
@@ -115,7 +117,7 @@
                                                                     <i class="fa-solid fa-chevron-right"></i>
                                                                 </div>
                                                             </a>
-                                                            <a href="{{ route('BrandVoice') }}"
+                                                            <a href="{{ lang_route('BrandVoice') }}"
                                                                 class="d-flex align-items-center mt-2 p-0 ">
                                                                 <div class="future-content mt-2">
                                                                     <h5>@lang('messages.Brand Voice')</h5>
@@ -125,7 +127,7 @@
                                                                     <i class="fa-solid fa-chevron-right"></i>
                                                                 </div>
                                                             </a>
-                                                            <a href="{{ route('AiSocialMedia') }}"
+                                                            <a href="{{ lang_route('AiSocialMedia') }}"
                                                                 class="d-flex align-items-center mt-2 p-0 ">
                                                                 <div class="future-content mt-2">
                                                                     <h5>@lang('messages.AI Social Media and Scheduled Post')</h5>
@@ -140,7 +142,7 @@
                                                 <div class="col-4">
                                                     <div class="voice">
                                                         <h6><span>@lang('messages.No need to pay for a voice')</span>
-                                                            <a href="{{ route('AISpeech') }}"
+                                                            <a href="{{ lang_route('AISpeech') }}"
                                                                 class="d-flex align-items-center mt-1 p-0">
                                                                 <div class="voice-content mt-2">
                                                                     <h5>@lang('messages.AI Speech To Text')</h5>
@@ -150,7 +152,7 @@
                                                                     <i class="fa-solid fa-chevron-right"></i>
                                                                 </div>
                                                             </a>
-                                                            <a href="{{ route('AiVoiceover') }}"
+                                                            <a href="{{ lang_route('AiVoiceover') }}"
                                                                 class="d-flex align-items-center mt-1 p-0">
                                                                 <div class="voice-content mt-2">
                                                                     <h5>@lang('messages.AI Voiceover with Elevenlabs & Azure')</h5>
@@ -160,7 +162,7 @@
                                                                     <i class="fa-solid fa-chevron-right"></i>
                                                                 </div>
                                                             </a>
-                                                            <a href="{{ route('AiVoiceInstead') }}"
+                                                            <a href="{{ lang_route('AiVoiceInstead') }}"
                                                                 class="d-flex align-items-center mt-1 p-0">
                                                                 <div class="voice-content mt-2">
                                                                     <h5>@lang('messages.Clone your voice with Elevenlabs & Azure')</h5>
@@ -184,9 +186,9 @@
                                             <a href="#">Sublink 3</a>
                                         </div>
                                     </li> --}}
-                                    <li><a href="{{ route('pricing') }}">@lang('messages.Pricing')</a></li>
-                                    <li><a href="{{ route('contact') }}">@lang('messages.Contact')</a></li>
-                                    <li><a href="{{ route('about-us') }}">@lang('messages.About us')</a></li>
+                                    <li><a href="{{ lang_route('pricing') }}">@lang('messages.Pricing')</a></li>
+                                    <li><a href="{{ lang_route('contact') }}">@lang('messages.Contact')</a></li>
+                                    <li><a href="{{ lang_route('about-us') }}">@lang('messages.About us')</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -207,7 +209,7 @@
             <div class="mobile_menu">
                 <div class="mobile_head">
                     <div class="logo">
-                        <img src="public/assets/images/images/iatify png.png" alt="Logo" />
+                        <img src="assets/images/images/iatify png.png" alt="Logo" />
                     </div>
                     <div class="mobile_menu_btn">
                         <div class="demo">
@@ -225,7 +227,7 @@
                     <ul>
                         <li>
                             <div class="link">
-                                <a href="{{ route('home') }}">@lang('messages.Home')</a>
+                                <a href="{{ lang_route('home') }}">@lang('messages.Home')</a>
                             </div>
                         </li>
                         <li>
@@ -237,27 +239,27 @@
                                         <i class="fa-solid fa-angle-down"></i>
                                     </div>
                                     <div class="inner_dropdown">
-                                        <a href="{{ route('AiGenerator') }}">@lang('messages.AI Generator')</a>
-                                        <a href="{{ route('CustomizeChatbot') }}">@lang('messages.Customize your Chatbot')</a>
-                                        <a href="{{ route('AIFIleChatAIVison') }}">@lang('messages.AI File Chat & AI Vision')</a>
+                                        <a href="{{ lang_route('aiGenerator') }}">@lang('messages.AI Generator')</a>
+                                        <a href="{{ lang_route('CustomizeChatbot') }}">@lang('messages.Customize your Chatbot')</a>
+                                        <a href="{{ lang_route('AIFIleChatAIVision') }}">@lang('messages.AI File Chat & AI Vision')</a>
                                     </div>
                                     <div class="dropdown_links" onclick="innerDropdown(event)">
                                         <p>@lang('messages.Create and share everywhere')</p>
                                         <i class="fa-solid fa-angle-down"></i>
                                     </div>
                                     <div class="inner_dropdown">
-                                        <a href="{{ route('AIWriter') }}">@lang('messages.AI Writer')</a>
-                                        <a href="{{ route('BrandVoice') }}">@lang('messages.Brand Voice')</a>
-                                        <a href="{{ route('AiSocialMedia') }}">@lang('messages.AI Social Media and Scheduled Post')</a>
+                                        <a href="{{ lang_route('AIWriter') }}">@lang('messages.AI Writer')</a>
+                                        <a href="{{ lang_route('BrandVoice') }}">@lang('messages.Brand Voice')</a>
+                                        <a href="{{ lang_route('AiSocialMedia') }}">@lang('messages.AI Social Media and Scheduled Post')</a>
                                     </div>
                                     <div class="dropdown_links" onclick="innerDropdown(event)">
                                         <p>@lang('messages.No need to pay for a voice')</p>
                                         <i class="fa-solid fa-angle-down"></i>
                                     </div>
                                     <div class="inner_dropdown">
-                                        <a href="{{ route('AISpeech') }}">@lang('messages.AI Speech To Text')</a>
-                                        <a href="{{ route('AiVoiceover') }}">@lang('messages.AI Voiceover with Elevenlabs & Azure')</a>
-                                        <a href="{{ route('AiVoiceInstead') }}">@lang('messages.Clone your voice with Elevenlabs & Azure')</a>
+                                        <a href="{{ lang_route('AISpeech') }}">@lang('messages.AI Speech To Text')</a>
+                                        <a href="{{ lang_route('AiVoiceover') }}">@lang('messages.AI Voiceover with Elevenlabs & Azure')</a>
+                                        <a href="{{ lang_route('AiVoiceInstead') }}">@lang('messages.Clone your voice with Elevenlabs & Azure')</a>
                                     </div>
                                 </div>
                             </div>
@@ -267,32 +269,32 @@
                         </li>
                         <li>
                             <div class="link">
-                                <a href="{{ route('pricing') }}">@lang('messages.Pricing')</a>
+                                <a href="{{ lang_route('pricing') }}">@lang('messages.Pricing')</a>
                             </div>
                         </li>
                         <li>
                             <div class="link">
-                                <a href="{{ route('faq') }}">@lang('messages.Faq')</a>
+                                <a href="{{ lang_route('faq') }}">@lang('messages.Faq')</a>
                             </div>
                         </li>
                         <li>
                             <div class="link">
-                                <a href="{{ route('about-us') }}">@lang('messages.About us')</a>
+                                <a href="{{ lang_route('about-us') }}">@lang('messages.About us')</a>
                             </div>
                         </li>
                         <li>
                             <div class="link">
-                                <a href="{{ route('contact') }}">@lang('messages.Contact')</a>
+                                <a href="{{ lang_route('contact') }}">@lang('messages.Contact')</a>
                             </div>
                         </li>
                         <li>
                             <div class="link">
                                 <a href="#" onclick="MobileDropdown(event)">@lang('messages.Language')</a>
                                 <div class="mobile_dropdown mobile_dropdown_language">
-                                    <p><a href="locale/en">@lang('messages.English')</a></p>
-                                    <p><a href="locale/gr">@lang('messages.German')</a></p>
-                                    <p><a href="locale/sp">@lang('messages.Spanish')</a></p>
-                                    <p><a href="locale/fr">@lang('messages.French')</a></p>
+                                    <p><a href="{{ route('locale', ['lang' => 'en']) }}">@lang('messages.English')</a></p>
+                                    <p><a href="{{ route('locale', ['lang' => 'gr']) }}">@lang('messages.German')</a></p>
+                                    <p><a href="{{ route('locale', ['lang' => 'sp']) }}">@lang('messages.Spanish')</a></p>
+                                    <p><a href="{{ route('locale', ['lang' => 'fr']) }}">@lang('messages.French')</a></p>
                                 </div>
                             </div>
                             <div class="arrow_icon">
@@ -313,9 +315,9 @@
         <div class="container">
             <div class="footer-head">
                 <div class="logo">
-                    <a href="{{ route('home') }}"><img src="{{ asset('public/assets/images/iatify png.png') }}"
+                    <a href="{{ lang_route('home') }}"><img src="{{ asset('assets/images/iatify png.png') }}"
                             class="nor-logo" alt="logo">
-                        <img src="{{ asset('public/assets/images/iatify white.png') }}" class="dark-logo"
+                        <img src="{{ asset('assets/images/iatify white.png') }}" class="dark-logo"
                             alt="White logo"></a>
                 </div>
             </div>
@@ -334,7 +336,7 @@
                     <div class="col-lg-3 col-md-3 col-6">
                         <div class="footer-column">
                             <ul>@lang('messages.Resources')
-                                <li><a href="{{ route('blog') }}">@lang('messages.Blog')</a></li>
+                                <li><a href="{{ lang_route('blog') }}">@lang('messages.Blog')</a></li>
                                 <li><a href="">@lang('messages.Help Center')</a></li>
                                 <li><a href="">@lang('messages.Webinars & Events')</a></li>
                                 <li><a href="">@lang('messages.Case Studies')</a></li>
@@ -344,10 +346,10 @@
                     <div class="col-lg-3 col-md-3 col-6 pad-mob">
                         <div class="footer-column">
                             <ul>@lang('messages.Support & Contact')
-                                <li><a href="{{ route('contact') }}">@lang('messages.Contact Us')</a></li>
-                                <li><a href="{{ route('CookiePolicy') }}">@lang('messages.Cookie Policy')</a></li>
-                                <li><a href="{{ route('PrivacyPolicy') }}">@lang('messages.Privacy Policy')</a></li>
-                                <li><a href="{{ route('TermandCondition') }}">@lang('messages.Term and Condition')</a></li>
+                                <li><a href="{{ lang_route('contact') }}">@lang('messages.Contact Us')</a></li>
+                                <li><a href="{{ lang_route('CookiePolicy') }}">@lang('messages.Cookie Policy')</a></li>
+                                <li><a href="{{ lang_route('PrivacyPolicy') }}">@lang('messages.Privacy Policy')</a></li>
+                                <li><a href="{{ lang_route('termAndCondition') }}">@lang('messages.Term and Condition')</a></li>
                             </ul>
                         </div>
                     </div>
@@ -370,11 +372,11 @@
             </div>
             <div class="copy-rights-main">
                 <div class="copy-right">
-                    <a href="">©2024 IAtify  All Rights Reserved. Develop by <a href="https://fronxsolutions.com" target="blank">Fronxsoltions</a></a>
+                    <a href="">©2024 IAtify All Rights Reserved.</a>
                 </div>
                 <div class="terms">
-                    <a href="{{ route('TermandCondition') }}">@lang('messages.Term of use')</a>
-                    <a href="{{ route('CookiePolicy') }}">@lang('messages.Privacy policy')</a>
+                    <a href="{{ lang_route('termAndCondition') }}">@lang('messages.Term of use')</a>
+                    <a href="{{ lang_route('CookiePolicy') }}">@lang('messages.Privacy policy')</a>
                     <a href="">@lang('messages.Security')</a>
                 </div>
             </div>
@@ -389,9 +391,9 @@
     </div>
     <!-- div theme color change Stert -->
 
-    <script src="{{ url('public/assets/js/bootstrap.js') }}"></script>
-    <script src="{{ url('public/assets/js/index.js') }}"></script>
-    <script src="{{ url('public/assets/js/FAQ.js') }}"></script>
+    <script src="{{ url('assets/js/bootstrap.js') }}"></script>
+    <script src="{{ url('assets/js/index.js') }}"></script>
+    <script src="{{ url('assets/js/FAQ.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -439,7 +441,7 @@
             spaceBetween: 10,
             freeMode: true,
             autoplay: {
-                delay: 2000,
+                delay: 5000,
                 pauseOnMouseEnter: true
             },
             loop: true,
@@ -478,6 +480,10 @@
             let basic = document.querySelector('#basic');
             let Advanced = document.querySelector('#Advanced');
             let Enterprise = document.querySelector('#Enterprise');
+            let month = document.querySelector('#month');
+            let month2 = document.querySelector('#month2');
+            let month3 = document.querySelector('#month3');
+            let month4 = document.querySelector('#month4');
             let isChecked = document.querySelector('#priceChangeCheckbox').checked;
 
             if (isChecked) {
@@ -485,14 +491,23 @@
                 basic.innerText = "$ 182";
                 Advanced.innerText = "$ 470";
                 Enterprise.innerText = "$ 1526";
+                month.innerText = "Per year";
+                month2.innerText = "Per year";
+                month3.innerText = "Per year";
+                month4.innerText = "Per year";
             } else {
                 Professional.innerText = "$ 35";
                 basic.innerText = "$ 19";
                 Advanced.innerText = "$ 49";
                 Enterprise.innerText = "$ 159";
+                month.innerText = "Per month";
+                month2.innerText = "Per month";
+                month3.innerText = "Per month";
+                month4.innerText = "Per month";
             }
         }
     </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 
 </html>

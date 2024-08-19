@@ -329,6 +329,7 @@ return [
     'AI Video Generator' => 'Generador de vídeo IA  ',
     'AI Speech Text' => 'Texto de voz AI',
     'AI Voice Over' => 'Voz en off de IA',
+    'Voice Over' => 'Narración',
     'AI Voice Cloner' => 'Clonador de voz AI',
     'Priority Support' => 'Soporte prioritario',
     '+160 Templates (Premium)' => '+160 Plantillas (Premium)',
@@ -862,5 +863,6 @@ return [
 "Our basic plan includes essential features such as content creation tools, basic analytics, and customer support. It’s designed for individuals or small businesses looking to get started with our platform."=>"Nuestro plan básico incluye características esenciales como herramientas de creación de contenido, análisis básicos y atención al cliente. Está diseñado para individuos o pequeñas empresas que buscan comenzar a utilizar nuestra plataforma.",
 "How can I upgrade my plan if my needs change?"=>"¿Cómo puedo actualizar mi plan si mis necesidades cambian?",
 "You can easily upgrade your plan at any time from your account dashboard. Simply select the plan that suits your updated requirements, and the changes will take effect immediately."=>"Puede actualizar fácilmente su plan en cualquier momento desde el panel de su cuenta. Simplemente seleccione el plan que se adapte a sus requisitos actualizados y los cambios entrarán en vigencia de inmediato.",
+"Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage."=>"Una vez que exceda su cuota de tokens, deberá esperar hasta el siguiente ciclo de facturación para que sus tokens se restablezcan o comprar tokens adicionales para continuar usando el software. El servicio se detendrá temporalmente hasta que se adquieran tokens adicionales. Se enviarán notificaciones a medida que se acerque a su límite de tokens para ayudarlo a administrar su uso.",
 // ars pric
 ];

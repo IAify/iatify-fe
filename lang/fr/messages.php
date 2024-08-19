@@ -330,6 +330,7 @@ return [
   'AI Video Generator' => 'Générateur vidéo IA',
   'AI Speech Text' => 'Texte vocal IA',
   'AI Voice Over' => 'Voix off IA',
+  'Voice Over' => 'Voix off',
   'AI Voice Cloner' => 'Cloneur vocal IA',
   'Priority Support' => 'Assistance prioritaire',
   '+160 Templates (Premium)' => '+160 modèles (Premium)',
@@ -868,6 +869,7 @@ return [
 "Our basic plan includes essential features such as content creation tools, basic analytics, and customer support. It’s designed for individuals or small businesses looking to get started with our platform."=>"Notre plan de base comprend des fonctionnalités essentielles telles que des outils de création de contenu, des analyses de base et un support client. Il est conçu pour les particuliers ou les petites entreprises qui souhaitent démarrer avec notre plateforme.",
 "How can I upgrade my plan if my needs change?"=>"Comment puis-je mettre à niveau mon forfait si mes besoins changent ?",
 "You can easily upgrade your plan at any time from your account dashboard. Simply select the plan that suits your updated requirements, and the changes will take effect immediately."=>"Vous pouvez facilement mettre à niveau votre forfait à tout moment depuis le tableau de bord de votre compte. Sélectionnez simplement le plan qui correspond à vos besoins mis à jour et les modifications prendront effet immédiatement.",
+"Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage."=>"Une fois que vous avez dépassé votre quota de jetons, vous devrez soit attendre le prochain cycle de facturation pour que vos jetons soient réinitialisés, soit acheter des jetons supplémentaires pour continuer à utiliser le logiciel. Le service s'arrêtera temporairement jusqu'à ce que des jetons supplémentaires soient acquis. Des notifications seront envoyées à mesure que vous approcherez de votre limite de jetons pour vous aider à gérer votre utilisation.",
 // ars pric
 
 ];
