@@ -27,6 +27,15 @@ jobs:
           git checkout master
           git stash --all
           git pull origin master
+
+          # Install Composer dependencies
+          composer install
+          composer update
+
+          # Install Node.js dependencies and build assets
+          npm install
+          npm run build
+          
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
           chown -R www-data:www-data /var/www/html/iatify-prod
           find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
@@ -54,6 +63,15 @@ jobs:
           git checkout development
           git stash --all
           git pull origin development
+
+          # Install Composer dependencies
+          composer install
+          composer update
+
+          # Install Node.js dependencies and build assets
+          npm install
+          npm run build
+
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-dev
           chown -R www-data:www-data /var/www/html/iatify-dev
           find /var/www/html/iatify-dev -type d -exec chmod 755 {} \;
