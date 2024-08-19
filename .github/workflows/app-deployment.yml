@@ -22,8 +22,11 @@ jobs:
         script: |
           cd /home/iatify-fe
           rm -rf ./vendor
+          git fetch -a
+          git stash --all
           git checkout master
-          git pull
+          git stash --all
+          git pull origin master
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
           chown -R www-data:www-data /var/www/html/iatify-prod
           find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
@@ -46,8 +49,11 @@ jobs:
         script: |
           cd /home/iatify-fe
           rm -rf ./vendor
+          git fetch -a
+          git stash --all
           git checkout development
-          git pull
+          git stash --all
+          git pull origin development
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-dev
           chown -R www-data:www-data /var/www/html/iatify-dev
           find /var/www/html/iatify-dev -type d -exec chmod 755 {} \;
