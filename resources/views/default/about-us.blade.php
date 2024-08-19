@@ -13,7 +13,7 @@ About-Us
             </p>
             <div class="Journey-img my-5">
                 <div class="vide-icon">
-                    <img src="public/assets/images/videoIcon.png" alt="button">
+                    <img src="assets/images/videoIcon.png" alt="button">
                 </div>
             </div>
             <div class="Journey-contant">
@@ -61,22 +61,22 @@ About-Us
                         <div class="row">
                             <div class="col-4"></div>
                             <div class="col-4">
-                                <img src="public/assets/images/Flexible.png" alt="">
+                                <img src="assets/images/Flexible.png" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="public/assets/images/Product.png" alt="">
+                                <img src="assets/images/Product.png" alt="">
                             </div>
                         </div>
                         <br>
                         <div class="row">
                             <div class="col-4">
-                                <img src="public/assets/images/Product.png" alt="">
+                                <img src="assets/images/Product.png" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="public/assets/images/Product.png" alt="">
+                                <img src="assets/images/Product.png" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="public/assets/images/Product.png" alt="">
+                                <img src="assets/images/Product.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -94,11 +94,11 @@ About-Us
             </div>
             <div class="vision-img mt-5">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./public/assets/images/vision1.jpeg" alt="vision 1">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/vision1.jpeg" alt="vision 1">
                     </div>
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./public/assets/images/vision2.jpeg" alt="vision 2">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/vision2.jpeg" alt="vision 2">
                     </div>
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./public/assets/images/vision3.jpeg" alt="vision 3">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/vision3.jpeg" alt="vision 3">
                     </div>
                     <div class="col-lg-3 col-md-6 my-4"><img src="./assets//images/vision4.jpeg" alt="vision 4">
                     </div>
@@ -118,10 +118,10 @@ About-Us
                         <div class="Our-service-img">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="public/assets/images/vision3.jpeg" alt="visionIMG">
+                                    <img src="assets/images/vision3.jpeg" alt="visionIMG">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="public/assets/images/vision1.jpeg" alt="visionIMG">
+                                    <img src="assets/images/vision1.jpeg" alt="visionIMG">
                                 </div>
                             </div>
                         </div>
@@ -132,10 +132,10 @@ About-Us
                         <div class="Our-Commitment-img">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="public/assets/images/vision4.jpeg" alt="visionIMG">
+                                    <img src="assets/images/vision4.jpeg" alt="visionIMG">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="public/assets/images/vision2.jpeg" alt="visionIMG">
+                                    <img src="assets/images/vision2.jpeg" alt="visionIMG">
                                 </div>
                             </div>
                         </div>
@@ -162,102 +162,102 @@ About-Us
                     <div class="row row-cols-lg-3 row-cols-md-2">
                         <div class="col my-2">
                             <div class="profile-img">
-                                <img src="public/assets/images/profile1.jpeg" alt="">
+                                <img src="assets/images/profile1.jpeg" alt="">
                             </div>
                             <div class="profile-contant mt-2">
                                 <h6>Dr. Emily Thompson</h6>
                                 <p>@lang("messages.Co-Founder & CEO")</p>
                                 <ul class="list-inline d-flex justify-content-center gap-2">
                                     <li>
-                                        <img src="public/assets/images/facbookicon.svg" alt="facbook">
+                                        <img src="assets/images/facbookicon.svg" alt="facbook">
                                     </li>
                                     <li>
-                                        <img src="public/assets/images/linkdin.svg" alt="linkdin">
+                                        <img src="assets/images/linkdin.svg" alt="linkdin">
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col my-2">
                             <div class="profile-img">
-                                <img src="public/assets/images/profile2.jpeg" alt="">
+                                <img src="assets/images/profile2.jpeg" alt="">
                             </div>
                             <div class="profile-contant mt-2">
                                 <h6>Dr. Emily Thompson</h6>
                                 <p>@lang("messages.Co-Founder & CEO")</p>
                                 <ul class="list-inline d-flex justify-content-center gap-2">
                                     <li>
-                                        <img src="public/assets/images/facbookicon.svg" alt="facbook">
+                                        <img src="assets/images/facbookicon.svg" alt="facbook">
                                     </li>
                                     <li>
-                                        <img src="public/assets/images/linkdin.svg" alt="linkdin">
+                                        <img src="assets/images/linkdin.svg" alt="linkdin">
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col my-2">
                             <div class="profile-img">
-                                <img src="public/assets/images/profile3.jpeg" alt="">
+                                <img src="assets/images/profile3.jpeg" alt="">
                             </div>
                             <div class="profile-contant mt-2">
                                 <h6>Dr. Emily Thompson</h6>
                                 <p>@lang("messages.Co-Founder & CEO")</p>
                                 <ul class="list-inline d-flex justify-content-center gap-2">
                                     <li>
-                                        <img src="public/assets/images/facbookicon.svg" alt="facbook">
+                                        <img src="assets/images/facbookicon.svg" alt="facbook">
                                     </li>
                                     <li>
-                                        <img src="public/assets/images/linkdin.svg" alt="linkdin">
+                                        <img src="assets/images/linkdin.svg" alt="linkdin">
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col my-2">
                             <div class="profile-img">
-                                <img src="public/assets/images/profile4.jpeg" alt="">
+                                <img src="assets/images/profile4.jpeg" alt="">
                             </div>
                             <div class="profile-contant mt-2">
                                 <h6>Dr. Emily Thompson</h6>
                                 <p>@lang("messages.Co-Founder & CEO")</p>
                                 <ul class="list-inline d-flex justify-content-center gap-2">
                                     <li>
-                                        <img src="public/assets/images/facbookicon.svg" alt="facbook">
+                                        <img src="assets/images/facbookicon.svg" alt="facbook">
                                     </li>
                                     <li>
-                                        <img src="public/assets/images/linkdin.svg" alt="linkdin">
+                                        <img src="assets/images/linkdin.svg" alt="linkdin">
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col my-2">
                             <div class="profile-img">
-                                <img src="public/assets/images/profile5.jpeg" alt="">
+                                <img src="assets/images/profile5.jpeg" alt="">
                             </div>
                             <div class="profile-contant mt-2">
                                 <h6>Dr. Emily Thompson</h6>
                                 <p>@lang("messages.Co-Founder & CEO")</p>
                                 <ul class="list-inline d-flex justify-content-center gap-2">
                                     <li>
-                                        <img src="public/assets/images/facbookicon.svg" alt="facbook">
+                                        <img src="assets/images/facbookicon.svg" alt="facbook">
                                     </li>
                                     <li>
-                                        <img src="public/assets/images/linkdin.svg" alt="linkdin">
+                                        <img src="assets/images/linkdin.svg" alt="linkdin">
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col my-2">
                             <div class="profile-img">
-                                <img src="public/assets/images/profile6.jpeg" alt="">
+                                <img src="assets/images/profile6.jpeg" alt="">
                             </div>
                             <div class="profile-contant mt-2">
                                 <h6>Dr. Emily Thompson</h6>
                                 <p>@lang("messages.Co-Founder & CEO")</p>
                                 <ul class="list-inline d-flex justify-content-center gap-2">
                                     <li>
-                                        <img src="public/assets/images/facbookicon.svg" alt="facbook">
+                                        <img src="assets/images/facbookicon.svg" alt="facbook">
                                     </li>
                                     <li>
-                                        <img src="public/assets/images/linkdin.svg" alt="linkdin">
+                                        <img src="assets/images/linkdin.svg" alt="linkdin">
                                     </li>
                                 </ul>
                             </div>

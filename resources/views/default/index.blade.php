@@ -12,7 +12,7 @@ Home
         <div class="container">
             <div class="banner-main">
                 <div class="head-main">
-                    <img src="{{ url('public/assets/images/AI.svg') }}" alt="">
+                    <img src="{{ url('assets/images/AI.svg') }}" alt="">
                     <p>@lang("messages.Write Your Desires, I Can Create Anything")</p>
                 </div>
                 <div class="banner-content">
@@ -31,7 +31,7 @@ Home
     <!-- video section start -->
     <section class="video-sec">
         <div class="container">
-            <div class="video-main" style="background-image: url(public/assets/images/Ilustration\ graph\,\ icon.png);">
+            <div class="video-main" style="background-image: url(assets/images/Ilustration\ graph\,\ icon.png);">
                 <div class="play-sec">
                     <div class="play-btn">
                         <a href=""><i class="fa-solid fa-play"></i></a>
@@ -53,61 +53,67 @@ Home
             </div>
             <div class="sponser-logo-main">
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Bubble.svg') }}" alt="">
+                    <img src="{{ url('assets/images/YouTube_Black.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Buffer.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Bubble.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/HubSpot.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Buffer.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Linkedin Black.svg') }}" alt="">
+                    <img src="{{ url('assets/images/HubSpot.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Loom.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Linkedin Black.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img class="mailchimp-new" src="{{ url('public/assets/images/Mailchimp New.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Loom.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Microsoft Black.svg') }}" alt="">
+                    <img class="mailchimp-new" src="{{ url('assets/images/Mailchimp New.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img class="Sprout-Social" src="{{ url('public/assets/images/Sprout Social.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Microsoft Black.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Trello New.svg') }}" alt="">
+                    <img class="Sprout-Social" src="{{ url('assets/images/Sprout Social.svg') }}" alt="">
+                </div>
+                <div class="company-name">
+                    <img src="{{ url('assets/images/Trello New.svg') }}" alt="">
                 </div>
                 
             </div>
             <div class="sponser-logo-dark">
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Bubble 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/YouTube_White.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Buffer 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Bubble 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/HubSpot 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Buffer 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Linkedin Black 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/HubSpot 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Loom 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Linkedin Black 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img class="mailchimp-new" src="{{ url('public/assets/images/Mailchimp New 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Loom 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Microsoft Black 1.svg') }}" alt="">
+                    <img class="mailchimp-new" src="{{ url('assets/images/Mailchimp New 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img class="Sprout-Social" src="{{ url('public/assets/images/Sprout Social 1.svg') }}" alt="">
+                    <img src="{{ url('assets/images/Microsoft Black 1.svg') }}" alt="">
                 </div>
                 <div class="company-name">
-                    <img src="{{ url('public/assets/images/Trello New 1.svg') }}" alt="">
+                    <img class="Sprout-Social" src="{{ url('assets/images/Sprout Social 1.svg') }}" alt="">
+                </div>
+                <div class="company-name">
+                    <img src="{{ url('assets/images/Trello New 1.svg') }}" alt="">
                 </div>
                 
             </div>
@@ -119,7 +125,7 @@ Home
         <div class="container d-flex flex-column align-items-center">
             <div class="startegies-main">
                 <div class="strategies-head-main">
-                    <img src="public/assets/images/AI.svg" alt="">
+                    <img src="assets/images/AI.svg" alt="">
                     <p>Our startegies</p>
                 </div>
                 <div class="startegies-content">
@@ -137,7 +143,7 @@ Home
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="strategies-card">
                             <div class="strategies-card-head">
-                                <img src="public/assets/images/server databases data code.png" alt="">
+                                <img src="assets/images/server databases data code.png" alt="">
                                 <p>AI-Driven Forecasts</p>
                             </div>
                             <div class="strategies-card-foter">
@@ -150,7 +156,7 @@ Home
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="strategies-card">
                             <div class="strategies-card-head">
-                                <img src="public/assets/images/Vector.png" alt="">
+                                <img src="assets/images/Vector.png" alt="">
                                 <p>Connect & Streamline</p>
                             </div>
                             <div class="strategies-card-foter">
@@ -166,7 +172,7 @@ Home
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="strategies-card">
                             <div class="strategies-card-head">
-                                <img src="public/assets/images/Icon wrapper.png" alt="">
+                                <img src="assets/images/Icon wrapper.png" alt="">
                                 <p>Instant Insights</p>
                             </div>
                             <div class="strategies-card-foter">
@@ -189,7 +195,7 @@ Home
     <!-- ai drevin banner section start -->
     <!-- <section class="ai-drevin-banner">
         <div class="container">
-            <div class="drevin-banner-main" style="background-image: url(public/assets/images/ai\ drevin.png);">
+            <div class="drevin-banner-main" style="background-image: url(assets/images/ai\ drevin.png);">
 
             </div>
         </div>
@@ -212,7 +218,7 @@ Home
                 </div>
                 <div class="col-lg-6 features-col">
                     <div class="features-img-wrp">
-                        <img src="{{ url('public/assets/images/function-img.jpg') }}" alt="">
+                        <img src="{{ url('assets/images/function-img.jpg') }}" alt="">
                         <div class="features-pos-card">
                             <div class="pose-card">
                                 <h4>@lang('messages.Your weekly activity')</h4>
@@ -222,7 +228,7 @@ Home
                                             <span>Emails</span>
                                             <h6>17</h6>
                                             <div class="pera-div">
-                                                <img src="{{ url('public/assets/images/pera-befor-img.png') }}"
+                                                <img src="{{ url('assets/images/pera-befor-img.png') }}"
                                                     style="width: 15px; height: 10px; margin-top: 8px;">
                                                 <p>7</p>
                                             </div>
@@ -233,7 +239,7 @@ Home
                                             <span>Calls</span>
                                             <h6>25</h6>
                                             <div class="pera-div">
-                                                <img src="{{ url('public/assets/images/pera-befor-img.png') }}"
+                                                <img src="{{ url('assets/images/pera-befor-img.png') }}"
                                                     style="width: 15px; height: 10px; margin-top: 8px;">
                                                 <p>7</p>
                                             </div>
@@ -245,7 +251,7 @@ Home
                                             <span>Meetings</span>
                                             <h6>25</h6>
                                             <div class="pera-div">
-                                                <img src="{{ url('public/assets/images/pera-befor-img.png') }}"
+                                                <img src="{{ url('assets/images/pera-befor-img.png') }}"
                                                     style="width: 15px; height: 10px; margin-top: 8px;">
                                                 <p>7</p>
                                             </div>
@@ -260,12 +266,12 @@ Home
             <div class="row align-items-center" style="padding-top: 100px;">
                 <div class="col-lg-6 features-col">
                     <div class="features-img-wrp-second">
-                        <img src="{{ url('public/assets/images/function-second-img.jpg') }}" style="width: 100%; border-radius: 30px;">
+                        <img src="{{ url('assets/images/function-second-img.jpg') }}" style="width: 100%; border-radius: 30px;">
                         <div class="pose-card-img">
-                            <img src="{{ url('public/assets/images/funtion-content-img.svg') }}" style="border-radius: 0px;">
+                            <img src="{{ url('assets/images/funtion-content-img.svg') }}" style="border-radius: 0px;">
                         </div>
                         <div class="pose-card-img-second">
-                            <img src="{{ url('public/assets/images/function-content-img-second.svg') }}"
+                            <img src="{{ url('assets/images/function-content-img-second.svg') }}"
                                 style="width: 100%; border-radius: 0px;">
                         </div>
                     </div>
@@ -286,10 +292,10 @@ Home
                 </div>
                 <div class="col-lg-6 features-col">
                     <div class="features-img-wrp-third">
-                        <img src="{{ url('public/assets/images/function-third-img.jpg') }}">
+                        <img src="{{ url('assets/images/function-third-img.jpg') }}">
                         <div class="features-pos-card-third">
                             <div class="pose-card-third">
-                                <img src="{{ url('public/assets/images/funtion-content-img-third.svg') }}" style="border-radius: 0px;">
+                                <img src="{{ url('assets/images/funtion-content-img-third.svg') }}" style="border-radius: 0px;">
                             </div>
                         </div>
                     </div>
@@ -298,12 +304,12 @@ Home
             <div class="row align-items-center" style="padding-top: 100px;">
                 <div class="col-lg-6 features-col">
                     <div class="features-img-wrp-forth">
-                        <img src="{{ url('public/assets/images/fuction-img-forth.jpg') }}" style="width: 100%; border-radius: 30px;">
+                        <img src="{{ url('assets/images/fuction-img-forth.jpg') }}" style="width: 100%; border-radius: 30px;">
                         <div class="pose-card-img">
-                            <img src="{{ url('public/assets/images/fuction-content-forth-img.svg') }}" style="border-radius: 0px;">
+                            <img src="{{ url('assets/images/fuction-content-forth-img.svg') }}" style="border-radius: 0px;">
                         </div>
                         <div class="pose-card-img-forth">
-                            <img src="{{ url('public/assets/images/function-content-forth-second-img.svg') }}"
+                            <img src="{{ url('assets/images/function-content-forth-second-img.svg') }}"
                                 style="width: 100%; border-radius: 0px;">
                         </div>
                     </div>
@@ -336,7 +342,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Lisa M.</h6>
@@ -352,7 +358,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Michael D.</h6>
@@ -368,7 +374,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Emma P.</h6>
@@ -384,7 +390,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Carlos L.</h6>
@@ -400,7 +406,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Laura R.</h6>
@@ -416,7 +422,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>James K.</h6>
@@ -432,7 +438,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Mia J.</h6>
@@ -448,7 +454,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Alex H.</h6>
@@ -464,7 +470,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Sophia S.</h6>
@@ -480,7 +486,7 @@ Home
                             </div>
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img src="{{ url('public/assets/images/Avatar.png') }}" alt="">
+                                    <img src="{{ url('assets/images/Avatar.png') }}" alt="">
                                 </div>
                                 <div class="team-member-detail">
                                     <h6>Max T.</h6>
@@ -504,7 +510,7 @@ Home
         </div>
         <div class="team-member">
             <div class="team-member-image">
-                <img src="public/assets/images/Avatar.png" alt="">
+                <img src="assets/images/Avatar.png" alt="">
             </div>
             <div class="team-member-detail">
                 <h6>Nathan D. Hall</h6>
@@ -517,13 +523,13 @@ Home
     <section class="expereince-banner">
         <div class="container">
             <div class="expereince-banner-main"
-                style="background-image: url(public/assets/images/Theme\ color\ overlay\ transition.png);">
+                style="background-image: url(assets/images/Theme\ color\ overlay\ transition.png);">
                 <div class="row ">
                     <div class="col-lg-7 with-100">
                         <div class="exper-banner-content">
                             <h1>@lang('messages.Experience the future of comprehensive AI-driven solutions with AItify')</h1>
                             <div class="exper-banner-content-btn">
-                                <a href="">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('public/assets/images/R icon.png') }}" alt=""></a>
+                                <a href="">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('assets/images/R icon.png') }}" alt=""></a>
 
                             </div>
                         </div>
@@ -534,7 +540,7 @@ Home
 
                                 <div class="exp-banner-card">
                                     <div class="exp-card-image">
-                                        <img src="{{ url('public/assets/images/credit card cursor click.png') }}" alt="">
+                                        <img src="{{ url('assets/images/credit card cursor click.png') }}" alt="">
                                     </div>
                                     <div class="exp-card-content">
                                         <h6>@lang('messages.Instant Access')</h6>
@@ -548,7 +554,7 @@ Home
 
                                 <div class="exp-banner-card">
                                     <div class="exp-card-image">
-                                        <img src="{{ url('public/assets/images/Vector-icon.png') }}" alt="">
+                                        <img src="{{ url('assets/images/Vector-icon.png') }}" alt="">
                                     </div>
                                     <div class="exp-card-content">
                                         <h6>@lang('messages.No Commitments')</h6>
@@ -562,7 +568,7 @@ Home
 
                                 <div class="exp-banner-card">
                                     <div class="exp-card-image">
-                                        <img src="{{ url('public/assets/images/Vector-icon2.png') }}" alt="">
+                                        <img src="{{ url('assets/images/Vector-icon2.png') }}" alt="">
                                     </div>
                                     <div class="exp-card-content">
                                         <h6>@lang('messages.Dedicated Support')</h6>
@@ -588,7 +594,7 @@ Home
         <div class="container">
             <div class="solution-content-main">
                 <div class="solution-head-main">
-                    <img src="{{ url('public/assets/images/AI.svg') }}" alt="">
+                    <img src="{{ url('assets/images/AI.svg') }}" alt="">
                     <p>@lang("messages.Applications")</p>
                 </div>
                 <div class="solution-content">
@@ -601,7 +607,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon1.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon1.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang("messages.Predictive Power")</h6>
@@ -616,7 +622,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon2.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon2.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang("messages.Connect with Ease")</h6>
@@ -630,7 +636,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon3.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon3.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang("messages.Visualize Your Success")</h6>
@@ -645,7 +651,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon4.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon4.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang("messages.Stay Updated, Always")</h6>
@@ -660,7 +666,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon5.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon5.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang("messages.Your Data's Safe Haven")</h6>
@@ -675,7 +681,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon6.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon6.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang('messages.Collaborate and Conquer')
@@ -691,7 +697,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon7.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon7.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang('messages.Simplicity Meets Power')
@@ -707,7 +713,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon8.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon8.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang('messages.Let AI Do the Heavy Lifting')
@@ -723,7 +729,7 @@ Home
                     <div class="col-lg-4 col-md-6 co-sm-12 with-50 with-810">
                         <div class="solution-card">
                             <div class="solution-card-image">
-                                <img src="{{ url('public/assets/images/solution-icon9.svg') }}" alt="">
+                                <img src="{{ url('assets/images/solution-icon9.svg') }}" alt="">
                             </div>
                             <div class="solution-card-content">
                                 <h6>@lang('messages.Collaborate and Conquer')
@@ -766,14 +772,14 @@ Home
                         <div class="pakages">
                             <span>@lang('messages.Basic')</span>
                             <h2 id="basic">$ 19</h2>
-                            <p>Per month</p>
+                            <p id="month">Per month</p>
                             <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Basic, everyday AI')</span>
@@ -781,7 +787,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.1 User Account')</span>
@@ -789,7 +795,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.GPT4o')</span>
@@ -797,7 +803,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Dall-E 2')</span>
@@ -805,7 +811,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Stable Diffusion XL')</span>
@@ -813,7 +819,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Brand Voice')</span>
@@ -821,7 +827,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.50,000 Tokens')</span>
@@ -829,7 +835,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.50 Tokens (Images)')</span>
@@ -837,7 +843,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.40 Templates (Premium)')</span>
@@ -845,7 +851,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.Custom Template')</span>
@@ -853,7 +859,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.Custom Chatbot')</span>
@@ -861,7 +867,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Writer Tools')</span>
@@ -869,7 +875,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -877,7 +883,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Image Generator')</span>
@@ -885,7 +891,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -893,7 +899,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.(NEW) AI Social Media')</span>
@@ -901,7 +907,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -909,7 +915,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Coding Assistant')</span>
@@ -917,7 +923,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
@@ -925,7 +931,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Detector')</span>
@@ -933,7 +939,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Web Assistant')</span>
@@ -941,7 +947,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Video Generator')</span>
@@ -949,7 +955,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Speech Text')</span>
@@ -957,7 +963,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Voice Over')</span>
@@ -965,7 +971,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Voice Cloner')</span>
@@ -973,7 +979,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.Priority Support')</span>
@@ -988,14 +994,14 @@ Home
                         <div class="pakages">
                             <span>@lang('messages.Professional')</span>
                             <h2 id="Professional">$ 35</h2>
-                            <p>Per month</p>
+                            <p id="month2">Per month</p>
                             <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Professional, the AI tool for smooth scaling')</span>
@@ -1003,7 +1009,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.4 User Account')</span>
@@ -1011,7 +1017,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.GPT4o')</span>
@@ -1019,7 +1025,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Dall-E 3')</span>
@@ -1027,7 +1033,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.SDXL Turbo')</span>
@@ -1035,7 +1041,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Brand Voice')</span>
@@ -1043,7 +1049,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.100,000 Tokens')</span>
@@ -1051,7 +1057,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.125 Tokens (Images)')</span>
@@ -1059,7 +1065,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.+160 Templates (Premium)')</span>
@@ -1067,7 +1073,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Custom Template')</span>
@@ -1075,7 +1081,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.Custom Chatbot')</span>
@@ -1083,7 +1089,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Writer Tools')</span>
@@ -1091,7 +1097,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -1099,7 +1105,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Image Generator')</span>
@@ -1107,7 +1113,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -1115,7 +1121,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -1123,7 +1129,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -1131,7 +1137,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Coding Assistant')</span>
@@ -1139,7 +1145,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
@@ -1147,7 +1153,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Detector')</span>
@@ -1155,7 +1161,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Web Assistant')</span>
@@ -1163,7 +1169,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Video Generator')</span>
@@ -1171,7 +1177,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Speech Text')</span>
@@ -1179,7 +1185,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Voice Over')</span>
@@ -1187,7 +1193,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.AI Voice Cloner')</span>
@@ -1195,7 +1201,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.Priority Support')</span>
@@ -1210,14 +1216,14 @@ Home
                         <div class="pakages">
                             <span>@lang('messages.Advanced')</span>
                             <h2 id="Advanced">$ 49</h2>
-                            <p>Per month</p>
+                            <p id="month3">Per month</p>
                             <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Advanced, the ultimate tool you need')</span>
@@ -1225,7 +1231,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.10 User Account')</span>
@@ -1233,7 +1239,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.GPT4o')</span>
@@ -1241,7 +1247,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Dall-E 3')</span>
@@ -1249,7 +1255,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Stable Diffusion 3')</span>
@@ -1257,7 +1263,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Brand Voice')</span>
@@ -1265,7 +1271,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.300,000 Tokens')</span>
@@ -1273,7 +1279,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.250 Tokens (Images)')</span>
@@ -1281,7 +1287,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.+160 Templates (Premium)')</span>
@@ -1289,7 +1295,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Custom Template')</span>
@@ -1297,7 +1303,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Custom Chatbot')</span>
@@ -1305,7 +1311,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Writer Tools')</span>
@@ -1313,7 +1319,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -1321,7 +1327,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Image Generator')</span>
@@ -1329,7 +1335,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -1337,7 +1343,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -1345,7 +1351,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -1353,7 +1359,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Coding Assistant')</span>
@@ -1361,7 +1367,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Plagiarism Checker')</span>
@@ -1369,7 +1375,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Detector')</span>
@@ -1377,7 +1383,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Web Assistant')</span>
@@ -1385,7 +1391,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Video Generator')</span>
@@ -1393,7 +1399,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Speech Text')</span>
@@ -1401,7 +1407,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Voice Over')</span>
@@ -1409,7 +1415,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Voice Cloner')</span>
@@ -1417,7 +1423,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.Priority Support')</span>
@@ -1432,14 +1438,14 @@ Home
                         <div class="pakages">
                             <span>@lang('messages.Enterprise')</span>
                             <h2 id="Enterprise">$ 159</h2>
-                            <p>Per month</p>
+                            <p id="month4">Per month</p>
                             <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Enterprise, for a very small part')</span>
@@ -1447,7 +1453,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.20 User Account')</span>
@@ -1455,7 +1461,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Choice of LLM model AI')</span>
@@ -1463,7 +1469,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Dall-E 3')</span>
@@ -1471,7 +1477,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Stable Diffusion 3')</span>
@@ -1479,7 +1485,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Brand Voice')</span>
@@ -1487,7 +1493,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.500,000 Tokens')</span>
@@ -1495,7 +1501,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.1000 Tokens (Images)')</span>
@@ -1503,7 +1509,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.+160 Templates (Premium)')</span>
@@ -1511,7 +1517,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Custom Template')</span>
@@ -1519,7 +1525,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.Custom Chatbot')</span>
@@ -1527,7 +1533,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Writer Tools')</span>
@@ -1535,7 +1541,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -1543,7 +1549,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.Image Generator')</span>
@@ -1551,7 +1557,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) Photo Studio')</span>
@@ -1559,7 +1565,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -1567,7 +1573,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -1575,7 +1581,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Coding Assistant')</span>
@@ -1583,7 +1589,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Plagiarism Checker')</span>
@@ -1591,7 +1597,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Detector')</span>
@@ -1599,7 +1605,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Web Assistant')</span>
@@ -1607,7 +1613,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Video Generator')</span>
@@ -1615,7 +1621,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Speech Text')</span>
@@ -1623,7 +1629,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI Voice Over')</span>
@@ -1631,7 +1637,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.AI Voice Cloner')</span>
@@ -1639,7 +1645,7 @@ Home
                                 </li>
                                 <li class="mt-4">
                                     <div>
-                                        <img src="public/assets/images/AI.svg" alt="" />
+                                        <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
                                         <span >@lang('messages.Priority Support')</span>
@@ -1657,14 +1663,14 @@ Home
       <section class="expereince-banner">
         <div class="container">
             <div class="expereince-banner-main"
-                style="background-image: url(public/assets/images/Theme\ color\ overlay\ transition.png);">
+                style="background-image: url(assets/images/Theme\ color\ overlay\ transition.png);">
                 <div class="row ">
                     <div class="col-lg-7 with-100">
                         <div class="exper-banner-content">
                             <h1>@lang('messages.All-in-one solution for all your needs')</h1>
                             <p class="exper-text">@lang("messages.Streamline all your tasks in one convenient platform: from writing, designing, editing, transcribing, generating images, creating blogs, to generating voices and defining your brand voice—all in one place.")</p>
                             <div class="exper-banner-content-btn">
-                                <a href="">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('public/assets/images/R icon.png') }}" alt=""></a>
+                                <a href="">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('assets/images/R icon.png') }}" alt=""></a>
 
                             </div>
                         </div>
@@ -1675,7 +1681,7 @@ Home
 
                                 <div class="exp-banner-card">
                                     <div class="exp-card-image">
-                                        <img src="{{ url('public/assets/images/credit card cursor click.png') }}" alt="">
+                                        <img src="{{ url('assets/images/credit card cursor click.png') }}" alt="">
                                     </div>
                                     <div class="exp-card-content">
                                         <h6>@lang('messages.Instant Access')</h6>
@@ -1689,7 +1695,7 @@ Home
 
                                 <div class="exp-banner-card">
                                     <div class="exp-card-image">
-                                        <img src="{{ url('public/assets/images/Vector-icon.png') }}" alt="">
+                                        <img src="{{ url('assets/images/Vector-icon.png') }}" alt="">
                                     </div>
                                     <div class="exp-card-content">
                                         <h6>@lang('messages.No Commitments')</h6>
@@ -1703,7 +1709,7 @@ Home
 
                                 <div class="exp-banner-card">
                                     <div class="exp-card-image">
-                                        <img src="{{ url('public/assets/images/Vector-icon2.png') }}" alt="">
+                                        <img src="{{ url('assets/images/Vector-icon2.png') }}" alt="">
                                     </div>
                                     <div class="exp-card-content">
                                         <h6>@lang('messages.Dedicated Support')</h6>
@@ -1731,7 +1737,7 @@ Home
                 <div class="col-lg-5 with-100">
                     <div class="faq-content-main">
                         <div class="faq-head-main">
-                            <img src="{{ url('public/assets/images/AI.svg') }}" alt="">
+                            <img src="{{ url('assets/images/AI.svg') }}" alt="">
                             <p>FAQ</p>
                         </div>
                         <div class="faq-content">

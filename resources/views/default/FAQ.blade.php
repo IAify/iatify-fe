@@ -67,9 +67,10 @@ Faq
   <div class="questions mt-5">
     <div class="container">
       <div class="questions-contant">
-        <span class="text-canter">
-          FAQ
-        </span>
+        <div class="faq-head-main">
+          <img src="{{ url('assets/images/AI.svg') }}" alt="">
+          <p>FAQ</p>
+      </div>
         <h2 class="text-canter">
           @lang('messages.Frequently Asked Questions (FAQ)')
         </h2>
@@ -127,7 +128,7 @@ Faq
             <h2>@lang("messages.What happens if I exceed my token quota? Can I still use the software?")</h2>
           </div>
           <div class="line">
-            <span>@lang("Message.Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage.")</span>
+            <span>@lang("messages.Once you exceed your token quota, you will either need to wait until the next billing cycle for your tokens to reset or purchase additional tokens to continue using the software. The service will temporarily halt until additional tokens are acquired. Notifications will be sent as you approach your token limit to help manage your usage.")</span>
           </div>
         </div>
         <div class="Frequently-contant my-5">
@@ -138,7 +139,7 @@ Faq
             <h2>@lang('messages.How long is your free trial?')</h2>
           </div>
           <div class="line">
-            <span>@lang("MESSAGES.Our free trial lasts for 3 days. This period allows you to explore our services and evaluate if they meet your needs.")</span>
+            <span>@lang("messages.Our free trial lasts for 3 days. This period allows you to explore our services and evaluate if they meet your needs.")</span>
           </div>
         </div>
         <div class="Frequently-contant my-5">

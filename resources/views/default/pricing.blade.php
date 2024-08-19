@@ -33,14 +33,14 @@
                             <div class="pakages">
                                 <span>@lang('messages.Basic')</span>
                                 <h2 id="basic">$ 19</h2>
-                                <p>Per month</p>
+                                <p id="month">Per month</p>
                                 <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                             </div>
                             <div class="pgkes-type">
                                 <ul class="mt-5 list-inline">
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Basic, everyday AI')</span>
@@ -48,7 +48,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.1 User Account')</span>
@@ -56,7 +56,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.GPT4o')</span>
@@ -64,7 +64,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Dall-E 2')</span>
@@ -72,7 +72,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Stable Diffusion XL')</span>
@@ -80,7 +80,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Brand Voice')</span>
@@ -88,7 +88,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.50,000 Tokens')</span>
@@ -96,7 +96,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.50 Tokens (Images)')</span>
@@ -104,7 +104,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.40 Templates (Premium)')</span>
@@ -112,7 +112,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Custom Template')</span>
@@ -120,7 +120,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Custom Chatbot')</span>
@@ -128,7 +128,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Writer Tools')</span>
@@ -136,7 +136,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -144,7 +144,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Image Generator')</span>
@@ -152,7 +152,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -160,7 +160,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -168,7 +168,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -176,7 +176,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Coding Assistant')</span>
@@ -184,7 +184,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
@@ -192,7 +192,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Detector')</span>
@@ -200,7 +200,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Web Assistant')</span>
@@ -208,7 +208,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Video Generator')</span>
@@ -216,7 +216,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Speech Text')</span>
@@ -224,7 +224,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Voice Over')</span>
@@ -232,7 +232,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Voice Cloner')</span>
@@ -240,7 +240,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Priority Support')</span>
@@ -255,14 +255,14 @@
                             <div class="pakages">
                                 <span>@lang('messages.Professional')</span>
                                 <h2 id="Professional">$ 35</h2>
-                                <p>Per month</p>
+                                <p id="month2">Per month</p>
                                 <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                             </div>
                             <div class="pgkes-type">
                                 <ul class="mt-5 list-inline">
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Professional, the AI tool for smooth scaling')</span>
@@ -270,7 +270,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.4 User Account')</span>
@@ -278,7 +278,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.GPT4o')</span>
@@ -286,7 +286,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Dall-E 3')</span>
@@ -294,7 +294,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.SDXL Turbo')</span>
@@ -302,7 +302,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Brand Voice')</span>
@@ -310,7 +310,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.100,000 Tokens')</span>
@@ -318,7 +318,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.125 Tokens (Images)')</span>
@@ -326,7 +326,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.+160 Templates (Premium)')</span>
@@ -334,7 +334,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Custom Template')</span>
@@ -342,7 +342,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Custom Chatbot')</span>
@@ -350,7 +350,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Writer Tools')</span>
@@ -358,7 +358,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -366,7 +366,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Image Generator')</span>
@@ -374,7 +374,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -382,7 +382,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -390,7 +390,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -398,7 +398,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Coding Assistant')</span>
@@ -406,7 +406,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
@@ -414,7 +414,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Detector')</span>
@@ -422,7 +422,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Web Assistant')</span>
@@ -430,7 +430,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Video Generator')</span>
@@ -438,7 +438,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Speech Text')</span>
@@ -446,7 +446,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Voice Over')</span>
@@ -454,7 +454,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Voice Cloner')</span>
@@ -462,7 +462,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Priority Support')</span>
@@ -477,14 +477,14 @@
                             <div class="pakages">
                                 <span>@lang('messages.Advanced')</span>
                                 <h2 id="Advanced">$ 49</h2>
-                                <p>Per month</p>
+                                <p id="month3">Per month</p>
                                 <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                             </div>
                             <div class="pgkes-type">
                                 <ul class="mt-5 list-inline">
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Advanced AI-Driven Forecasting')</span>
@@ -492,7 +492,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.10 User Account')</span>
@@ -500,7 +500,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.GPT4o')</span>
@@ -508,7 +508,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Dall-E 3')</span>
@@ -516,7 +516,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.SDXL Turbo')</span>
@@ -524,7 +524,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Brand Voice')</span>
@@ -532,7 +532,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.100,000 Tokens')</span>
@@ -540,7 +540,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.125 Tokens (Images)')</span>
@@ -548,7 +548,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.+160 Templates (Premium)')</span>
@@ -556,7 +556,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Custom Template')</span>
@@ -564,7 +564,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Custom Chatbot')</span>
@@ -572,7 +572,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Writer Tools')</span>
@@ -580,7 +580,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -588,7 +588,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Image Generator')</span>
@@ -596,7 +596,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -604,7 +604,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -612,7 +612,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -620,7 +620,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Coding Assistant')</span>
@@ -628,7 +628,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
@@ -636,7 +636,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Detector')</span>
@@ -644,7 +644,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Web Assistant')</span>
@@ -652,7 +652,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Video Generator')</span>
@@ -660,7 +660,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Speech Text')</span>
@@ -668,7 +668,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Voice Over')</span>
@@ -676,7 +676,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Voice Cloner')</span>
@@ -684,7 +684,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Priority Support')</span>
@@ -699,14 +699,14 @@
                             <div class="pakages">
                                 <span>@lang('messages.Enterprise')</span>
                                 <h2 id="Enterprise">$ 159</h2>
-                                <p>Per month</p>
+                                <p id="month4">Per month</p>
                                 <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                             </div>
                             <div class="pgkes-type">
                                 <ul class="mt-5 list-inline">
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Enterprise, for a very small part')</span>
@@ -714,7 +714,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.20 User Account')</span>
@@ -722,7 +722,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.GPT4o')</span>
@@ -730,7 +730,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Dall-E 3')</span>
@@ -738,7 +738,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.SDXL Turbo')</span>
@@ -746,7 +746,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Brand Voice')</span>
@@ -754,7 +754,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.500,000 Tokens')</span>
@@ -762,7 +762,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.1000 Tokens (Images)')</span>
@@ -770,7 +770,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.+160 Templates (Premium)')</span>
@@ -778,7 +778,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Custom Template')</span>
@@ -786,7 +786,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Custom Chatbot')</span>
@@ -794,7 +794,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Writer Tools')</span>
@@ -802,7 +802,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI PDF, DOC, CSV')</span>
@@ -810,7 +810,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.Image Generator')</span>
@@ -818,7 +818,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
@@ -826,7 +826,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) AI Social Media')</span>
@@ -834,7 +834,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
@@ -842,7 +842,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Coding Assistant')</span>
@@ -850,7 +850,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
@@ -858,7 +858,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Detector')</span>
@@ -866,7 +866,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Web Assistant')</span>
@@ -874,7 +874,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Video Generator')</span>
@@ -882,7 +882,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Speech Text')</span>
@@ -890,7 +890,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI Voice Over')</span>
@@ -898,7 +898,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.AI Voice Cloner')</span>
@@ -906,7 +906,7 @@
                                     </li>
                                     <li class="mt-4">
                                         <div>
-                                            <img src="public/assets/images/AI.svg" alt="" />
+                                            <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
                                             <span class="disabled">@lang('messages.Priority Support')</span>
@@ -1172,17 +1172,17 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1202,12 +1202,12 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1219,22 +1219,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1273,22 +1273,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1300,22 +1300,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1327,22 +1327,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1354,22 +1354,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1409,22 +1409,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1440,17 +1440,17 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1471,12 +1471,12 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1521,17 +1521,17 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1551,12 +1551,12 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1576,12 +1576,12 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1620,22 +1620,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1651,17 +1651,17 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1677,17 +1677,17 @@
                                 </td>
                                 <td class="">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1699,22 +1699,22 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1734,12 +1734,12 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1759,12 +1759,12 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1781,17 +1781,17 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1808,17 +1808,17 @@
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1834,17 +1834,17 @@
                                 </td>
                                 <td class="Professional2">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center ">
-                                        <img src="public/assets/images/Vector.svg" alt="" />
+                                        <img src="assets/images/Vector.svg" alt="" />
                                     </div>
                                 </td>
                             </tr>
@@ -1859,7 +1859,7 @@
             <div class="container">
                 <div class="FAQ-contant my-5">
                     <div class="faq-head-main">
-                        <img src="public/assets/images/pack-li-img.svg" alt="" />
+                        <img src="assets/images/pack-li-img.svg" alt="" />
                         <p>@lang('messages.FAQ')</p>
                     </div>
                     <h2>@lang('messages.Frequently Asked Questions (FAQ)')</h2>

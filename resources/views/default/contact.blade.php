@@ -13,18 +13,24 @@
                 <div class="message-form">
                     <div class="row">
                         <div class="col-md-6 offset-md-3">
-                            <form>
+                            <form action="{{ lang_route('contact.submit') }}" method="POST">
+                                @csrf
                                 <div class="mb-3">
                                     <label for="inputEmail4" class="form-label">@lang('messages.Email Address'):</label>
-                                    <input type="email" class="form-control input-box" id="inputEmail4">
+                                    <input type="email" class="form-control input-box" id="inputEmail4" name="email"
+                                        required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="name" class="form-label ">@lang('messages.Name'):</label>
-                                    <input type="text" class="form-control input-box" id="name">
+                                    <label for="name" class="form-label">@lang('messages.Name'):</label>
+                                    <input type="text" class="form-control input-box" id="name" name="name"
+                                        required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="Message" class="form-label">@lang('messages.Message'):</label>
-                                    <textarea class="form-control input-box" style="height: 100px" placeholder="Your message..." id="Message"></textarea>
+                                    <textarea class="form-control input-box" style="height: 100px" placeholder="Your message..." id="Message"
+                                        name="message" required></textarea>
+                                </div>
+                                <div class="g-recaptcha my-3" data-sitekey="{{ config('services.recaptcha.sitekey') }}">
                                 </div>
                                 <button type="submit">@lang('messages.submit')</button>
                             </form>
@@ -39,7 +45,7 @@
             <div class="container">
                 <div class="FAQ-contant my-5">
                     <div class="faq-head-main">
-                        <img src="public/assets/images/pack-li-img.svg" alt="" />
+                        <img src="assets/images/pack-li-img.svg" alt="" />
                         <p>@lang('messages.FAQ')</p>
                     </div>
                     <h2>@lang('messages.Frequently Asked Questions (FAQ)')</h2>
