@@ -44,7 +44,6 @@ jobs:
           find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-prod -type f -exec chmod 644 {} \;
           cd /var/www/html/iatify-prod
-          php artisan key:generate
           php artisan config:clear
           php artisan cache:clear
           php artisan view:clear
@@ -83,10 +82,7 @@ jobs:
           chown -R www-data:www-data /var/www/html/iatify-dev
           find /var/www/html/iatify-dev -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-dev -type f -exec chmod 644 {} \;
-          chmod -R 775 /var/www/html/iatify-dev/storage
-          chmod -R 775 /var/www/html/iatify-dev/bootstrap/cache
           cd /var/www/html/iatify-dev
-          php artisan key:generate
           php artisan config:clear
           php artisan cache:clear
           php artisan view:clear
