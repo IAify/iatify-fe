@@ -27,13 +27,16 @@ jobs:
           git checkout master
           git stash --all
           git pull origin master
+          
+          # Use the production environment file
+          cp .env.prod .env
 
           # Install Composer dependencies
-          composer install
-          composer update
+          composer install --no-interaction --prefer-dist --optimize-autoloader
+          composer update --no-interaction --prefer-dist --optimize-autoloader
 
           # Install Node.js dependencies and build assets
-          npm install
+          npm install --silent
           npm run build
           
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
@@ -41,10 +44,10 @@ jobs:
           find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-prod -type f -exec chmod 644 {} \;
           cd /var/www/html/iatify-prod
-          php artisan config:clear
-          php artisan cache:clear
-          php artisan view:clear
-          php artisan config:cache
+          php artisan config:clear --no-interaction
+          php artisan cache:clear --no-interaction
+          php artisan view:clear --no-interaction
+          php artisan config:cache --no-interaction
           sudo systemctl reload apache2
 
     - name: Deploy to Development (development branch)
@@ -64,12 +67,15 @@ jobs:
           git stash --all
           git pull origin development
 
+          # Use the development environment file
+          cp .env.dev .env
+
           # Install Composer dependencies
-          composer install
-          composer update
+          composer install --no-interaction --prefer-dist --optimize-autoloader
+          composer update --no-interaction --prefer-dist --optimize-autoloader
 
           # Install Node.js dependencies and build assets
-          npm install
+          npm install --silent
           npm run build
 
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-dev
@@ -77,8 +83,8 @@ jobs:
           find /var/www/html/iatify-dev -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-dev -type f -exec chmod 644 {} \;
           cd /var/www/html/iatify-dev
-          php artisan config:clear
-          php artisan cache:clear
-          php artisan view:clear
-          php artisan config:cache
+          php artisan config:clear --no-interaction
+          php artisan cache:clear --no-interaction
+          php artisan view:clear --no-interaction
+          php artisan config:cache --no-interaction
           sudo systemctl reload apache2
