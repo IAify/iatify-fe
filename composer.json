@@ -9,11 +9,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "darkaonline/l5-swagger": "^8.6",
         "laravel/breeze": "^2.1",
-        "laravel/cashier": "^15.4",
         "laravel/framework": "^11.9",
-        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.4",
         "livewire/volt": "^1.0"
