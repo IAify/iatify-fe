@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-
     - name: Deploy to Production (master branch)
       if: github.ref == 'refs/heads/master'
       uses: appleboy/ssh-action@v1.0.3
@@ -24,31 +21,18 @@ jobs:
         port: ${{ secrets.SERVER_PORT }}
         script: |
           cd /home/iatify-fe
+          rm -rf ./vendor
           git checkout master
           git pull
-          
-          # Install Composer dependencies
-          composer install
-          composer update
-
-          # Install Node.js dependencies and build assets
-          npm install
-          npm run build
-
-          # Synchronize files to the production directory
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-prod
           chown -R www-data:www-data /var/www/html/iatify-prod
           find /var/www/html/iatify-prod -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-prod -type f -exec chmod 644 {} \;
-
-          # Laravel optimization commands
           cd /var/www/html/iatify-prod
           php artisan config:clear
           php artisan cache:clear
           php artisan view:clear
           php artisan config:cache
-          
-          # Reload Apache to apply changes
           sudo systemctl reload apache2
 
     - name: Deploy to Development (development branch)
@@ -61,29 +45,16 @@ jobs:
         port: ${{ secrets.SERVER_PORT }}
         script: |
           cd /home/iatify-fe
+          rm -rf ./vendor
           git checkout development
           git pull
-          
-          # Install Composer dependencies
-          composer install
-          composer update
-
-          # Install Node.js dependencies and build assets
-          npm install
-          npm run dev
-
-          # Synchronize files to the development directory
           rsync -av --delete --exclude='.git' /home/iatify-fe/ /var/www/html/iatify-dev
           chown -R www-data:www-data /var/www/html/iatify-dev
           find /var/www/html/iatify-dev -type d -exec chmod 755 {} \;
           find /var/www/html/iatify-dev -type f -exec chmod 644 {} \;
-
-          # Laravel optimization commands
           cd /var/www/html/iatify-dev
           php artisan config:clear
           php artisan cache:clear
           php artisan view:clear
           php artisan config:cache
-          
-          # Reload Apache to apply changes
           sudo systemctl reload apache2
