@@ -16,11 +16,11 @@
                             <span>
                                 @lang("messages.Make your life easier with your Brand Voice by automatically creating publishing campaigns on your social networks.")
                             </span>
-                            <a href="#" class="start-trial">@lang('messages.Get a demo')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trial')</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="assets/images/images/Image wrapper.png" alt="" />
+                        <img src="assets/images/AI_Social_Media/social-schedule.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -46,9 +46,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI_Social_Media/ai_social_platform.gif);">
                                 <div class="unique-graph">
-                                    <img src="assets/images/images/graphs.svg" alt="" />
+                              
                                 </div>
                             </div>
                         </div>
@@ -67,9 +67,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img2" style="background-image: url(assets/images/images/Image\ item.png);">
+                            <div class="unique-content-img2" style="background-image: url(assets/images/AI_Social_Media/ai_social_generate_campagne.gif);">
                                 <div class="unique-graph2">
-                                    <img src="assets/images/images/Content.svg" alt="" />
+                                  
                                 </div>
                             </div>
                         </div>
@@ -89,9 +89,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI_Social_Media/ai_social_contenu_seo.gif);">
                                 <div class="unique-graph">
-                                    <img src="assets/images/images/Content2.svg" alt="" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -110,9 +110,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img3" style="background-image: url(assets/images/images/Image\ item3.png);">
+                            <div class="unique-content-img3" style="background-image: url(assets/images/AI_Social_Media/ai_social_schedule.gif);">
                                 <div class="unique-graph2">
-                                    <img src="assets/images/images/Content3.svg" alt="" />
+                                    
                                 </div>
                             </div>
                         </div>
@@ -133,19 +133,24 @@
                         @lang("messages.At IAtify, we recognize the profound impact of data. Our journey commenced with a potent vision: to unleash data's potential for businesses, regardless of size. Evolving into a premier provider of AI-driven analytics, we're dedicated to delivering actionable insights that propel decision-making and spur growth.")
                     </p>
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-4">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution1.png" alt="" />
+                                <img src="assets/images/AI_Social_Media/phone.jpg" alt="" />
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-4">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution2.png" alt="" />
+                                <img src="assets/images/AI_Social_Media/table_laptop.jpg" alt="" />
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-4">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution3.png" alt="" />
+                                <img src="assets/images/AI_Social_Media/whrite_paper.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-4">
+                            <div class="Solutions-img">
+                                <img src="assets/images/AI_Social_Media/smartphone_MacBook.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -188,12 +193,12 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span>@lang("messages.Effortlessly manage your social media data with intuitive natural language search and discovery.")</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="power-img-line">
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/AI_Social_Media/social-schedule.png);    background-position: center;">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>

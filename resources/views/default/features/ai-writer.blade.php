@@ -14,9 +14,9 @@
                     <p>
                         @lang("messages.Create dynamic, captivating content with IAtify's AI Writer - specify your preferences and get quality <br> content in record time.")
                     </p>
-                    <a href="#" class="start-trial">@lang('messages.Get a demo')</a>
+                    <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trial')</a>
                 </div>
-                <div class="Creativity-img" style="background-image: url(../assets/images/images/herobanner.png);">
+                <div class="Creativity-img" style="background-image: url(../assets/images/AI_Writer/openAI_gem_claude.png);">
                     <div class="graphs">
                         <img src="assets/images/images/graphs.svg" alt="" />
                     </div>
@@ -54,6 +54,7 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="Applications">
             <div class="container">
@@ -74,9 +75,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI_Writer/AI_Writer.gif);">
                                 <div class="unique-graph">
-                                    <img src="assets/images/images/graphs.svg" alt="" />
+                                    
                                 </div>
                             </div>
                         </div>
@@ -95,9 +96,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img2" style="background-image: url(assets/images/images/Image\ item.png);">
+                            <div class="unique-content-img2" style="background-image: url(assets/images/AI_Writer/ai_editor.gif);">
                                 <div class="unique-graph2">
-                                    <img src="assets/images/images/Content.svg" alt="" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -117,9 +118,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI_Writer/ai_article.gif);">
                                 <div class="unique-graph">
-                                    <img src="assets/images/images/Content2.svg" alt="" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -138,9 +139,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img3" style="background-image: url(assets/images/images/Image\ item3.png);">
+                            <div class="unique-content-img3" style="background-image: url(assets/images/AI_Writer/ai_editorTemplate.gif);">
                                 <div class="unique-graph2">
-                                    <img src="assets/images/images/Content3.svg" alt="" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -149,6 +150,7 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="Integration my-5">
             <div class="container">
@@ -162,7 +164,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard1.png" alt="" />
+                                <img src="assets/images/AI_Writer/Assistant_AI.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Instant Functionality at Your Fingertips")</a>
@@ -175,7 +177,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/AI_Writer/blog_wizare.jpeg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Revitalize Your Content")</a>
@@ -188,7 +190,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard2.png" alt="" />
+                                <img src="assets/images/AI_Writer/EditorOneclick.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Enhance Your Text with Just One Click")</a>
@@ -201,7 +203,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard3.png" alt="" />
+                                <img src="assets/images/AI_Writer/rss.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Generate unique content with RSS Feed")</a>
@@ -214,7 +216,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/AI_Writer/openAI_gem_claude.png" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Unmatched Chatbot Excellence")</a>
@@ -227,7 +229,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard4.png" alt="" />
+                                <img src="assets/images/AI_Writer/easyEsport.png" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Effortless Content Export")</a>
@@ -264,12 +266,13 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span> @lang("messages.Streamline permissions with a single model for data and AI")</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="power-img-line">
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/AI_Writer/Assistant_AI.gif);     background-position: center;
+    background-size: cover;">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>

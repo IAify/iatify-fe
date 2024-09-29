@@ -12,11 +12,11 @@
                         <div class="Chatbot-content mt-5">
                             <h2>@lang('messages.Customize your Chatbot')</h2>
                             <span>@lang('messages.Train it with your own data (website, PDF, text or Q&A) to make your AI content exclusive.')</span>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="Chatbot-img" style="background-image: url(../assets/images/images/herobanner.png);">
+                        <div class="Chatbot-img" style="background-image: url(../assets/images/Customize_your_Chatbot/Custom_Chatbots.gif); background-position: center;background-size: cover;">
                             <img src="assets/images/images/Contentpixel.svg" alt="" />
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                         @lang('messages.Choose your source and let IAtify’s shape your GPT in seconds. Create unlimited, fully customized Chatbots, whether you need image generation experts, personal coaches, or nutritionists. Simply import your data from websites, PDFs, texts, or Q&A files. In just 30 seconds, your personalized Chatbot will be ready to provide all the necessary answers.')
                     </p>
                 </div>
-                <div class="Our-Customize-img" style="background-image: url(assets/images/images/Thumbnailvideo.png);">
+                <div class="Our-Customize-img" style="background-image: url(assets/images/Customize_your_Chatbot/demo_cust_chatbot.gif);">
                     <div class="play">
                         <img src="assets/images/images/Buttonplayicon.png" alt="" />
                     </div>
@@ -61,7 +61,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard1.png" alt="" />
+                                <img src="assets/images/Customize_your_Chatbot/AIChat_photo.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Custom Image Generation for Your Chatbot')</a>
@@ -74,7 +74,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/Customize_your_Chatbot/AI_Real_Time.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Personalized AI Chat')</a>
@@ -87,7 +87,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard2.png" alt="" />
+                                <img src="assets/images/Customize_your_Chatbot/ChoseLLM.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Unmatched Chatbot Excellence')</a>
@@ -120,17 +120,17 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution1.png" alt="" />
+                                <img src="assets/images/Customize_your_Chatbot/ three.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution2.png" alt="" />
+                                <img src="assets/images/Customize_your_Chatbot/Friends_at_coffee_shop.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution3.png" alt="" />
+                                <img src="assets/images/Customize_your_Chatbot/etiquetteBlue.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -161,12 +161,12 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span>@lang('messages.Save time and enhance productivity with seamless automation')</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="power-img-line">
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/Customize_your_Chatbot/Iatify_YourData.png); background-position: center;background-size: cover;">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>

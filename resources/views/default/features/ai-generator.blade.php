@@ -15,9 +15,9 @@
                         @lang("messages.Create dynamic, captivating content with IAtify's AI Generator - specify your preferences and get quality content in record time.")
 
                     </p>
-                    <a href="#" class="start-trial">@lang('messages.Get a demo')</a>
+                    <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trial')</a>
                 </div>
-                <div class="Creativity-img" style="background-image: url(../assets/images/images/herobanner.png);">
+                <div class="Creativity-img" style="background-image: url(../assets/images/AI-Generator/openAI_gem_claude.png);">
                     <div class="graphs">
                         <img src="assets/images/images/graphs.svg" alt="" />
                     </div>
@@ -76,10 +76,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
-                                <div class="unique-graph">
-                                    <img src="assets/images/images/graphs.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI-Generator/flux-AI.jpg);">
+                                
                             </div>
                         </div>
                     </div>
@@ -97,10 +95,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img2" style="background-image: url(assets/images/images/Image\ item.png);">
-                                <div class="unique-graph2">
-                                    <img src="assets/images/images/Content.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img2" style="background-image: url(assets/images/AI-Generator/ai_code.jpg);">
+                                
                             </div>
                         </div>
                     </div>
@@ -118,10 +114,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
-                                <div class="unique-graph">
-                                    <img src="assets/images/images/Content2.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI-Generator/ai_web.png);">
+                                
                             </div>
                         </div>
                     </div>
@@ -139,10 +133,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img3" style="background-image: url(assets/images/images/Image\ item3.png);">
-                                <div class="unique-graph2">
-                                    <img src="assets/images/images/Content3.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img3" style="background-image: url(assets/images/AI-Generator/template_more.jpg);">
+                                
                             </div>
                         </div>
                     </div>
@@ -163,7 +155,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard1.png" alt="" />
+                                <img src="assets/images/AI-Generator/ai-youtube.png" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Repurposing Videos into Blog Posts (YouTube)')</a>
@@ -176,7 +168,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/AI-Generator/imageAimate.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Turning images into animated videos')</a>
@@ -189,7 +181,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard2.png" alt="" />
+                                <img src="assets/images/AI-Generator/youtube.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Content Optimization')</a>
@@ -202,7 +194,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard3.png" alt="" />
+                                <img src="assets/images/AI-Generator/rrs_feed.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Generate unique content with RSS Feed')</a>
@@ -215,7 +207,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/AI-Generator/gpt4o.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Unmatched Chatbot Excellence')</a>
@@ -228,7 +220,7 @@
                     <div class="col">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard4.png" alt="" />
+                                <img src="assets/images/AI-Generator/AIChat_photo.gif" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang('messages.Unlock the power of AI with Chat Image')</a>
@@ -264,12 +256,13 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span> @lang('messages.Single permission model for data + AI')</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="power-img-line" >
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/AI-Generator/Assistant_AI.gif);    background-position: center;
+    background-size: cover;">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>

@@ -211,8 +211,9 @@ body.main-body.dark-mode span {
 }
 
 .card-img img {
+      height: 100%;
   width: 100%;
-  object-fit: cover;
+
 }
 
 .card-content {
@@ -314,6 +315,8 @@ body.main-body.dark-mode span {
 
 .Solutions-img img {
   @extend .border-radius-10;
+  width: 100%;
+
 }
 
 /* Operates Styles */

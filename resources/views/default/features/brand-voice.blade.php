@@ -12,11 +12,11 @@
                         <div class="Chatbot-content mt-5">
                             <h2>@lang("messages.Brand Voice for AI 📣")</h2>
                             <span>@lang("messages.Generate AI content exclusive to your brand and eliminate the need <br> for repetitive presentations from your company.")</span>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="Chatbot-img" style="background-image: url(../assets/images/images/herobanner.png);">
+                        <div class="Chatbot-img" style="background-image: url(../assets/images/AI_brand_Voice/brandVoice.png); background-position: center;background-size: cover;">
                             <img src="assets/images/images/Contentpixel.png" alt="" />
                         </div>
                     </div>
@@ -33,11 +33,21 @@
                         @lang("messages.Experience simplicity with our groundbreaking system. Bid farewell to the repetitive task of infusing your brand into every content piece. Whether you manage one or multiple brands, oversee numerous companies or social media accounts, or operate several online stores, our solution liberates you from this constraint.")
                     </p>
                 </div>
-                <div class="Our-Customize-img" style="background-image: url(assets/images/images/Thumbnailvideo.png);">
-                    <div class="play">
-                        <img src="assets/images/images/Buttonplayicon.png" alt="" />
+                <section class="video-sec">
+                    <div class="container">
+                        <div class="video-main" style="background-image: url(assets/images/Ilustration\ graph\,\ icon.png);">
+                            <div class="play-sec">
+                                <div class="play-btn">
+                                    <a href=""><i class="fa-solid fa-play"></i></a>
+                                </div>
+                                <div class="play-btn-content">
+                                    <h6>@lang('messages.Watch introduce video')</h6>
+                                    <p>5 mins &nbsp;<a href=""><span>Play video</span></a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </section>
@@ -61,7 +71,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard1.png" alt="" />
+                                <img src="assets/images/AI_brand_Voice/NikeLogo.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Company")</a>
@@ -74,7 +84,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/AI_brand_Voice/NikeChose.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Products")</a>
@@ -87,7 +97,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard2.png" alt="" />
+                                <img src="assets/images/AI_brand_Voice/audience.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Audience")</a>
@@ -114,17 +124,17 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution1.png" alt="" />
+                                <img src="assets/images/AI_brand_Voice/ three.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution2.png" alt="" />
+                                <img src="assets/images/AI_brand_Voice/etiquetteBlue.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution3.png" alt="" />
+                                <img src="assets/images/AI_brand_Voice/threeMan.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -156,12 +166,12 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span>@lang("messages.Save time and enhance productivity with seamless automation")</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="power-img-line">
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/AI_brand_Voice/bleues_blanches.jpg); background-size: cover;">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>
