@@ -35,16 +35,22 @@
                 </div>
                 <section class="video-sec">
                     <div class="container">
-                        <div class="video-main" style="background-image: url(assets/images/Ilustration\ graph\,\ icon.png);">
-                            <div class="play-sec">
+                        <div class="video-main" style="background-image: url(assets/images/Ilustration\ graph\,\ icon.png); position: relative; width: 100%;">
+                            <div class="play-sec" style="position: relative; z-index: 1;">
                                 <div class="play-btn">
-                                    <a href=""><i class="fa-solid fa-play"></i></a>
+                                    <a href="#" onclick="playVideo(event)"><i class="fa-solid fa-play"></i></a>
                                 </div>
                                 <div class="play-btn-content">
                                     <h6>@lang('messages.Watch introduce video')</h6>
-                                    <p>5 mins &nbsp;<a href=""><span>Play video</span></a></p>
+                                    <p>30 Seconds &nbsp;
+                                        <a href="#" onclick="playVideo(event)"><span>Play video</span></a>
+                                    </p>
                                 </div>
                             </div>
+                            <video id="demoVideo" width="100%" height="100%" controls style="display:none; position:absolute; top:0; left:0; z-index:2;">
+                                <source src="assets/images/AI_brand_Voice/demo_brainVoice.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </section>
@@ -225,4 +231,14 @@
             </div>
         </div>
     </section>
+   <script>
+    function playVideo(event) {
+        event.preventDefault();
+        var video = document.getElementById("demoVideo");
+        video.style.display = "block";
+        video.play();
+    }
+</script>
 @endsection
+
+

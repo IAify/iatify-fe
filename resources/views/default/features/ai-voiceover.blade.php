@@ -15,9 +15,9 @@
                     <p>
                         @lang("messages.Transform your text into very real AI voice easily with our AI app.")
                     </p>
-                    <a href="#" class="start-trial">@lang('messages.Get a demo')</a>
+                    <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trial')</a>
                 </div>
-                <div class="Creativity-img" style="background-image: url(../assets/images/images/herobanner.png);">
+                <div class="Creativity-img" style="background-image: url(../assets/images/Create_clone/Cloner_Voiceover_Eleven.jpg);">
                     <div class="graphs">
                         <img src="assets/images/images/graphs.svg" alt="" />
                     </div>
@@ -55,6 +55,7 @@
             </div>
         </div>
     </section>
+    
     <section>
         <div class="Applications">
             <div class="container">
@@ -75,10 +76,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);">
-                                <div class="unique-graph">
-                                    <img src="assets/images/images/graphs.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img" style="background-image: url(assets/images/Create_clone/afine_voice.png);">
+                               
                             </div>
                         </div>
                     </div>
@@ -96,10 +95,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img2" style="background-image: url(assets/images/images/Image\ item.png);">
-                                <div class="unique-graph2">
-                                    <img src="assets/images/images/Content.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img2" style="background-image: url(assets/images/Create_clone/custom_voice.jpg);">
+                                
                             </div>
                         </div>
                     </div>
@@ -118,10 +115,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/images/Image\ item1.png);"> 
-                                <div class="unique-graph">
-                                    <img src="assets/images/images/Content2.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img" style="background-image: url(assets/images/Create_clone/Persono_voiceClone.jpg);"> 
+                                
                             </div>
                         </div>
                     </div>
@@ -139,10 +134,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img3" style="background-image: url(assets/images/images/Image\ item3.png);">
-                                <div class="unique-graph2">
-                                    <img src="assets/images/images/Content3.svg" alt="" />
-                                </div>
+                            <div class="unique-content-img3" style="background-image: url(assets/images/Create_clone/multi_langue.png);">
+                                
                             </div>
                         </div>
                     </div>
@@ -150,6 +143,8 @@
             </div>
         </div>
     </section>
+
+
     <section>
         <div class="Solutions my-5">
             <div class="container">
@@ -163,17 +158,17 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution1.png" alt="" />
+                                <img src="assets/images/Create_clone/Woman_micro.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution2.png" alt="" />
+                                <img src="assets/images/Create_clone/entreprise_voice.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution3.png" alt="" />
+                                <img src="assets/images/Create_clone/Microphone_razer.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -204,12 +199,13 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span> @lang("messages.Simplify permissions with a unified model for data and AI using Voiceover AI")</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="power-img-line">
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/Create_clone/elevenlabs-voice-cloning.jpg);    background-size: contain;
+    background-position: center">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>

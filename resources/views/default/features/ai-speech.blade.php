@@ -12,11 +12,11 @@
                         <div class="Chatbot-content mt-5">
                             <h2>@lang("messages.AI Speech To Text")🎙️</h2>
                             <span>@lang("messages.Tired of having to laboriously decipher your audio recordings during meetings ?")</span>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="Chatbot-img" style="background-image: url(../assets/images/images/herobanner.png);">
+                        <div class="Chatbot-img" style="background-image: url(../assets/images/AI_Speech_To_text/Precise_control.png); background-position: center;background-size: contain;">
                             <img src="assets/images/images/Contentpixel.png" alt="" />
                         </div>
                     </div>
@@ -24,6 +24,7 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="Our-Customize">
             <div class="container">
@@ -33,14 +34,34 @@
                         @lang("messages.Our AI, powered by GPT-4o, is able to understand and predict mispronounced words or filter out ambient noise, ensuring accurate and complete transcription. No more wasted hours trying to enter every word, our technology guarantees you a faithful and effective transcription, allowing you to focus on most of your meetings.")
                     </p>
                 </div>
-                <div class="Our-Customize-img" style="background-image: url(assets/images/images/Thumbnailvideo.png);">
-                    <div class="play">
-                        <img src="assets/images/images/Buttonplayicon.png" alt="" />
+               
+                            <section class="video-sec">
+                                <div class="container">
+                                    <div class="video-main" style="background-image: url(assets/images/Ilustration\ graph\,\ icon.png); position: relative; width: 100%;">
+                                        <div class="play-sec" style="position: relative; z-index: 1;">
+                                            <div class="play-btn">
+                                                <a href="#" onclick="playVideo(event)"><i class="fa-solid fa-play"></i></a>
+                                            </div>
+                                            <div class="play-btn-content">
+                                                <h6>@lang('messages.Watch introduce video')</h6>
+                                                <p>20 Seconds &nbsp;
+                                                    <a href="#" onclick="playVideo(event)"><span>Play video</span></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <video id="demoVideo" width="100%" height="100%" controls style="display:none; position:absolute; top:0; left:0; z-index:2;">
+                                            <source src="assets/images/AI_Speech_To_text/demo_AI Speech_Text.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </section>
         </div>
     </section>
+
     <section>
         <div class="Case-study mt-5">
             <div class="container">
@@ -61,7 +82,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard1.png" alt="" />
+                                <img src="assets/images/AI_Speech_To_text/metting_Zoom.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Seamless Meeting Transcription")</a>
@@ -74,7 +95,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="" alt="" />
+                                <img src="assets/images/AI_Speech_To_text/Presentation_Enseignante.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Effortless Lecture Recording")</a>
@@ -87,7 +108,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="Integration-card">
                             <div class="card-img">
-                                <img src="assets/images/images/Thumbnailcard2.png" alt="" />
+                                <img src="assets/images/AI_Speech_To_text/Interview_Fox.jpg" alt="" />
                             </div>
                             <div class="card-content">
                                 <a href="#">@lang("messages.Streamlined Interview Documentation")</a>
@@ -101,6 +122,7 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="Solutions my-5">
             <div class="container">
@@ -114,17 +136,20 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution1.png" alt="" />
+                                <img src="assets/images/AI_Speech_To_text/Woman_micro.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution2.png" alt="" />
+                                <video  controls>
+                                    <source src="assets/images/AI_Speech_To_text/Voice_Isolator_Demo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <div class="Solutions-img">
-                                <img src="assets/images/images/Thumbnailsolution3.png" alt="" />
+                                <img src="assets/images/AI_Speech_To_text/microWhite.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -155,12 +180,12 @@
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span>@lang("messages.Experience seamless automation, saving time and boosting productivity.")</span>
                             </div>
-                            <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                            <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="power-img-line">
-                            <div class="power-img" style="background-image: url(assets/images/images/Thumbnailpowerimg1.png);">
+                            <div class="power-img" style="background-image: url(assets/images/AI_Speech_To_text/Precise_control.png);background-position: center;background-size: cover;">
                                 <img src="assets/images/images/Contentpowerimg2.svg" alt="" />
                             </div>
                         </div>
@@ -210,4 +235,12 @@
             </div>
         </div>
     </section>
+    <script>
+        function playVideo(event) {
+            event.preventDefault();
+            var video = document.getElementById("demoVideo");
+            video.style.display = "block";
+            video.play();
+        }
+    </script>
 @endsection

@@ -314,9 +314,13 @@ body.main-body.dark-mode span {
 }
 
 .Solutions-img img {
-  @extend .border-radius-10;
+  aspect-ratio: 3 / 2;
   width: 100%;
 
+}
+.Solutions-img video{
+  aspect-ratio: 3 / 2;
+  width: 100%;
 }
 
 /* Operates Styles */
