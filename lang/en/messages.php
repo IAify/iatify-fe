@@ -8,15 +8,125 @@ return [
   'Pricing' => 'Pricing',
   'Contact' => 'Contact',
   'Get a demo' => 'Get a demo',
+  'Sign in' => 'Sign in',
   'Start your free trail' => 'Start your free trail',
   'Watch video' => 'Watch video',
   'Watch introduce video' => 'Watch introduce video',
   'Your weekly activity' => 'Your weekly activity',
   'Explore more application' => 'Explore more application',
-
+  'Boost your popularity effortlessly with AI-powered automation. Save time by letting our technology handle planning and publishing, ensuring a consistent social media presence.'=> 'Boost your popularity effortlessly with AI-powered automation. Save time by letting our technology handle planning and publishing, ensuring a consistent social media presence.',
   'Revolutionizing Business Decisions with AI-Powered Analytics' => 'Revolutionizing Business Decisions with AI-Powered Analytics',
 
+  'Upload an image, PDF, or document, and let GPT-4, Claude 3, or Gemini AI analyze it. Extract data, search, or summarize in just a few clicks for fast, intuitive results.'=>'Upload an image, PDF, or document, and let GPT-4, Claude 3, or Gemini AI analyze it. Extract data, search, or summarize in just a few clicks for fast, intuitive results.',
+
+  'Powered by Flux AI and Stable Diffusion 3, delivering ultra-realistic images without the need for graphic design skills.'=> 'Powered by Flux AI and Stable Diffusion 3, delivering ultra-realistic images without the need for graphic design skills.',
+
+  'Import data from PDFs, websites, or files, and let IAtify instantly generate tailored Chatbots. Ready in seconds to provide accurate answers and personalized support.'=>'Import data from PDFs, websites, or files, and let IAtify instantly generate tailored Chatbots. Ready in seconds to provide accurate answers and personalized support.',
+
+  'Create Campaigns with AI-Powered Personalization' => 'Create Campaigns with AI-Powered Personalization',
+
+  'Generate SEO-Optimized Content with AI' => 'Generate SEO-Optimized Content with AI',
+
+  'Create tailored, SEO-friendly posts by selecting tone, target audience, and character count for maximum impact.'=>'Create tailored, SEO-friendly posts by selecting tone, target audience, and character count for maximum impact.',
+
+  'Our AI analyzes data to find the best posting times, ensuring maximum engagement and visibility.'=>'Our AI analyzes data to find the best posting times, ensuring maximum engagement and visibility.',
+
+  'At IAtify, we unlock your social media potential with AI-driven tools that boost engagement, optimize content, and drive growth effortlessly.'=> 'At IAtify, we unlock your social media potential with AI-driven tools that boost engagement, optimize content, and drive growth effortlessly.',
+
+  'Unleash Your Creativity with Voiceover AI : Skip the Talk, Clone Your Voice Instead'=>'Unleash Your Creativity with Voiceover AI : Skip the Talk, Clone Your Voice Instead',
+
+  'Effortless Voice Refinement' => 'Effortless Voice Refinement',
+
+  'Effortlessly Refine AI Voiceovers with Elevenlabs' => 'Effortlessly Refine AI Voiceovers with Elevenlabs',
+
+  'Effortless Voice Cloning'=>'Effortless Voice Cloning',
+
+  'Experience Lifelike Narration with Elevenlabs Voiceover Technology.'=>'Experience Lifelike Narration with Elevenlabs Voiceover Technology.',
+
+  'Seamlessly create an authentic clone of your voice with IAtify’s advanced AI. Simply upload a sample, and let our technology replicate your unique voice for any application'=> 'Seamlessly create an authentic clone of your voice with IAtify’s advanced AI. Simply upload a sample, and let our technology replicate your unique voice for any application',
+
+  'Support for Over 30 Languages'=>'Support for Over 30 Languages',
+
+  'Translate into Any Language Worldwide—Expand Your Reach in Just Seconds.' => 'Translate into Any Language Worldwide—Expand Your Reach in Just Seconds.',
+
+  'Reach a global audience effortlessly with Iatify’s extensive language support. Our AI technology handles over 30 languages, ensuring accurate and natural-sounding voiceovers for any market.'=>'Reach a global audience effortlessly with Iatify’s extensive language support. Our AI technology handles over 30 languages, ensuring accurate and natural-sounding voiceovers for any market.',
+
+  'Polish and perfect your voice recordings with just a few clicks. IAtify’s AI-powered tools allow you to effortlessly adjust tone, clarity, and remove imperfections for a professional-grade result every time.'=>'Polish and perfect your voice recordings with just a few clicks. IAtify’s AI-powered tools allow you to effortlessly adjust tone, clarity, and remove imperfections for a professional-grade result every time.',
+
+  'Enhance your social media strategy by creating tailored campaigns with ease. Leverage AI to customize content, ensuring each post resonates with your audience.'=> 'Enhance your social media strategy by creating tailored campaigns with ease. Leverage AI to customize content, ensuring each post resonates with your audience.',
+
+  'Elevate your content with Elevenlabs’ AI Voiceover. Create lifelike, emotional narrations effortlessly, transforming your voice into a natural-sounding digital version. Powered by Elevenlabs and Microsoft Azure.'=> 'Elevate your content with Elevenlabs’ AI Voiceover. Create lifelike, emotional narrations effortlessly, transforming your voice into a natural-sounding digital version. Powered by Elevenlabs and Microsoft Azure.',
+
   'Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success' => 'Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success',
+
+  'Integrate your data'=>'Integrate your data',
+
+  'Link data sources, upload documents, or specify websites for crawling, and let IAtify leverage this information to train your chatbot.' => 'Link data sources, upload documents, or specify websites for crawling, and let IAtify leverage this information to train your chatbot.',
+
+  'Connect data sources and let IAtify train your chatbot.'=>'Connect data sources and let IAtify train your chatbot.',
+
+
+  'Custom Chatbot Builder' => 'Custom Chatbot Builder',
+
+  'Design, train, and deploy custom chatbots for real-time support.'=>'Design, train, and deploy custom chatbots for real-time support.',
+
+  'Allows you to design, train, and deploy custom chatbots on your website, providing real-time interactions and customer support.'=>'Allows you to design, train, and deploy custom chatbots on your website, providing real-time interactions and customer support.',
+
+  'Embed on your website'=>'Embed on your website',
+
+  'Easily add a chat widget to your website with a simple embed.'=>'Easily add a chat widget to your website with a simple embed.',
+
+  'Add a chat widget to your website using a straightforward embed code.'=>'Add a chat widget to your website using a straightforward embed code.',
+
+  'Brand Your Chatbot Seamlessly'=>'Brand Your Chatbot Seamlessly',
+
+  'Customize your chatbot with your brand’s colors, logos, and style.'=>'Customize your chatbot with your brand’s colors, logos, and style.',
+
+  'Customize your chatbot to blend perfectly with your website. Apply your brand’s colors and logos, and tailor its responses to reflect your brand’s personality.'=>'Customize your chatbot to blend perfectly with your website. Apply your brand’s colors and logos, and tailor its responses to reflect your brand’s personality.',
+
+
+
+  'Unlock AI Chatbot Potential Now' => 'Unlock AI Chatbot Potential Now',
+
+  'Customize and deploy chatbots effortlessly for real-time engagement and support.'=>'Customize and deploy chatbots effortlessly for real-time engagement and support.',
+
+  'Transform Your Website with Smart Chat Widgets.'=> 'Transform Your Website with Smart Chat Widgets.',
+
+  'Brand Your Chatbot to Match Your Style.'=>'Brand Your Chatbot to Match Your Style.',
+
+  'Effortlessly Connect and Train with AI.'=>'Effortlessly Connect and Train with AI.',
+
+  'What is an external chatbot and how does it work ?'=>'What is an external chatbot and how does it work ?',
+  'Just copy the embed code and paste it onto your website. Done!' => 'Just copy the embed code and paste it onto your website. Done!',
+
+  'Can I customize the chatbot’s responses ?' => 'Can I customize the chatbot’s responses ?',
+  'Yes, you can train it with your own data and adjust its tone.' => 'Yes, you can train it with your own data and adjust its tone.',
+
+  'How do I integrate the chatbot into my site ?'=>'How do I integrate the chatbot into my site ?',
+  'Just copy the embed code and paste it onto your website. Done!'=>'Just copy the embed code and paste it onto your website. Done!',
+
+  'Unleash Your Creativity' => 'Unleash Your Creativity',
+
+  'AI Speech To text & Voice Isolator' => 'AI Speech To text & Voice Isolator',
+
+  'Create / Clone with Elevenlabs and Azure' => 'Create / Clone with Elevenlabs and Azure',
+
+  'Personalize your Chabot and share it !' => 'Personalize your Chabot and share it !',
+  
+  'It’s an AI assistant you add to your site to automate responses and support visitors.'=>'It’s an AI assistant you add to your site to automate responses and support visitors.',
+
+  'Elevate your voice cloning experience with Elevenlabs AI-powered Speech-to-Text technology and Voice Isolator.'=>'Elevate your voice cloning experience with Elevenlabs AI-powered Speech-to-Text technology and Voice Isolator.',
+
+  'Create AI-generated text-to-speech with IAtify, replicating your voice in stunning detail.'=>'Create AI-generated text-to-speech with IAtify, replicating your voice in stunning detail.',
+
+  'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!' => 'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!',
+
+  
+
+
+  'Boost Support, Save Money and Time' => 'Boost Support, Save Money and Time',
+
+  'Looking to enhance support? Create and customize your own chatbot, embed it on your website, and boost efficiency while saving time and money.' => 'Looking to enhance support? Create and customize your own chatbot, embed it on your website, and boost efficiency while saving time and money.',
 
   '160,000+ customers in over 120 countries grow their businesses with iAtify' => '160,000+ customers in over 120 countries grow their businesses with iAtify',
 

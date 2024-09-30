@@ -21,7 +21,7 @@ Home
                     <p>@lang('messages.From Intelligent Chatbots to Comprehensive Content Creation')</p>
                 </div>
                 <div class="banner-btn">
-                    <a href="" class="start-trial">@lang('messages.Start your free trail')</a>
+                    <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                     <a href="" class="watch-video"><i class="fa-solid fa-play"></i> &nbsp; @lang('messages.Watch video')</a>
                 </div>
             </div>
@@ -213,7 +213,7 @@ Home
                 <div class="col-lg-6 features-col">
                     <div class="features-content-wrp">
                         <h1>@lang('messages.Unlock Your Social Media Potential with AI')</h1>
-                        <p>@lang('messages.Powered by AI, our solution allows you to increase your popularity effortlessly. No more spending hours manually planning and publishing on each platform. Let our advanced technology handle this for you, ensuring you have a consistent and effective social media presence.')</p>
+                        <p>@lang('messages.Boost your popularity effortlessly with AI-powered automation. Save time by letting our technology handle planning and publishing, ensuring a consistent social media presence.')</p>
                     </div>
                 </div>
                 <div class="col-lg-6 features-col">
@@ -279,7 +279,7 @@ Home
                 <div class="col-lg-6 features-col">
                     <div class="features-content-wrp-second">
                         <h1>@lang('messages.Empower Your Forecasts with the Pulse of Real-Time Data')</h1>
-                        <p>@lang('messages.Simply download a image, PDF, DOC, DOCX or CSV and let our GPT-4, Claude 3 and Gemini AIs analyze its contents. Search for specific information, extract key data or summarize the entire document in just a few clicks, providing an efficient and intuitive search experience.')</p>
+                        <p>@lang('messages.Upload an image, PDF, or document, and let GPT-4, Claude 3, or Gemini AI analyze it. Extract data, search, or summarize in just a few clicks for fast, intuitive results.')</p>
                     </div>
                 </div>
             </div>
@@ -287,7 +287,7 @@ Home
                 <div class="col-lg-6 features-col">
                     <div class="features-content-wrp-third">
                         <h1>@lang('messages.Customize your Chatbot with all Data (PDF, Text, Json, Excel, ... )')</h1>
-                        <p>@lang('messages.Choose your source and let IAtify’s shape your GPT in seconds. Create unlimited, fully customized Chatbots, whether you need image generation experts, personal coaches, or nutritionists. Simply import your data from websites, PDFs, texts, or Q&A files. In just 30 seconds, your personalized Chatbot will be ready to provide all the necessary answers.')</p>
+                        <p>@lang('messages.Import data from PDFs, websites, or files, and let IAtify instantly generate tailored Chatbots. Ready in seconds to provide accurate answers and personalized support.')</p>
                     </div>
                 </div>
                 <div class="col-lg-6 features-col">
@@ -304,20 +304,14 @@ Home
             <div class="row align-items-center" style="padding-top: 100px;">
                 <div class="col-lg-6 features-col">
                     <div class="features-img-wrp-forth">
-                        <img src="{{ url('assets/images/fuction-img-forth.jpg') }}" style="width: 100%; border-radius: 30px;">
-                        <div class="pose-card-img">
-                            <img src="{{ url('assets/images/fuction-content-forth-img.svg') }}" style="border-radius: 0px;">
-                        </div>
-                        <div class="pose-card-img-forth">
-                            <img src="{{ url('assets/images/function-content-forth-second-img.svg') }}"
-                                style="width: 100%; border-radius: 0px;">
-                        </div>
+                        <img src="{{ url('assets/images/clone voice.png') }}" style="border-radius: 30px;">
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 features-col">
                     <div class="features-content-wrp-forth">
                         <h1>@lang('messages.We analyze your voice and can clone it accurately')</h1>
-                        <p>@lang('messages.Elevate your content effortlessly with Elevenlabs’ AI Voiceover. Our advanced technology enables you to craft compelling stories with clarity and emotion, ensuring seamless narration and natural-sounding voices. Explore the future of voice cloning through our revolutionary solution, transforming your voice into a lifelike digital version. Create personalized audio messages that captivate listeners across languages, ushering in a new era of vocal communication with our cutting-edge technology powered by Elevenlabs and Microsoft Azure.')</p>
+                        <p>@lang('messages.Elevate your content with Elevenlabs’ AI Voiceover. Create lifelike, emotional narrations effortlessly, transforming your voice into a natural-sounding digital version. Powered by Elevenlabs and Microsoft Azure.')</p>
                     </div>
                 </div>
             </div>
@@ -773,7 +767,7 @@ Home
                             <span>@lang('messages.Basic')</span>
                             <h2 id="basic">$ 19</h2>
                             <p id="month">Per month</p>
-                            <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
+                            <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
@@ -995,7 +989,7 @@ Home
                             <span>@lang('messages.Professional')</span>
                             <h2 id="Professional">$ 35</h2>
                             <p id="month2">Per month</p>
-                            <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
+                            <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
@@ -1217,7 +1211,7 @@ Home
                             <span>@lang('messages.Advanced')</span>
                             <h2 id="Advanced">$ 49</h2>
                             <p id="month3">Per month</p>
-                            <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
+                            <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
@@ -1439,7 +1433,7 @@ Home
                             <span>@lang('messages.Enterprise')</span>
                             <h2 id="Enterprise">$ 159</h2>
                             <p id="month4">Per month</p>
-                            <a href="#" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
+                            <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
                         <div class="pgkes-type">
                             <ul class="mt-5 list-inline">
@@ -1659,6 +1653,14 @@ Home
         </div>
     </section>
     <!-- packages Section end -->
+
+    <section class="expereince-banner"  style="padding-bottom: 50px">
+        <div class="container">
+           <div>
+            <img src="{{ url('assets/images/🍱 Bento.png') }}" style="width: 100%" alt="">
+           </div>
+        </div>
+    </section>
       <!-- experince banner section -->
       <section class="expereince-banner">
         <div class="container">
@@ -1670,7 +1672,7 @@ Home
                             <h1>@lang('messages.All-in-one solution for all your needs')</h1>
                             <p class="exper-text">@lang("messages.Streamline all your tasks in one convenient platform: from writing, designing, editing, transcribing, generating images, creating blogs, to generating voices and defining your brand voice—all in one place.")</p>
                             <div class="exper-banner-content-btn">
-                                <a href="">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('assets/images/R icon.png') }}" alt=""></a>
+                                <a href=" https://app.iatify.com/register/">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('assets/images/R icon.png') }}" alt=""></a>
 
                             </div>
                         </div>

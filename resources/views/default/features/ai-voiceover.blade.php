@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="Creativity-content my-5">
                     <h2 class="my-4">
-                        @lang("messages.Unleash Your Creativity with the <br> Voiceover AI")
+                        @lang("messages.Unleash Your Creativity with Voiceover AI : Skip the Talk, Clone Your Voice Instead")
 
                     </h2>
                     <p>
@@ -84,13 +84,13 @@
                     <div class="row my-2 gy-5 flex-lg-row-reverse flex-md-row-reverse  ">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.AI Voiceover with Microsoft Azure")</h2>
+                                <h2>@lang("messages.Effortless Voice Refinement")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
-                                    <span>@lang("messages.Explore AI Voiceover with Microsoft Azure")</span>
+                                    <span>@lang("messages.Effortlessly Refine AI Voiceovers with Elevenlabs")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Experience the future of voiceover technology with Microsoft Azure's AI Voiceover. Transform your content effortlessly with natural-sounding voices and seamless narration, ensuring clarity and engagement.")
+                                    @lang("messages.Polish and perfect your voice recordings with just a few clicks. IAtify’s AI-powered tools allow you to effortlessly adjust tone, clarity, and remove imperfections for a professional-grade result every time.")
                                 </p>
                             </div>
                         </div>
@@ -103,14 +103,14 @@
                     <div class="row my-2 gy-5">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.AI Voiceover with OpenAI")</h2>
+                                <h2>@lang("messages.Effortless Voice Cloning")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
                                     <span>
-                                        @lang("messages.Experience lifelike narration with OpenAI's AI Voiceover technology.")</span>
+                                        @lang("messages.Experience Lifelike Narration with Elevenlabs Voiceover Technology.")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Unlock the power of AI Voiceover with OpenAI. Elevate your content creation with natural-sounding voices and seamless narration, revolutionizing your storytelling experience")
+                                    @lang("messages.Seamlessly create an authentic clone of your voice with IAtify’s advanced AI. Simply upload a sample, and let our technology replicate your unique voice for any application")
                                 </p>
                             </div>
                         </div>
@@ -123,13 +123,13 @@
                     <div class="row my-2 gy-5 flex-lg-row-reverse flex-md-row-reverse ">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.AI Voiceover with Google")</h2>
+                                <h2>@lang("messages.Support for Over 30 Languages")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
-                                    <span>@lang("messages.Transform your content with Google's AI Voiceover technology.")</span>
+                                    <span>@lang("messages.Translate into Any Language Worldwide—Expand Your Reach in Just Seconds.")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Discover the seamless narration capabilities of Google's AI Voiceover. With advanced technology, your content will come to life with lifelike voices and smooth delivery")
+                                    @lang("messages.Reach a global audience effortlessly with Iatify’s extensive language support. Our AI technology handles over 30 languages, ensuring accurate and natural-sounding voiceovers for any market.")
                                 </p>
                             </div>
                         </div>

@@ -8,6 +8,7 @@ return [
   'Pricing' => 'Preisgestaltung',
   'Contact' => 'Kontakt',
   'Get a demo' => 'Holen Sie Demo',
+  'Sign in' => 'anmelden',
   'Start your free trail' => '
     kostenloser Traill',
   'Watch video' => 'Schau Video',
@@ -15,11 +16,43 @@ return [
   'Your weekly activity' => 'Ihre wöchentliche Aktivität',
   'Explore more application' => 'Entdecken Sie weitere Anwendungen',
 
-
+  'Boost your popularity effortlessly with AI-powered automation. Save time by letting our technology handle planning and publishing, ensuring a consistent social media presence.'=> 'Steigern Sie Ihre Popularität mühelos mit KI-gestützter Automatisierung. Sparen Sie Zeit, indem Sie die Planung und Veröffentlichung unserer Technologie überlassen und so eine konsistente Social-Media-Präsenz gewährleisten.',
   'Revolutionizing Business Decisions with AI-Powered Analytics' => 'Geschäftsentscheidungen mit KI-gestützter Analyse revolutionieren
     ',
 
+    'Upload an image, PDF, or document, and let GPT-4, Claude 3, or Gemini AI analyze it. Extract data, search, or summarize in just a few clicks for fast, intuitive results.' => "Laden Sie ein Bild, eine PDF-Datei oder ein Dokument hoch und lassen Sie es von GPT-4, Claude 3 oder Gemini AI analysieren. Extrahieren Sie Daten, suchen Sie oder fassen Sie sie mit nur wenigen Klicks zusammen, um schnelle, intuitive Ergebnisse zu erhalten.",
+
+    'Import data from PDFs, websites, or files, and let IAtify instantly generate tailored Chatbots. Ready in seconds to provide accurate answers and personalized support.'=>'Importieren Sie Daten aus PDFs, Websites oder Dateien und lassen Sie IAtify sofort maßgeschneiderte Chatbots generieren. In Sekundenschnelle bereit, um genaue Antworten und personalisierten Support zu bieten.',
+    
+    'Elevate your content with Elevenlabs’ AI Voiceover. Create lifelike, emotional narrations effortlessly, transforming your voice into a natural-sounding digital version. Powered by Elevenlabs and Microsoft Azure.' => 'Werten Sie Ihre Inhalte mit dem KI-Voiceover von Elevenlabs auf. Erstellen Sie mühelos lebensechte, emotionale Erzählungen und verwandeln Sie Ihre Stimme in eine natürlich klingende digitale Version. Unterstützt von Elevenlabs und Microsoft Azure.',
   'Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success' => 'Wir bestätigen, dass der Intellektuelle die Daten Ihres Geschäfts in praktisches Wissen umwandeln kann, und stoßen Sie am Ende auf neue Herausforderungen.',
+
+  'Unlock AI Chatbot Potential Now' => 'Erschließen Sie jetzt das KI-Chatbot-Potenzial',
+
+  'What is an external chatbot and how does it work ?'=>'Was ist ein externer Chatbot und wie funktioniert er?',
+  'It’s an AI assistant you add to your site to automate responses and support visitors.' => 'Es handelt sich um einen KI-Assistenten, den Sie Ihrer Website hinzufügen, um Antworten zu automatisieren und Besucher zu unterstützen.',
+
+  'Can I customize the chatbot’s responses ?' => 'Kann ich die Antworten des Chatbots anpassen?',
+  'Yes, you can train it with your own data and adjust its tone.' => 'Ja, Sie können es mit Ihren eigenen Daten trainieren und seinen Ton anpassen.',
+
+  'How do I integrate the chatbot into my site ?'=>'Wie integriere ich den Chatbot in meine Website?',
+  'Just copy the embed code and paste it onto your website. Done!'=>'Kopieren Sie einfach den Einbettungscode und fügen Sie ihn auf Ihrer Website ein. Erledigt!',
+
+  'Unleash Your Creativity' => 'Lassen Sie Ihrer Kreativität freien Lauf',
+
+  'AI Speech To text & Voice Isolator' => 'KI-Sprachausgabe und Sprachisolator',
+
+  'Create / Clone with Elevenlabs and Azure' => 'Erstellen/Klonen mit Elevenlabs und Azure',
+
+  'Personalize your Chabot and share it !' => 'Personalisieren Sie Ihren Chabot und teilen Sie ihn!',
+
+  'Customize and deploy chatbots effortlessly for real-time engagement and support.'=>'Passen Sie Chatbots mühelos an und implementieren Sie sie für Engagement und Support in Echtzeit.',
+
+  'Transform Your Website with Smart Chat Widgets.'=> 'Verwandeln Sie Ihre Website mit intelligenten Chat-Widgets.',
+
+  'Brand Your Chatbot to Match Your Style.'=>'Branden Sie Ihren Chatbot so, dass er zu Ihrem Stil passt.',
+
+  'Effortlessly Connect and Train with AI.'=>'Mühelos eine Verbindung herstellen und mit KI trainieren.',
 
   '160,000+ customers in over 120 countries grow their businesses with iAtify' => 'Über 160.000 Kunden in über 120 Ländern bauen ihr Geschäft mit iAtify aus',
 
@@ -28,6 +61,69 @@ return [
   'Specify helps you gain control of your design system across teams and products.' => 'Mit Specify können Sie team- und produktübergreifend die Kontrolle über Ihr Designsystem erlangen.',
 
   'Navigate with Confidence through Precise Predictions' => 'Navigieren Sie mit Zuversicht durch präzise Vorhersagen',
+
+  'Create Campaigns with AI-Powered Personalization' => "Erstellen Sie Kampagnen mit KI-gestützter Personalisierung",
+
+  'Enhance your social media strategy by creating tailored campaigns with ease. Leverage AI to customize content, ensuring each post resonates with your audience.'=> "Verbessern Sie Ihre Social-Media-Strategie, indem Sie ganz einfach maßgeschneiderte Kampagnen erstellen. Nutzen Sie KI, um Inhalte anzupassen und sicherzustellen, dass jeder Beitrag bei Ihrem Publikum Anklang findet.",
+
+  'Generate SEO-Optimized Content with AI' => "Generieren Sie SEO-optimierte Inhalte mit KI",
+
+  'Create tailored, SEO-friendly posts by selecting tone, target audience, and character count for maximum impact.'=> 'Erstellen Sie maßgeschneiderte, SEO-freundliche Beiträge, indem Sie Ton, Zielgruppe und Zeichenanzahl auswählen, um maximale Wirkung zu erzielen.',
+
+  'Our AI analyzes data to find the best posting times, ensuring maximum engagement and visibility.'=> 'Unsere KI analysiert Daten, um die besten Veröffentlichungszeiten zu finden und so maximales Engagement und Sichtbarkeit zu gewährleisten.',
+
+  'At IAtify, we unlock your social media potential with AI-driven tools that boost engagement, optimize content, and drive growth effortlessly.'=> 'Bei IAtify erschließen wir Ihr Social-Media-Potenzial mit KI-gesteuerten Tools, die das Engagement steigern, Inhalte optimieren und das Wachstum mühelos vorantreiben.',
+
+  'Effortless Voice Refinement'=> 'Mühelose Stimmverfeinerung',
+
+  'Effortlessly Refine AI Voiceovers with Elevenlabs'=> 'Verfeinern Sie KI-Voiceovers mühelos mit Elevenlabs',
+
+  'Polish and perfect your voice recordings with just a few clicks. IAtify’s AI-powered tools allow you to effortlessly adjust tone, clarity, and remove imperfections for a professional-grade result every time.'=> 'Polieren und perfektionieren Sie Ihre Sprachaufnahmen mit nur wenigen Klicks. Mit den KI-gestützten Tools von IAtify können Sie mühelos Ton und Klarheit anpassen und Unvollkommenheiten entfernen, um jederzeit ein professionelles Ergebnis zu erzielen.',
+
+  'Effortless Voice Cloning'=>'Müheloses Klonen von Stimmen',
+
+  'Experience Lifelike Narration with Elevenlabs Voiceover Technology.'=>'Erleben Sie lebensechte Erzählungen mit der Voiceover-Technologie von Elevenlabs.',
+
+  'Seamlessly create an authentic clone of your voice with IAtify’s advanced AI. Simply upload a sample, and let our technology replicate your unique voice for any application'=> 'Erstellen Sie mit der fortschrittlichen KI von IAtify nahtlos einen authentischen Klon Ihrer Stimme. Laden Sie einfach ein Beispiel hoch und lassen Sie unsere Technologie Ihre einzigartige Stimme für jede Anwendung reproduzieren',
+
+  'Boost Support, Save Money and Time' => '
+  Steigern Sie den Support, sparen Sie Geld und Zeit',
+
+  'Integrate your data'=>'Integrieren Sie Ihre Daten',
+
+  'Link data sources, upload documents, or specify websites for crawling, and let IAtify leverage this information to train your chatbot.' => 'Verknüpfen Sie Datenquellen, laden Sie Dokumente hoch oder geben Sie Websites zum Crawlen an und lassen Sie IAtify diese Informationen nutzen, um Ihren Chatbot zu trainieren.',
+
+  'Connect data sources and let IAtify train your chatbot.'=>'Verbinden Sie Datenquellen und lassen Sie IAtify Ihren Chatbot trainieren.',
+
+  'Custom Chatbot Builder' => 'Benutzerdefinierter Chatbot-Builder',
+  
+  'Design, train, and deploy custom chatbots for real-time support.'=>'Entwerfen, trainieren und implementieren Sie benutzerdefinierte Chatbots für Echtzeit-Support',
+
+  'Allows you to design, train, and deploy custom chatbots on your website, providing real-time interactions and customer support.'=>'Ermöglicht Ihnen das Entwerfen, Trainieren und Bereitstellen benutzerdefinierter Chatbots auf Ihrer Website und bietet Echtzeit-Interaktionen und Kundensupport.',
+
+  'Embed on your website'=>'Auf Ihrer Website einbetten',
+  
+  'Easily add a chat widget to your website with a simple embed.'=>'Fügen Sie ganz einfach ein Chat-Widget zu Ihrer Website hinzu, indem Sie es einfach einbetten.',
+
+  'Brand Your Chatbot Seamlessly'=>'Branden Sie Ihren Chatbot nahtlos',
+  
+  'Customize your chatbot with your brand’s colors, logos, and style.'=>'Passen Sie Ihren Chatbot mit den Farben, Logos und dem Stil Ihrer Marke an.',
+
+  'Customize your chatbot to blend perfectly with your website. Apply your brand’s colors and logos, and tailor its responses to reflect your brand’s personality.'=>'Passen Sie Ihren Chatbot so an, dass er perfekt zu Ihrer Website passt. Wenden Sie die Farben und Logos Ihrer Marke an und passen Sie die Reaktionen so an, dass sie die Persönlichkeit Ihrer Marke widerspiegeln.',
+
+  'Add a chat widget to your website using a straightforward embed code.'=>'Fügen Sie mithilfe eines unkomplizierten Einbettungscodes ein Chat-Widget zu Ihrer Website hinzu.',
+
+  'Looking to enhance support? Create and customize your own chatbot, embed it on your website, and boost efficiency while saving time and money.' => 'Möchten Sie den Support verbessern? Erstellen und passen Sie Ihren eigenen Chatbot an, betten Sie ihn in Ihre Website ein und steigern Sie die Effizienz, während Sie gleichzeitig Zeit und Geld sparen.',
+
+  'Support for Over 30 Languages'=>'Unterstützung für über 30 Sprachen',
+
+  'Translate into Any Language Worldwide—Expand Your Reach in Just Seconds.' => 'Übersetzen Sie in jede beliebige Sprache weltweit – erweitern Sie Ihre Reichweite in nur wenigen Sekunden.',
+
+  'Reach a global audience effortlessly with Iatify’s extensive language support. Our AI technology handles over 30 languages, ensuring accurate and natural-sounding voiceovers for any market.'=>'Erreichen Sie mühelos ein globales Publikum mit der umfassenden Sprachunterstützung von Iatify. Unsere KI-Technologie verarbeitet über 30 Sprachen und sorgt so für präzise und natürlich klingende Voiceovers für jeden Markt',
+
+  'Unleash Your Creativity with Voiceover AI : Skip the Talk, Clone Your Voice Instead'=> 'Entfesseln Sie Ihre Kreativität mit Voiceover-KI: Überspringen Sie das Gespräch, klonen Sie stattdessen Ihre Stimme',
+  
+  'Powered by Flux AI and Stable Diffusion 3, delivering ultra-realistic images without the need for graphic design skills.'=>'Unterstützt durch Flux AI und Stable Diffusion 3 und liefert ultrarealistische Bilder, ohne dass Grafikdesign-Kenntnisse erforderlich sind.',
 
   'Embark on a journey of data-driven decision-making with iAtify, where our advanced AI algorithms meticulously analyze historical data and identify emerging patterns, ensuring each forecast is not only accurate but also reliable' => "Begeben Sie sich mit iAtify auf eine Reise der datengesteuerten Entscheidungsfindung, bei der unsere fortschrittlichen KI-Algorithmen historische Daten sorgfältig analysieren und aufkommende Muster identifizieren, um sicherzustellen, dass jede Prognose nicht nur genau, sondern auch zuverlässig ist",
 
@@ -97,6 +193,14 @@ return [
     iAtify nutzt traditionelle Analyseplattformen und nutzt die Kraft künstlicher Intelligenz
     Intelligenz, um genauere Prognosen, anpassbare Dashboards usw. anzubieten
     benutzerfreundliche Oberfläche, maßgeschneidert für Unternehmen jeder Größe.',
+
+    'Elevate your voice cloning experience with Elevenlabs AI-powered Speech-to-Text technology and Voice Isolator.'=>'Verbessern Sie Ihr Erlebnis beim Klonen von Stimmen mit der KI-gestützten Speech-to-Text-Technologie und dem Voice Isolator von Elevenlabs.',
+
+    'Create AI-generated text-to-speech with IAtify, replicating your voice in stunning detail.'=>'Erstellen Sie mit IAtify KI-generierten Text-to-Speech und reproduzieren Sie Ihre Stimme in atemberaubenden Details.',
+  
+    'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!' => 'Passen Sie die Antworten und den Stil Ihres Chatbots ganz einfach an und teilen Sie ihn dann mit nur wenigen Klicks auf Ihrer Website!',
+
+
 
   'How does the AI-driven predictive analytics feature work?' => 'Wie funktioniert die KI-gesteuerte Predictive Analytics-Funktion?',
 

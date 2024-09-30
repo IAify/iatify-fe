@@ -56,13 +56,13 @@
                     <div class="row my-5 gy-5 flex-lg-row-reverse flex-md-row-reverse  ">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.Effortless Popularity with <br> Automated Publishing")</h2>
+                                <h2>@lang("messages.Create Campaigns with AI-Powered Personalization")</h2>
                                 <div class="d-flex align-items-center my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
                                     <span>@lang("messages.Boost your presence effortlessly with automated publishing")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Experience the epitome of social media management with our automated publishing solution. Say goodbye to tedious hours of planning and posting – our system does it all for you seamlessly. Elevate your online presence effortlessly and watch your popularity soar.")
+                                    @lang("messages.Enhance your social media strategy by creating tailored campaigns with ease. Leverage AI to customize content, ensuring each post resonates with your audience.")
                                 </p>
                             </div>
                         </div>
@@ -77,14 +77,14 @@
                     <div class="row my-5 gy-5">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.Automated Post Creation with <br> Image Generation")</h2>
+                                <h2>@lang("messages.Generate SEO-Optimized Content with AI")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
                                     <span>
                                         @lang("messages.Automated post creation, image generation, seamless process")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Effortlessly streamline your content creation process with our automated solution. Our platform generates captivating images to complement your posts seamlessly. Say goodbye to manual design work and hello to effortless content creation.")
+                                    @lang("messages.Create tailored, SEO-friendly posts by selecting tone, target audience, and character count for maximum impact.")
                                 </p>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                                     <span>@lang("messages.AI optimizes timing, boosts engagement")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.In the age of social media dominance, timing is key. Our AI analyzes statistical data to determine the prime moments for posting, ensuring maximum engagement and visibility. Say goodbye to guesswork and hello to strategic scheduling with our cutting-edge solution.")
+                                    @lang("messages.Our AI analyzes data to find the best posting times, ensuring maximum engagement and visibility.")
                                 </p>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
 
                     </h2>
                     <p>
-                        @lang("messages.At IAtify, we recognize the profound impact of data. Our journey commenced with a potent vision: to unleash data's potential for businesses, regardless of size. Evolving into a premier provider of AI-driven analytics, we're dedicated to delivering actionable insights that propel decision-making and spur growth.")
+                        @lang("messages.At IAtify, we unlock your social media potential with AI-driven tools that boost engagement, optimize content, and drive growth effortlessly.")
                     </p>
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-lg-3 col-md-3 col-sm-4 col-4">

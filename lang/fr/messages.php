@@ -8,6 +8,7 @@ return [
   'Pricing' => 'Tarifs',
   'Contact' => 'Contact',
   'Get a demo' => 'Obtenez une démo',
+  'Sign in' => 'Se connecter',
   'Start your free trail' => '
     parcours gratuit',
   'Watch video' => 'Regarder la vidéo',
@@ -15,8 +16,79 @@ return [
   'Your weekly activity' => 'Votre activité hebdomadaire',
   'Explore more application' => "Explorer plus d'applications",
 
-
+  'Boost your popularity effortlessly with AI-powered automation. Save time by letting our technology handle planning and publishing, ensuring a consistent social media presence.'=>'Augmentez votre popularité sans effort grâce à l’automatisation basée sur l’IA. Gagnez du temps en laissant notre technologie gérer la planification et la publication, garantissant ainsi une présence cohérente sur les réseaux sociaux.',
   'Revolutionizing Business Decisions with AI-Powered Analytics' => "Révolutionner les décisions commerciales avec des analyses basées sur l'IA",
+
+  'Upload an image, PDF, or document, and let GPT-4, Claude 3, or Gemini AI analyze it. Extract data, search, or summarize in just a few clicks for fast, intuitive results.'=>"Téléchargez une image, un PDF ou un document et laissez GPT-4, Claude 3 ou Gemini AI l'analyser. Extrayez des données, recherchez ou résumez en quelques clics pour des résultats rapides et intuitifs.",
+
+  'Import data from PDFs, websites, or files, and let IAtify instantly generate tailored Chatbots. Ready in seconds to provide accurate answers and personalized support.' => 'Importez des données à partir de PDF, de sites Web ou de fichiers et laissez IAtify générer instantanément des Chatbots sur mesure. Prêt en quelques secondes pour fournir des réponses précises et un support personnalisé.',
+
+  'Powered by Flux AI and Stable Diffusion 3, delivering ultra-realistic images without the need for graphic design skills.' =>  'Propulsé par Flux AI et Stable Diffusion 3, offrant des images ultra-réalistes sans avoir besoin de compétences en conception graphique.',
+
+  'Create Campaigns with AI-Powered Personalization' => "Créez des campagnes avec une personnalisation basée sur l'IA",
+
+  'Enhance your social media strategy by creating tailored campaigns with ease. Leverage AI to customize content, ensuring each post resonates with your audience.'=> 'Améliorez votre stratégie de médias sociaux en créant facilement des campagnes sur mesure. Tirez parti de l’IA pour personnaliser le contenu, en vous assurant que chaque publication trouve un écho auprès de votre public.',
+
+  'Generate SEO-Optimized Content with AI' => "Générez du contenu optimisé pour le référencement avec l'IA",
+
+  'Create tailored, SEO-friendly posts by selecting tone, target audience, and character count for maximum impact.' => 'Créez des publications sur mesure et optimisées pour le référencement en sélectionnant le ton, le public cible et le nombre de caractères pour un impact maximal.',
+
+  'Our AI analyzes data to find the best posting times, ensuring maximum engagement and visibility.'=>'Notre IA analyse les données pour trouver les meilleurs délais de publication, garantissant ainsi un engagement et une visibilité maximum.', 
+
+  'At IAtify, we unlock your social media potential with AI-driven tools that boost engagement, optimize content, and drive growth effortlessly.'=> "Chez IAtify, nous libérons votre potentiel sur les réseaux sociaux avec des outils basés sur l'IA qui stimulent l'engagement, optimisent le contenu et stimulent la croissance sans effort.",
+
+  'Polish and perfect your voice recordings with just a few clicks. IAtify’s AI-powered tools allow you to effortlessly adjust tone, clarity, and remove imperfections for a professional-grade result every time.'=>"Polissez et perfectionnez vos enregistrements vocaux en quelques clics. Les outils basés sur l'IA d'IAtify vous permettent d'ajuster sans effort le ton, la clarté et de supprimer les imperfections pour un résultat de qualité professionnelle à chaque fois.",
+
+  'Effortless Voice Cloning'=>'Clonage vocal sans effort',
+
+  'Experience Lifelike Narration with Elevenlabs Voiceover Technology.'=>"Vivez une narration réaliste avec la technologie de voix off d'Elevenlabs.",
+
+  'Seamlessly create an authentic clone of your voice with IAtify’s advanced AI. Simply upload a sample, and let our technology replicate your unique voice for any application'=> "Créez en toute transparence un clone authentique de votre voix avec l'IA avancée d'IAtify. Téléchargez simplement un échantillon et laissez notre technologie reproduire votre voix unique pour n'importe quelle application.",
+
+  'Effortless Voice Refinement'=>'Affinement de la voix sans effort',
+
+  'Effortlessly Refine AI Voiceovers with Elevenlabs'=>'Affinez sans effort les voix off IA avec Elevenlabs',
+
+  'Custom Chatbot Builder' => 'Générateur de chatbot personnalisé',
+  
+  'Design, train, and deploy custom chatbots for real-time support.'=>'Concevez, formez et déployez des chatbots personnalisés pour une assistance en temps réel.',
+
+  'Allows you to design, train, and deploy custom chatbots on your website, providing real-time interactions and customer support.'=>'Vous permet de concevoir, former et déployer des chatbots personnalisés sur votre site Web, fournissant des interactions et un support client en temps réel.',
+
+  'Embed on your website'=>'Intégrez sur votre site Web',
+  
+  'Easily add a chat widget to your website with a simple embed.'=>'Ajoutez facilement un widget de chat à votre site Web avec une simple intégration.',
+
+  'Add a chat widget to your website using a straightforward embed code.'=>"Ajoutez un widget de chat à votre site Web à l'aide d'un code d'intégration simple",
+
+  'Brand Your Chatbot Seamlessly'=>'Marquez votre chatbot en toute transparence',
+  
+  'Customize your chatbot with your brand’s colors, logos, and style.'=>'Personnalisez votre chatbot avec les couleurs, les logos et le style de votre marque.',
+
+  'Customize your chatbot to blend perfectly with your website. Apply your brand’s colors and logos, and tailor its responses to reflect your brand’s personality.'=>"Personnalisez votre chatbot pour qu'il s'intègre parfaitement à votre site Web. Appliquez les couleurs et les logos de votre marque et adaptez ses réponses pour refléter la personnalité de votre marque.",
+  
+  'Boost Support, Save Money and Time' => "
+  Boostez le support, économisez de l'argent et du temps",
+
+  'Integrate your data'=>'Intégrez vos données',
+
+  'Link data sources, upload documents, or specify websites for crawling, and let IAtify leverage this information to train your chatbot.' => 'Liez des sources de données, téléchargez des documents ou spécifiez des sites Web à explorer, et laissez IAtify exploiter ces informations pour former votre chatbot.',
+
+  'Connect data sources and let IAtify train your chatbot.'=>'Connectez les sources de données et laissez IAtify former votre chatbot.',
+
+  'Looking to enhance support? Create and customize your own chatbot, embed it on your website, and boost efficiency while saving time and money.' => "Vous cherchez à améliorer le support ? Créez et personnalisez votre propre chatbot, intégrez-le à votre site Web et gagnez en efficacité tout en économisant du temps et de l'argent.",
+
+  'Support for Over 30 Languages'=>'
+Prise en charge de plus de 30 langues.',
+
+  'Translate into Any Language Worldwide—Expand Your Reach in Just Seconds.' => "Traduisez dans n'importe quelle langue dans le monde : élargissez votre portée en quelques secondes seulement.",
+
+  'Reach a global audience effortlessly with Iatify’s extensive language support. Our AI technology handles over 30 languages, ensuring accurate and natural-sounding voiceovers for any market.'=>"Atteignez un public mondial sans effort grâce à la prise en charge linguistique étendue d’Iatify. Notre technologie d'IA gère plus de 30 langues, garantissant des voix off précises et naturelles pour tous les marchés.",
+
+  'Unleash Your Creativity with Voiceover AI : Skip the Talk, Clone Your Voice Instead'=>"Libérez votre créativité avec l'IA de voix off : évitez les discussions, clonez votre voix à la place",
+
+
+  'Elevate your content with Elevenlabs’ AI Voiceover. Create lifelike, emotional narrations effortlessly, transforming your voice into a natural-sounding digital version. Powered by Elevenlabs and Microsoft Azure.'=> "Élevez votre contenu avec la voix off AI d'Elevenlabs. Créez sans effort des narrations réalistes et émotionnelles, en transformant votre voix en une version numérique au son naturel. Propulsé par Elevenlabs et Microsoft Azure.",
 
   'Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success' => "Approuver la puissance de l'intelligence artificielle pour transformer les données de votre entreprise en connaissances pratiques, en impulsant de nouvelles hauteurs d'expérience.",
 
@@ -37,7 +109,40 @@ return [
 
   'Visualisieren Sie Ihre Zukunft durch intuitive Dashboards' => 'Visualisez votre avenir grâce à des tableaux de bord intuitifs',
 
+  'Unlock AI Chatbot Potential Now' => 'Libérez le potentiel des chatbots IA dès maintenant',
+
+  'Customize and deploy chatbots effortlessly for real-time engagement and support.'=>'Personnalisez et déployez des chatbots sans effort pour un engagement et une assistance en temps réel.',
+
+  'Transform Your Website with Smart Chat Widgets.'=> 'Transformez votre site Web avec des widgets de chat intelligent.',
+
+  'Brand Your Chatbot to Match Your Style.'=>"Personnalisez votre chatbot pour qu'il corresponde à votre style.",
+
+  'Effortlessly Connect and Train with AI.'=>"Connectez-vous et entraînez-vous sans effort avec l’IA.",
+
+  'What is an external chatbot and how does it work ?'=>"Qu'est-ce qu'un chatbot externe et comment ça marche ?",
+  'It’s an AI assistant you add to your site to automate responses and support visitors.' => "Il s'agit d'un assistant IA que vous ajoutez à votre site pour automatiser les réponses et assister les visiteurs.",
+
+  'Can I customize the chatbot’s responses ?' => 'Puis-je personnaliser les réponses du chatbot ?',
+  'Yes, you can train it with your own data and adjust its tone.' => "Oui, vous pouvez l'entraîner avec vos propres données et ajuster son ton.",
+
+  'How do I integrate the chatbot into my site ?'=>'Comment intégrer le chatbot dans mon site ?',
+  'Just copy the embed code and paste it onto your website. Done!'=>"Copiez simplement le code d'intégration et collez-le sur votre site Web. Fait!.",
+
+  'Unleash Your Creativity' => 'Libérez votre créativité',
+
+  'AI Speech To text & Voice Isolator' => 'AI Speech To Text & Voice Isolator',
+
+  'Create / Clone with Elevenlabs and Azure' => 'Créer/Cloner avec Elevenlabs et Azure',
+
+  'Personalize your Chabot and share it !' => 'Personnalisez votre Chabot et partagez-le !',
+
   'Experience a seamless interaction with your predictive data through iAtify’s user-friendly dashboards. Tailor your visualizations to meet your unique analytical needs, ensuring critical insights are always accessible and actionable. With our' => 'Faites l’expérience d’une interaction transparente avec vos données prédictives grâce aux tableaux de bord conviviaux de iAtify. Adaptez vos visualisations pour répondre à vos besoins analytiques uniques, en garantissant que les informations critiques sont toujours accessibles et exploitables. Avec notre',
+
+  'Elevate your voice cloning experience with Elevenlabs AI-powered Speech-to-Text technology and Voice Isolator.'=>"Améliorez votre expérience de clonage vocal avec la technologie Speech-to-Text et l'isolateur de voix alimentés par l'IA d'Elevenlabs.",
+
+  'Create AI-generated text-to-speech with IAtify, replicating your voice in stunning detail.'=>"Créez une synthèse vocale générée par l'IA avec IAtify, reproduisant votre voix avec des détails époustouflants.",
+
+  'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!' => "Personnalisez facilement les réponses et le style de votre chatbot, puis partagez-le sur votre site Web en quelques clics !",
 
   'Seamlessly Integrate and Synchronize Your Analytical Ecosystem' => 'Intégrez et synchronisez en toute transparence votre écosystème analytique',
 

@@ -71,7 +71,7 @@
                                     <span>@lang('messages.Turn your imagination into a photo with a single click')</span>
                                 </div>
                                 <p>
-                                    @lang('messages.Powered by Dali 3 and Stable Diffusion 3, for attractive images without graphic design skills.')
+                                    @lang('messages.Powered by Flux AI and Stable Diffusion 3, delivering ultra-realistic images without the need for graphic design skills.')
                                 </p>
                             </div>
                         </div>

@@ -11,10 +11,10 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="Revolutionize-coltent">
                             <h2>
-                                @lang("messages.Skip the Talk, Clone Your Voice Instead")
+                                @lang("messages.Boost Support, Save Money and Time")
                             </h2>
                             <span>
-                                @lang("messages.Don't know how to speak a foreign language? Or perhaps you simply <br> don't have the time to record a voice-over for your content ?")
+                                @lang("messages.Looking to enhance support? Create and customize your own chatbot, embed it on your website, and boost efficiency while saving time and money.")
                             </span>
                             <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trial')</a>
                         </div>
@@ -36,13 +36,13 @@
                     <div class="row my-5 gy-5">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.Revolutionize Your Voice")</h2>
+                                <h2>@lang("messages.Integrate your data")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
-                                    <span>@lang("messages.Unlock your voice's potential with our cutting-edge cloning solution")</span>
+                                    <span>@lang("messages.Connect data sources and let IAtify train your chatbot.")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Experience the future of voice cloning with our revolutionary solution. Transform your voice into a lifelike digital version, crafting personalized audio messages that captivate audiences in any language. Embrace a new era of voice communication with our cutting-edge technology.")
+                                    @lang("messages.Link data sources, upload documents, or specify websites for crawling, and let IAtify leverage this information to train your chatbot.")
                                 </p>
                             </div>
                         </div>
@@ -55,13 +55,13 @@
                     <div class="row my-5 gy-5 flex-lg-row-reverse flex-md-row-reverse  ">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.Revolutionize Voice Cloning with Elevenlabs")</h2>
+                                <h2>@lang("messages.Custom Chatbot Builder")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
-                                    <span>@lang("messages.Empower your voice with Elevenlabs - Transforming Communication") </span>
+                                    <span>@lang("messages.Design, train, and deploy custom chatbots for real-time support.") </span>
                                 </div>
                                 <p>
-                                    @lang("messages.The ultimate tool for voice cloning is here. With Elevenlabs, experience unmatched quality and performance, setting the standard for excellence in voice technology.")
+                                    @lang("messages.Allows you to design, train, and deploy custom chatbots on your website, providing real-time interactions and customer support.")
                                 </p>
                             </div>
                         </div>
@@ -74,14 +74,14 @@
                     <div class="row my-5 gy-5">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.Unlock Your Voice with Microsoft Azure")</h2>
+                                <h2>@lang("messages.Embed on your website")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
                                     <span>
-                                        @lang("messages.Unlock your voice's true potential with Microsoft Azure's revolutionary technology")</span>
+                                        @lang("messages.Easily add a chat widget to your website with a simple embed.")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Unlock your voice’s potential with Microsoft Azure. Seamlessly integrate cutting-edge technology for lifelike voice clones. Elevate your communication effortlessly with Azure’s innovation.")
+                                    @lang("messages.Add a chat widget to your website using a straightforward embed code.")
                                 </p>
                             </div>
                         </div>
@@ -94,13 +94,13 @@
                     <div class="row my-5 gy-5 flex-lg-row-reverse flex-md-row-reverse ">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
-                                <h2>@lang("messages.Unlock the AI generation power with 160+ templates")</h2>
+                                <h2>@lang("messages.Brand Your Chatbot Seamlessly")</h2>
                                 <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
-                                    <span>@lang("messages.Refine Your Voice Cloning")</span>
+                                    <span>@lang("messages.Customize your chatbot with your brand’s colors, logos, and style.")</span>
                                 </div>
                                 <p>
-                                    @lang("messages.Experience flawless voice replication with our advanced analysis feature. Our software not only clones your voice accurately but also corrects mispronunciations for a seamless outcome. Unlock the potential of your voice cloning with precision and ease.")
+                                    @lang("messages.Customize your chatbot to blend perfectly with your website. Apply your brand’s colors and logos, and tailor its responses to reflect your brand’s personality.")
                                 </p>
                             </div>
                         </div>
@@ -167,22 +167,22 @@
                     <div class="col-lg-8 col-md-8 col-12">
                         <div class="power-content">
                             <h2>
-                                @lang("messages.Unlock the Power of AI <br> Analytics Today")
+                                @lang("messages.Unlock AI Chatbot Potential Now")
                             </h2>
-                            <p>@lang("messages.Experience the magic of voice cloning with Elevenlabs & Azure. Clone your voice effortlessly and bring your audio content to life like never before.")</p>
+                            <p>@lang("messages.Customize and deploy chatbots effortlessly for real-time engagement and support.")</p>
                             <div class="d-flex align-items-center gap-2 my-3">
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span>
-                                    @lang("messages.Discover the magic of voice cloning with Elevenlabs & Azure. Effortlessly clone your voice and breathe life into your audio content like never before.")</span>
+                                    @lang("messages.Transform Your Website with Smart Chat Widgets.")</span>
                             </div>
                             <div class="d-flex align-items-center gap-2 my-3">
                                 <img src="assets/images/pack-li-img.svg" alt="" />
                                 <span>
-                                    @lang("messages.Effortlessly manage your social media data using intuitive natural language search and discovery.")</span>
+                                    @lang("messages.Brand Your Chatbot to Match Your Style.")</span>
                             </div>
                             <div class="d-flex align-items-center gap-2 my-3">
                                 <img src="assets/images/pack-li-img.svg" alt="" />
-                                <span> @lang("messages.Streamline your operations with a unified permission model for data and AI.")</span>
+                                <span> @lang("messages.Effortlessly Connect and Train with AI.")</span>
                             </div>
                             <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                         </div>
@@ -218,19 +218,19 @@
                 <div class="col-lg-8 with-100">
                     <div class="custom-accordion my-5">
                         <div class="accordion-items" id="item1">
-                            <h3>@lang("messages.How does voice cloning with Elevenlabs & Azure work ?")</h3>
+                            <h3>@lang("messages.What is an external chatbot and how does it work ?")</h3>
                             <i class="fa fa-chevron-up"></i>
-                            <span>@lang("messages.Voice cloning utilizes advanced technologies from Elevenlabs and Microsoft Azure to analyze and replicate the unique characteristics of your voice, producing a digital version that closely mimics your natural speech patterns and intonations.")</span>
+                            <span>@lang("messages.It’s an AI assistant you add to your site to automate responses and support visitors.")</span>
                         </div>
                         <div class="accordion-items mt-3" id="item2">
-                            <h3>@lang("messages.Can I use voice cloning to speak languages I'm not fluent in ?")</h3>
+                            <h3>@lang("messages.Can I customize the chatbot’s responses ?")</h3>
                             <i class="fa fa-chevron-up"></i>
-                            <span>@lang("messages.Absolutely! With voice cloning, you can generate speech in any language supported by the technology. Simply provide the text in the desired language, and our solution will generate a voice clone that sounds like you speaking fluently in that language.")</span>
+                            <span>@lang("messages.Yes, you can train it with your own data and adjust its tone.")</span>
                         </div>
                         <div class="accordion-items mt-3" id="item3">
-                            <h3>@lang("messages.Is voice cloning suitable for professional applications ?")</h3>
+                            <h3>@lang("messages.How do I integrate the chatbot into my site ? ")</h3>
                             <i class="fa fa-chevron-up"></i>
-                            <span>@lang("messages.Yes, voice cloning can be used for various professional purposes, including voiceovers for presentations, advertisements, audiobooks, and more. It offers a cost-effective and efficient way to produce high-quality audio content with a personalized touch.")</span>
+                            <span>@lang("messages.Just copy the embed code and paste it onto your website. Done!")</span>
                         </div>
                     </div>
                 </div>

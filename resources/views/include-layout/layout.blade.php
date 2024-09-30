@@ -141,12 +141,12 @@
                                                 </div>
                                                 <div class="col-4">
                                                     <div class="voice">
-                                                        <h6><span>@lang('messages.No need to pay for a voice')</span>
+                                                        <h6><span>@lang('messages.Unleash Your Creativity')</span>
                                                             <a href="{{ lang_route('AISpeech') }}"
                                                                 class="d-flex align-items-center mt-1 p-0">
                                                                 <div class="voice-content mt-2">
-                                                                    <h5>@lang('messages.AI Speech To Text')</h5>
-                                                                    <p>@lang('messages.Elevate your voice cloning experience with GPT-4 AI-powered Speech-to-Text technology.')</p>
+                                                                    <h5>@lang('messages.AI Speech To text & Voice Isolator')</h5>
+                                                                    <p>@lang('messages.Elevate your voice cloning experience with Elevenlabs AI-powered Speech-to-Text technology and Voice Isolator.')</p>
                                                                 </div>
                                                                 <div class="voice-icon">
                                                                     <i class="fa-solid fa-chevron-right"></i>
@@ -155,8 +155,8 @@
                                                             <a href="{{ lang_route('AiVoiceover') }}"
                                                                 class="d-flex align-items-center mt-1 p-0">
                                                                 <div class="voice-content mt-2">
-                                                                    <h5>@lang('messages.AI Voiceover with Elevenlabs & Azure')</h5>
-                                                                    <p>@lang('messages.Create Amazing AI-Generated Text to Speech with IAtify.')</p>
+                                                                    <h5>@lang('messages.Create / Clone with Elevenlabs and Azure')</h5>
+                                                                    <p>@lang('messages.Create AI-generated text-to-speech with IAtify, replicating your voice in stunning detail.')</p>
                                                                 </div>
                                                                 <div class="voice-icon">
                                                                     <i class="fa-solid fa-chevron-right"></i>
@@ -165,8 +165,8 @@
                                                             <a href="{{ lang_route('AiVoiceInstead') }}"
                                                                 class="d-flex align-items-center mt-1 p-0">
                                                                 <div class="voice-content mt-2">
-                                                                    <h5>@lang('messages.Clone your voice with Elevenlabs & Azure')</h5>
-                                                                    <p>@lang("messages.Transform your audio experience with Elevenlabs' cutting-edge technology, enabling you to effortlessly replicate your voice in stunning detail.")</p>
+                                                                    <h5>@lang('messages.Personalize your Chabot and share it !')</h5>
+                                                                    <p>@lang("messages.Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!")</p>
                                                                 </div>
                                                                 <div class="voice-icon">
                                                                     <i class="fa-solid fa-chevron-right"></i>
@@ -196,8 +196,8 @@
                     <div class="col-lg-4 col-md-10 col-8 with-50">
                         <div class="nav-btn-main">
                             <div class="nav-buttons  d-lg-block d-md-block d-none">
-                                <a href="#" class="get-demo">@lang('messages.Get a demo')</a>
-                                <a href="#" class="start-trial">@lang('messages.Start your free trail')</a>
+                                <a href="https://app.iatify.com/login/" class="get-demo">@lang('messages.Sign in')</a>
+                                <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
                             </div>
                             <div class="open-btn d-lg-none d-block" onclick="ToggleMenu()">
                                 <i class="fa-solid fa-bars"></i>
@@ -213,10 +213,10 @@
                     </div>
                     <div class="mobile_menu_btn">
                         <div class="demo">
-                            <a href="#">@lang('messages.Get a Demo')</a>
+                            <a href="https://app.iatify.com/login/">@lang('messages.Sign in')</a>
                         </div>
                         <div class="start">
-                            <a href="#">@lang('messages.Start your free trial')</a>
+                            <a href="https://app.iatify.com/register/">@lang('messages.Start your free trial')</a>
                         </div>
                         <div class="close" onclick="CloseMenu()">
                             <i class="fa-solid fa-xmark"></i>
