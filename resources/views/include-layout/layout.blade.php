@@ -488,19 +488,17 @@
             let isChecked = document.querySelector('#priceChangeCheckbox').checked;
 
             if (isChecked) {
-                Professional.innerText = "$ 336";
-                basic.innerText = "$ 182";
-                Advanced.innerText = "$ 470";
-                Enterprise.innerText = "$ 1526";
+                Professional.innerText = "$ 390";
+                basic.innerText = "$ 190";
+                Advanced.innerText = "$ 890";
                 month.innerText = "Per year";
                 month2.innerText = "Per year";
                 month3.innerText = "Per year";
-                month4.innerText = "Per year";
+           
             } else {
-                Professional.innerText = "$ 35";
+                Professional.innerText = "$ 49";
                 basic.innerText = "$ 19";
-                Advanced.innerText = "$ 49";
-                Enterprise.innerText = "$ 159";
+                Advanced.innerText = "$ 89";
                 month.innerText = "Per month";
                 month2.innerText = "Per month";
                 month3.innerText = "Per month";

@@ -749,7 +749,7 @@ Home
         <div class="container">
             <div class="package-content">
                 <h1>@lang('messages.Choose the Right Plan for Your Business')</h1>
-                <p>@lang("messages.At IAtify, we offer flexible pricing plans tailored to meet the diverse needs of our clients. Whether you're a small startup or a large enterprise, our goal is to provide you with the highest value and help you harness the full potential of various AI tools, saving you time in the process. Discover our plans and choose the one that best suits your needs.")</p>
+                <p>@lang("messages.At iAtify, we offer flexible pricing plans tailored to fit the diverse needs of our clients. Whether you're a small startup or a large enterprise, our goal is to provide you with the most value and help you leverage the full potential of AI analytics.")</p>
                     <div class="month-year-wrp">
                         <span>Monthly</span>
                         <label class="switch">
@@ -776,7 +776,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.Basic, everyday AI')</span>
+                                        <span>@lang('messages.Basic, Everyday AI tool for Writers')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -784,7 +784,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.1 User Account')</span>
+                                        <span>@lang('messages.1 Seat')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -792,7 +792,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.GPT4o')</span>
+                                        <span>@lang('messages.GPT4o Mini, GPT4o and Gemini 1,5 flash')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -800,7 +800,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.Dall-E 2')</span>
+                                        <span>@lang('messages.Stable Diffusion 3')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -808,7 +808,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.Stable Diffusion XL')</span>
+                                        <span>@lang('messages.(New) Flux AI Pro')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -816,7 +816,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.Brand Voice')</span>
+                                        <span class="disabled">@lang('messages.Brand Voice')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -824,7 +824,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.50,000 Tokens')</span>
+                                        <span>@lang('messages.30 Tokens (Images)')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -848,7 +848,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span class="disabled">@lang('messages.Custom Template')</span>
+                                        <span>@lang('messages.Custom Template')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -888,7 +888,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
+                                        <span class="disabled">@lang('messages.(NEW) External Chatbot')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -920,22 +920,6 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span class="disabled">@lang('messages.AI Detector')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
                                         <span class="disabled">@lang('messages.AI Web Assistant')</span>
                                     </div>
                                 </li>
@@ -944,7 +928,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span class="disabled">@lang('messages.AI Video Generator')</span>
+                                        <span>@lang('messages.(NEW) AI Voice Isolator')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -987,7 +971,7 @@ Home
                     <div class="Professional-pakages mt-5">
                         <div class="pakages">
                             <span>@lang('messages.Professional')</span>
-                            <h2 id="Professional">$ 35</h2>
+                            <h2 id="Professional">$ 49</h2>
                             <p id="month2">Per month</p>
                             <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
@@ -1006,7 +990,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.4 User Account')</span>
+                                        <span>@lang('messages.4 Seats')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1014,7 +998,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.GPT4o')</span>
+                                        <span>@lang('messages.GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1022,7 +1006,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.Dall-E 3')</span>
+                                        <span>@lang('messages.Stable Diffusion 3')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1030,7 +1014,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.SDXL Turbo')</span>
+                                        <span>@lang('messages.(New) Flux Realism Lora')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1046,7 +1030,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.100,000 Tokens')</span>
+                                        <span>@lang('messages.75,000 Tokens')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1054,7 +1038,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.125 Tokens (Images)')</span>
+                                        <span>@lang('messages.75 Tokens (Images)')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1110,7 +1094,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
+                                        <span class="disabled">@lang('messages.(NEW) External Chatbot')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1137,22 +1121,7 @@ Home
                                         <span>@lang('messages.AI Coding Assistant')</span>
                                     </div>
                                 </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span class="disabled">@lang('messages.AI Plagiarism Checker')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span class="disabled">@lang('messages.AI Detector')</span>
-                                    </div>
-                                </li>
+                               
                                 <li class="mt-4">
                                     <div>
                                         <img src="assets/images/AI.svg" alt="" />
@@ -1166,7 +1135,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span >@lang('messages.AI Video Generator')</span>
+                                        <span >@lang('messages.(NEW) AI Voice Isolator')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1209,7 +1178,7 @@ Home
                     <div class="pakages-main mt-5">
                         <div class="pakages">
                             <span>@lang('messages.Advanced')</span>
-                            <h2 id="Advanced">$ 49</h2>
+                            <h2 id="Advanced">$ 89</h2>
                             <p id="month3">Per month</p>
                             <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
                         </div>
@@ -1220,7 +1189,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.Advanced, the ultimate tool you need')</span>
+                                        <span>@lang('messages.Advanced AI-Driven Forecasting')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1228,7 +1197,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.10 User Account')</span>
+                                        <span>@lang('messages.10 Seats')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1236,15 +1205,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.GPT4o')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Dall-E 3')</span>
+                                        <span>@lang('messages.GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1260,6 +1221,14 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
+                                        <span>@lang('messages.(New) Flux Realism Lora')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
                                         <span>@lang('messages.Brand Voice')</span>
                                     </div>
                                 </li>
@@ -1268,7 +1237,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.300,000 Tokens')</span>
+                                        <span>@lang('messages.200,000 Tokens')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1276,7 +1245,205 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.250 Tokens (Images)')</span>
+                                        <span>@lang('messages.100 Tokens (Images)')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.+160 Templates (Premium)')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Custom Template')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Custom Chatbot')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI Writer Tools')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI PDF, DOC, CSV')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.(NEW) External Chatbot')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.(NEW) AI Social Media')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI Coding Assistant')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI Web Assistant')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.(NEW) AI Voice Isolator')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI Speech Text')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI Voice Over')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.AI Voice Cloner')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Priority Support')</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="pakages-main mt-5">
+                        <div class="pakages">
+                            <span>@lang('messages.Enterprise')</span>
+                            <h2 id="Enterprise" style="font-size: 33px;">Contact Us</h2>
+                            <p id="month4">Per month</p>
+                            <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
+                        </div>
+                        <div class="pgkes-type">
+                            <ul class="mt-5 list-inline">
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Enterprise, for a very small part')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Unlimited')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Choice of AI (OpenAI, Gemini, Claude)')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Stable Diffusion 3')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.(New) Flux Realism Lora')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Brand Voice')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Unlimited Tokens')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>@lang('messages.Unlimited Tokens (Images)')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1332,7 +1499,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span class="disabled">@lang('messages.(NEW) Photo Studio')</span>
+                                        <span>@lang('messages.(NEW) External Chatbot')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1364,22 +1531,6 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span >@lang('messages.AI Plagiarism Checker')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.AI Detector')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
                                         <span>@lang('messages.AI Web Assistant')</span>
                                     </div>
                                 </li>
@@ -1388,7 +1539,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span >@lang('messages.AI Video Generator')</span>
+                                        <span>@lang('messages.(NEW) AI Voice Isolator')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1412,7 +1563,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span >@lang('messages.AI Voice Cloner')</span>
+                                        <span>@lang('messages.AI Voice Cloner')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1420,229 +1571,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span >@lang('messages.Priority Support')</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="pakages-main mt-5">
-                        <div class="pakages">
-                            <span>@lang('messages.Enterprise')</span>
-                            <h2 id="Enterprise">$ 159</h2>
-                            <p id="month4">Per month</p>
-                            <a href="https://app.iatify.com/register/" class="btn plan-btn btn-primary">@lang('messages.Get plan')</a>
-                        </div>
-                        <div class="pgkes-type">
-                            <ul class="mt-5 list-inline">
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Enterprise, for a very small part')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.20 User Account')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Choice of LLM model AI')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Dall-E 3')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Stable Diffusion 3')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Brand Voice')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.500,000 Tokens')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.1000 Tokens (Images)')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.+160 Templates (Premium)')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Custom Template')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.Custom Chatbot')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.AI Writer Tools')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.AI PDF, DOC, CSV')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Image Generator')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.(NEW) Photo Studio')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.(NEW) AI Social Media')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.(NEW) Manage Scheduled Posts')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.AI Coding Assistant')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.AI Plagiarism Checker')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.AI Detector')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.AI Web Assistant')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.AI Video Generator')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.AI Speech Text')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.AI Voice Over')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.AI Voice Cloner')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span >@lang('messages.Priority Support')</span>
+                                        <span>@lang('messages.Priority Support')</span>
                                     </div>
                                 </li>
                             </ul>

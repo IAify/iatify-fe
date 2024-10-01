@@ -159,6 +159,38 @@ Prise en charge de plus de 30 langues.',
 
   'Project Lead' => 'Chef de projet',
 
+  'Basic, Everyday AI tool for Writers' => "Outil d'IA de base au quotidien pour les écrivains",
+  '1 Seat' => '1 siège',
+  'GPT4o Mini, GPT4o and Gemini 1,5 flash'=>'Flash GPT4o Mini, GPT4o et Gemini 1,5',
+  '(New) Flux AI Pro'=>'(Nouveau) Flux AI Pro',
+  '30 Tokens (Images)' => '30 jetons (images)',
+  '(NEW) External Chatbot'=> '(NOUVEAU) Chatbot externe',
+  '(NEW) AI Voice Isolator'=> '(NOUVEAU) Isolateur de voix AI',
+
+  '4 Seats' => '4 places',
+  'GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet' => 'GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet',
+  '(New) Flux Realism Lora'=>'(Nouveau) Flux Réalisme Lora',
+  '75,000 Tokens'=>'75 000 jetons',
+  '75 Tokens (Images)'=>'75 jetons (images)',
+
+  '10 Seats'=>'10 place',
+  'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet'=>'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet',
+  '100 Tokens (Images)'=>'100 jetons (images)',
+  '200,000 Tokens'=>'200 000 jetons',
+
+  'Choice of AI (OpenAI, Gemini, Claude)'=>"Choix d'IA (OpenAI, Gemini, Claude)",
+  'Unlimited Tokens'=>'Jetons illimités',
+  'Unlimited Tokens (Images)'=>'Jetons illimités (images)',
+
+  "(<b>NEW</b>)  AI Voice Isolator" => "(<b>NUEVO</b>) Aislador de voz AI",
+  "(<b>NEW</b>) External Chatbot" => "(<b>NUEVO</b>) Chatbot externo",
+  '75 Tokens' => '75 fichas',
+  '30 Tokens'=> '30 fichas',
+  'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Difusión estable 3 <br> (<b>Nuevo</b>) Flux AI Pro',
+  'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Difusión estable 3 <br> (<b>Nuevo</b>) Realismo de flujo Lora',
+
+
+
   'Experience the Future of Business Analytics with iAtify' => "Découvrez l'avenir de l'analyse commerciale avec iAtify",
 
   'Instant Access' => 'Accès instantané',

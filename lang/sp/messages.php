@@ -67,6 +67,38 @@ return [
 
   'Looking to enhance support? Create and customize your own chatbot, embed it on your website, and boost efficiency while saving time and money.' => '¿Busca mejorar el soporte? Cree y personalice su propio chatbot, incorpórelo en su sitio web y aumente la eficiencia mientras ahorra tiempo y dinero.',
 
+  'Basic, Everyday AI tool for Writers' => 'Herramienta de inteligencia artificial básica y cotidiana para escritores',
+  '1 Seat' => '1 asiento',
+  'GPT4o Mini, GPT4o and Gemini 1,5 flash'=>'Flash GPT4o Mini, GPT4o y Gemini 1,5',
+  '(New) Flux AI Pro'=>'(Nuevo) Flux AI Pro',
+  '30 Tokens (Images)' => '30 fichas (imágenes)',
+  '(NEW) External Chatbot'=> '(NUEVO) Chatbot externo',
+  '(NEW) AI Voice Isolator'=> '(NUEVO) Aislador de voz AI',
+
+  '4 Seats' =>'4 asientos',
+  'GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet' =>'GPT4o, flash Gemini 1.5, Soneto Claude 3.5',
+  '(New) Flux Realism Lora'=>'(Nuevo) Realismo Flux Lora',
+  '75,000 Tokens'=>'75.000 fichas',
+  '75 Tokens (Images)'=>'75 fichas (imágenes)',
+
+  '10 Seats'=>'10 asientos',
+  'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet'=>'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Soneto',
+  '100 Tokens (Images)'=>'100 fichas (imágenes)',
+  '200,000 Tokens'=>'200.000 fichas',
+
+  'Choice of AI (OpenAI, Gemini, Claude)'=>"Elección de IA (OpenAI, Gemini, Claude)",
+  'Unlimited Tokens'=>'Fichas ilimitadas',
+  'Unlimited Tokens (Images)'=>'Fichas ilimitadas (Imágenes)',
+
+  "(<b>NEW</b>)  AI Voice Isolator" => "(<b>NUEVO</b>) Aislador de voz AI",
+  "(<b>NEW</b>) External Chatbot" => "(<b>NUEVO</b>) Chatbot externo",
+  '75 Tokens' => '75 fichas',
+  '30 Tokens'=> '30 fichas',
+  'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Difusión estable 3 <br> (<b>Nuevo</b>) Flux AI Pro',
+  'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Difusión estable 3 <br> (<b>Nuevo</b>) Realismo de flujo Lora',
+
+
+
   'Integrate your data'=>'Integra tus datos',
 
   'Link data sources, upload documents, or specify websites for crawling, and let IAtify leverage this information to train your chatbot.' => 'Vincule fuentes de datos, cargue documentos o especifique sitios web para rastrear y permita que IAtify aproveche esta información para entrenar su chatbot.',

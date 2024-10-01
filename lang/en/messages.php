@@ -121,6 +121,42 @@ return [
 
   'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!' => 'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!',
 
+  'Basic, Everyday AI tool for Writers' => 'Basic, Everyday AI tool for Writers',
+  '1 Seat' => '1 Seat',
+  'GPT4o Mini, GPT4o and Gemini 1,5 flash'=>'GPT4o Mini, GPT4o and Gemini 1,5 flash',
+  '(New) Flux AI Pro'=>'(New) Flux AI Pro',
+  '30 Tokens (Images)' => '30 Tokens (Images)',
+  '(NEW) External Chatbot'=> '(NEW) External Chatbot',
+  '(NEW) AI Voice Isolator'=> '(NEW) AI Voice Isolator',
+
+  '4 Seats' => '4 Seats',
+  'GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet' =>'GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet',
+  '(New) Flux Realism Lora'=>'(New) Flux Realism Lora',
+  '75,000 Tokens'=>'75,000 Tokens',
+  '75 Tokens (Images)'=>'75 Tokens (Images)',
+
+
+
+  '10 Seats'=>'10 Seats',
+  'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet'=>'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet',
+  '100 Tokens (Images)'=>'100 Tokens (Images)',
+  '200,000 Tokens'=>'200,000 Tokens',
+  
+
+
+  'Choice of AI (OpenAI, Gemini, Claude)'=>'Choice of AI (OpenAI, Gemini, Claude)',
+  'Unlimited Tokens'=>'Unlimited Tokens',
+  'Unlimited Tokens (Images)'=>'Unlimited Tokens (Images)',
+
+  "(<b>NEW</b>)  AI Voice Isolator" => "(<b>NEW</b>)  AI Voice Isolator",
+  "(<b>NEW</b>) External Chatbot" => "(<b>NEW</b>) External Chatbot",
+  '75 Tokens' => '75 Tokens',
+  '30 Tokens'=> '30 Tokens',
+  'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro',
+  'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora',
+
+
+
   
 
 

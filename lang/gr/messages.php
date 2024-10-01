@@ -201,6 +201,36 @@ return [
     'Easily customize your chatbot’s responses and style, then share it on your website with just a few clicks!' => 'Passen Sie die Antworten und den Stil Ihres Chatbots ganz einfach an und teilen Sie ihn dann mit nur wenigen Klicks auf Ihrer Website!',
 
 
+    'Basic, Everyday AI tool for Writers' => 'Einfaches, alltägliches KI-Tool für Autoren',
+    '1 Seat' => '1 Sitzplatz',
+    'GPT4o Mini, GPT4o and Gemini 1,5 flash'=>'GPT4o Mini, GPT4o und Gemini 1,5 blinken',
+    '(New) Flux AI Pro'=>'(Neu) Flux AI Pro',
+    '30 Tokens (Images)' => '30 Token (Bilder)',
+    '(NEW) External Chatbot'=> '(NEU) Externer Chatbot',
+    '(NEW) AI Voice Isolator'=> '(NEU) AI Voice Isolator',
+
+    '4 Seats' => '4 Sitze',
+    'GPT4o, Gemini 1.5 flash, Claude 3.5 Sonnet' => 'GPT4o, Gemini 1.5 Flash, Claude 3.5 Sonnet',
+    '(New) Flux Realism Lora'=>'(Neu) Flux Realismus Lora',
+    '75,000 Tokens'=>'75.000 Token',
+    '75 Tokens (Images)'=>'75 Token (Bilder)',
+
+    '10 Seats'=>'10 Sitzplätze',
+    'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet'=>'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet',
+    '100 Tokens (Images)'=>'100 Token (Bilder)',
+    '200,000 Tokens'=>'200.000 Token',
+
+    'Choice of AI (OpenAI, Gemini, Claude)'=>"Wahl der KI (OpenAI, Gemini, Claude)",
+    'Unlimited Tokens'=>'Unbegrenzte Token',
+    'Unlimited Tokens (Images)'=>'Unbegrenzte Token (Bilder)',
+
+    "(<b>NEW</b>)  AI Voice Isolator" => "(<b>NEU</b>) AI Voice Isolator",
+    "(<b>NEW</b>) External Chatbot" => "(<b>NEU</b>) Externer Chatbot",
+    '75 Tokens' => '75 Token',
+    '30 Tokens'=> '30 Token',
+    'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Stable Diffusion 3 <br> (<b>Neu</b>) Flux AI Pro',
+    'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Stable Diffusion 3 <br> (<b>Neu</b>) Flux Realism Lora',
+
 
   'How does the AI-driven predictive analytics feature work?' => 'Wie funktioniert die KI-gesteuerte Predictive Analytics-Funktion?',
 
