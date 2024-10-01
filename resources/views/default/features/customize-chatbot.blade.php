@@ -33,7 +33,8 @@
                         @lang('messages.Choose your source and let IAtify’s shape your GPT in seconds. Create unlimited, fully customized Chatbots, whether you need image generation experts, personal coaches, or nutritionists. Simply import your data from websites, PDFs, texts, or Q&A files. In just 30 seconds, your personalized Chatbot will be ready to provide all the necessary answers.')
                     </p>
                 </div>
-                <div class="Our-Customize-img" style="background-image: url(assets/images/Customize_your_Chatbot/demo_cust_chatbot.gif);">
+                <div class="Our-Customize-img" style="background-image: url(assets/images/Customize_your_Chatbot/demo_cust_chatbot.gif);     background-position: center;
+    background-size: contain; background-repeat: no-repeat;">
                     <div class="play">
                         <img src="assets/images/images/Buttonplayicon.png" alt="" />
                     </div>

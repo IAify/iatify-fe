@@ -2636,6 +2636,10 @@ i.fa.fa-chevron-down {
     overflow-x: hidden;
   }
 
+  .features-img-wrp-forth img{
+    width: 100%;    
+  }
+
   .solutions-card-main .row:nth-last-child(-n + 3)::after {
     width: 100%;
     height: 10%;
@@ -2712,7 +2716,6 @@ i.fa.fa-chevron-down {
 
   .features-content-wrp-forth {
     padding-left: 0px;
-    padding-top: 60px;
   }
 
   .team-card {
@@ -3079,6 +3082,10 @@ i.fa.fa-chevron-down {
     max-height: 100%;
   }
 
+  .Our-Customize-img{
+    height: 382px;
+  }
+
   .expereince-content p {
     max-width: 300px;
   }
@@ -3181,10 +3188,13 @@ i.fa.fa-chevron-down {
 @media (max-width: 500px) {
   .features-col {
     flex: 0 0 auto;
-    width: 90%;
+    width: 100%;
   }
   .expereince-content h1 {
     font-size: 32px;
+  }
+  .Our-Customize-img{
+    height: 200px;
   }
 }
 
@@ -3195,6 +3205,7 @@ i.fa.fa-chevron-down {
   .packages-cards ul li::before {
     left: -12%;
   }
+ 
 
   .swiper-slide.swiper-slide-active {
     margin-left: 10px;
@@ -3205,7 +3216,7 @@ i.fa.fa-chevron-down {
   }
 
   .features-img-wrp-forth {
-    padding-left: 25px;
+    padding: 0px;
   }
 
   .banner-content h1 {
