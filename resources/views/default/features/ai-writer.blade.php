@@ -17,12 +17,6 @@
                     <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trial')</a>
                 </div>
                 <div class="Creativity-img" style="background-image: url(../assets/images/AI_Writer/openAI_gem_claude.png);">
-                    <div class="graphs">
-                        <img src="assets/images/images/graphs.svg" alt="" />
-                    </div>
-                    <div class="avatar">
-                        <img src="assets/images/images/avatars.png" alt="" />
-                    </div>
                 </div>
                 <div class="Journey-contant mt-5">
                     <span>
