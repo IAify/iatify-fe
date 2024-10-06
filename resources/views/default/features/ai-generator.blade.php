@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/AI-Generator/flux-AI.jpg);">
+                            <div class="unique-content-img" style="background-image: url(assets/images/AI-Generator/Imagewrapper.png);">
                                 
                             </div>
                         </div>

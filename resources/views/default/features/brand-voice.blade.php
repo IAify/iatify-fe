@@ -47,7 +47,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <video id="demoVideo" width="100%" height="100%" controls style="display:none; position:absolute; top:0; left:0; z-index:2;">
+                            <video id="demoVideo" width="100%" height="100%" controls style="display:none; position:absolute; top:0; left:0; z-index:2;     object-fit: cover; border-radius: 24px;">
                                 <source src="assets/images/AI_brand_Voice/demo_brainVoice.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>

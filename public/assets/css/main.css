@@ -23,6 +23,32 @@ body.main-body.dark-mode .Subscriptions-content span {
 body.main-body.dark-mode span {
   color: #bec2d3;
 }
+body.main-body.dark-mode .expereince-banner .bento2{
+  display: block;
+}
+body.main-body .expereince-banner .bento2{
+  display: none;
+}
+body.main-body.dark-mode .expereince-banner .bento1{
+  display: none;
+}
+body.main-body .expereince-banner .bento1{
+  display: block;
+}
+
+body.main-body.dark-mode .features-img-wrp-forth .clonewhite{
+  display: none;
+}
+body.main-body .features-img-wrp-forth .clonewhite{
+  display: block;
+}
+body.main-body.dark-mode .features-img-wrp-forth .clonedark{
+  display: block;
+}
+body.main-body .features-img-wrp-forth .clonedark{
+  display: none;
+}
+
 .flex-column-center {
   display: flex;
   align-items: center;
@@ -134,22 +160,28 @@ body.main-body.dark-mode span {
 }
 
 .unique-content-img {
-  background-position: right;
-  background-size: contain;
+  background-position: left;
+  background-size: cover;
+  max-width: 454px;
+  border-radius: 20px;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .unique-content-img2 {
   background-position: left;
-  background-size: contain;
+  background-size: cover;
+  max-width: 454px;
+  border-radius: 20px;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .unique-content-img3 {
   background-position: left;
-  background-size: contain;
+  background-size: cover;
+  max-width: 454px;
+  border-radius: 20px;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -393,7 +425,7 @@ body.main-body.dark-mode span {
   height: 600px;
   width: 100%;
   background-size: cover;
-  border-radius: 35px !important;
+  border-radius: 25px !important;
 }
 
 .play {

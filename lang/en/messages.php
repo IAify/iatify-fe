@@ -5,6 +5,7 @@ return [
   'Support' => 'Support',
   'Faq' => 'Faq',
   'About us' => 'About us',
+  'About' => 'About',
   'Pricing' => 'Pricing',
   'Contact' => 'Contact',
   'Get a demo' => 'Get a demo',
@@ -155,10 +156,16 @@ return [
   'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro',
   'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora',
 
-
+  'At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.' => 'At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.',
 
   
-
+    'Customize AI' => 'Customize AI',
+    'Create / Clone Your Voice' => 'Create / Clone Your Voice',
+    'Chatbot share in Website' => 'Chatbot share in Website ',
+    'AI Social Media / Scheduled' => 'AI Social Media / Scheduled',
+    'Refund policy' => 'Refund policy',
+    'Changelog' => 'Changelog',
+    'Feedback/Bugs' => 'Feedback/Bugs',
 
   'Boost Support, Save Money and Time' => 'Boost Support, Save Money and Time',
 

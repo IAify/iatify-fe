@@ -254,7 +254,6 @@ body.main-body.dark-mode .voice-content h5{
 }
 
 body.main-body.dark-mode .power{
-  padding: 100px;
   background-color: #18203a;
 }
 body.main-body.dark-mode .Case-study {
@@ -1317,7 +1316,7 @@ body.main-body.dark-mode .sponser-logo-dark {
   padding: 60px 0px;
 }
 
-.expereince-banner-main::after {
+.expereince-banner-main::before {
   content: "";
   background-image: url(../images/Mask\ group.png);
   background-repeat: no-repeat;
@@ -1330,6 +1329,7 @@ body.main-body.dark-mode .sponser-logo-dark {
 
 /* cards */
 .exper-banner-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1929,7 +1929,17 @@ span.accordion-title::after {
 }
 
 .footer-column ul {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.2px;
+  padding-left: 0;
+  list-style-type: none;
+}
+.footer-column-about {
+  padding-left: 58px;
+}
+.footer-column-about ul {
+  font-size: 18px;
   font-weight: 700;
   line-height: 19.2px;
   padding-left: 0;
@@ -1937,7 +1947,14 @@ span.accordion-title::after {
 }
 
 .footer-column ul li a {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.52px;
+  color: var(--data-color-text);
+  text-decoration: none;
+}
+.footer-column-about ul li a {
+  font-size: 16px;
   font-weight: 500;
   line-height: 19.52px;
   color: var(--data-color-text);
@@ -1949,7 +1966,7 @@ span.accordion-title::after {
 }
 
 .socail-link ul {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 19.2px;
   padding-left: 0;
@@ -1957,7 +1974,7 @@ span.accordion-title::after {
 }
 
 .socail-link ul li a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 19.52px;
   color: var(--data-color-text);
@@ -2005,7 +2022,7 @@ span.accordion-title::after {
 /* about us page styling  */
 .Journey-img {
   display: flex;
-  background-image: url(../images/Genaity.png);
+  background-image: url(../images/images_about_us/all_business.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -2071,11 +2088,18 @@ span.accordion-title::after {
   height: 160px;
 }
 
-.Our-service-img img,
-.Our-Commitment-img img {
+.Our-service-img img
+ {
   width: 100%;
   height: 250px;
   border-radius: 40px;
+}
+.Our-Commitment-img img
+{
+  width: 100%;
+  height: 250px;
+  border-radius: 40px;
+  object-fit: cover;
 }
 .Team {
   margin-top: 60px;
@@ -2814,7 +2838,17 @@ i.fa.fa-chevron-down {
     font-weight: 700;
     font-size: 14px;
   }
+  .footer-links-main .footer-column ul{
+  
+  }
 }
+
+/* @media (max-width: 575px) {
+  .footer-links-main .footer-column ul{
+  text-align: center;
+  }
+} */
+
 
 @media (max-width: 991px) {
   .container,
@@ -2972,10 +3006,6 @@ i.fa.fa-chevron-down {
   .packages-cards ul li::before {
     left: -5%;
   }
-  .nav-buttons {
-    display: none !important;
-  }
-
   .banner-btn {
     width: 100%;
   }
@@ -3056,6 +3086,21 @@ i.fa.fa-chevron-down {
   .FAQ-contant h2 {
     font-size: 38px;
   }
+  .mobile_link .nav-buttons{
+    justify-content: start;
+    margin-top: 20px;
+  }
+  .mobile_link .nav-buttons .start-trial{
+    width: 60% !important;
+  }
+  .inner_dropdown a {
+
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .footer-column-about {
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -3077,6 +3122,7 @@ i.fa.fa-chevron-down {
   .exper-banner-content h1 {
     font-size: 32px;
   }
+
 
   .accordion button[aria-expanded="true"] + .accordion-content {
     max-height: 100%;
@@ -3182,6 +3228,11 @@ i.fa.fa-chevron-down {
   }
   .mobile_menu.show {
     width: 320px;
+  }
+  .inner_dropdown a {
+
+    font-size: 12px;
+    margin-left: 10px;
   }
 }
 

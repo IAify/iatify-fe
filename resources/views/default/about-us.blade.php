@@ -12,9 +12,6 @@ About-Us
             <p class="my-4">@lang("messages.Welcome to iAtify! We're a team of passionate data enthusiasts and tech innovators committed to transforming the way businesses interact with data. Established in 2024,iAtify has grown to a big leading in AI-driven analytics solutions.")
             </p>
             <div class="Journey-img my-5">
-                <div class="vide-icon">
-                    <img src="assets/images/videoIcon.png" alt="button">
-                </div>
             </div>
             <div class="Journey-contant">
                 <span>
@@ -64,19 +61,19 @@ About-Us
                                 <img src="assets/images/Flexible.png" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/Product.png" alt="">
+                                <img src="assets/images/images_about_us/pure_code.jpg" alt="">
                             </div>
                         </div>
                         <br>
                         <div class="row">
                             <div class="col-4">
-                                <img src="assets/images/Product.png" alt="">
+                                <img src="assets/images/images_about_us/man_woman.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/Product.png" alt="">
+                                <img src="assets/images/images_about_us/ai_phone.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/Product.png" alt="">
+                                <img src="assets/images/images_about_us/three_peaple.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -94,13 +91,13 @@ About-Us
             </div>
             <div class="vision-img mt-5">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/vision1.jpeg" alt="vision 1">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/groupe_pc.jpg" alt="vision 1">
                     </div>
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/vision2.jpeg" alt="vision 2">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/color_hand.jpg" alt="vision 2">
                     </div>
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/vision3.jpeg" alt="vision 3">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/three_woman_bl.jpg" alt="vision 3">
                     </div>
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets//images/vision4.jpeg" alt="vision 4">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets//images/images_about_us/lunch.jpg" alt="vision 4">
                     </div>
                 </div>
             </div>
@@ -118,10 +115,10 @@ About-Us
                         <div class="Our-service-img">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="assets/images/vision3.jpeg" alt="visionIMG">
+                                    <img src="assets/images/images_about_us/macbook_woman.jpg" alt="visionIMG">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="assets/images/vision1.jpeg" alt="visionIMG">
+                                    <img src="assets/images/images_about_us/two_woman.jpg" alt="visionIMG">
                                 </div>
                             </div>
                         </div>
@@ -132,10 +129,12 @@ About-Us
                         <div class="Our-Commitment-img">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="assets/images/vision4.jpeg" alt="visionIMG">
+                                    <div style=" height: 250px;">
+                                        <img src="assets/images/images_about_us/mac_table.jpg" alt="visionIMG">
+                                    </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <img src="assets/images/vision2.jpeg" alt="visionIMG">
+                                    <img src="assets/images/images_about_us/man_glass.jpg" alt="visionIMG">
                                 </div>
                             </div>
                         </div>

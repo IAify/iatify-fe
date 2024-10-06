@@ -86,7 +86,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="unique-content-img" style="background-image: url(assets/images/Chatbot_extern/Chatbot_Extern_Blue.png);">
+                            <div class="unique-content-img">
+
+                                <img src="assets/images/Chatbot_extern/Chatbot_Extern_Blue.png" alt="" style="width: 100%">
                                
                             </div>
                         </div>
@@ -106,7 +108,6 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content-img3" style="background-image: url(assets/images/Chatbot_extern/chatbot.png);">
-                               
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,8 @@ return [
   'English' => 'Anglaise',
   'Support' => 'Soutien',
   'Faq' => 'Faq',
-  'About us' => 'À propos de nous',
+  'About us' => 'À propos',
+  'About' => 'À propos',
   'Pricing' => 'Tarifs',
   'Contact' => 'Contact',
   'Get a demo' => 'Obtenez une démo',
@@ -189,7 +190,7 @@ Prise en charge de plus de 30 langues.',
   'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Difusión estable 3 <br> (<b>Nuevo</b>) Flux AI Pro',
   'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Difusión estable 3 <br> (<b>Nuevo</b>) Realismo de flujo Lora',
 
-
+  'At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.'=> 'Chez IAtify, nous proposons des tarifs flexibles pour convenir aux entreprises de toutes tailles. Nos plans vous aident à maximiser les outils d’IA et à gagner du temps. Explorez et trouvez le plan qui vous convient le mieux.',
 
   'Experience the Future of Business Analytics with iAtify' => "Découvrez l'avenir de l'analyse commerciale avec iAtify",
 
@@ -218,6 +219,14 @@ Prise en charge de plus de 30 langues.',
   'Standard Customer Support' => 'Assistance client standard',
   'Monthly Data Reports' => 'Rapports de données mensuels',
   'Data Integration Capabilities' => "Capacités d'intégration de données",
+
+  'Customize AI' => "Personnaliser l'IA",
+  'Create / Clone Your Voice' => 'Créez/Clonez votre voix',
+  'Chatbot share in Website' => 'Partage de chatbot sur le site Web ',
+  'AI Social Media / Scheduled' => 'Médias sociaux IA / Programmé',
+  'Refund policy' => 'Politique de remboursement',
+  'Changelog' => 'Journal des modifications',
+  'Feedback/Bugs' => 'Commentaires/bogues',
 
   'Explore our frequently asked questions to learn more about iAtify’s features, security, integration capabilities, and more' => "Explorez notre foire aux questions pour en savoir plus sur les fonctionnalités, la sécurité, les capacités d'intégration de iAtify, et bien plus encore.",
 

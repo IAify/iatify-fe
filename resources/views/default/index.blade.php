@@ -304,7 +304,9 @@ Home
             <div class="row align-items-center" style="padding-top: 100px;">
                 <div class="col-lg-6 features-col">
                     <div class="features-img-wrp-forth">
-                        <img src="{{ url('assets/images/clone voice.png') }}" style="border-radius: 30px;">
+                        <img class="clonewhite" src="{{ url('assets/images/clone voice.png') }}" style="border-radius: 30px;">
+
+                        <img class="clonedark" src="{{ url('assets/images/clone voice (1).png') }}" style="border-radius: 30px;">
                         
                     </div>
                 </div>
@@ -523,7 +525,7 @@ Home
                         <div class="exper-banner-content">
                             <h1>@lang('messages.Experience the future of comprehensive AI-driven solutions with AItify')</h1>
                             <div class="exper-banner-content-btn">
-                                <a href="">@lang('messages.Start your free trail') &nbsp;<img src="{{ url('assets/images/R icon.png') }}" alt=""></a>
+                                <a href="https://app.iatify.com/register/">@lang('messages.Start your free trail')<img src="{{ url('assets/images/R icon.png') }}" alt=""></a>
 
                             </div>
                         </div>
@@ -749,7 +751,7 @@ Home
         <div class="container">
             <div class="package-content">
                 <h1>@lang('messages.Choose the Right Plan for Your Business')</h1>
-                <p>@lang("messages.At iAtify, we offer flexible pricing plans tailored to fit the diverse needs of our clients. Whether you're a small startup or a large enterprise, our goal is to provide you with the most value and help you leverage the full potential of AI analytics.")</p>
+                <p>@lang("messages.At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.")</p>
                     <div class="month-year-wrp">
                         <span>Monthly</span>
                         <label class="switch">
@@ -824,7 +826,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.30 Tokens (Images)')</span>
+                                        <span>@lang('messages.50,000 Tokens')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -832,7 +834,7 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
-                                        <span>@lang('messages.50 Tokens (Images)')</span>
+                                        <span>@lang('messages.30 Tokens (Images)')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">
@@ -1293,6 +1295,14 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
+                                        <span>@lang('messages.Image Generator')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
                                         <span>@lang('messages.(NEW) External Chatbot')</span>
                                     </div>
                                 </li>
@@ -1499,6 +1509,14 @@ Home
                                         <img src="assets/images/AI.svg" alt="" />
                                     </div>
                                     <div>
+                                        <span>@lang('messages.Image Generator')</span>
+                                    </div>
+                                </li>
+                                <li class="mt-4">
+                                    <div>
+                                        <img src="assets/images/AI.svg" alt="" />
+                                    </div>
+                                    <div>
                                         <span>@lang('messages.(NEW) External Chatbot')</span>
                                     </div>
                                 </li>
@@ -1586,7 +1604,8 @@ Home
     <section class="expereince-banner"  style="padding-bottom: 50px">
         <div class="container">
            <div>
-            <img src="{{ url('assets/images/🍱 Bento.png') }}" style="width: 100%" alt="">
+                <img class="bento1" src="{{ url('assets/images/🍱 Bento (1).png') }}" style="width: 100%" alt="">
+                <img class="bento2" src="{{ url('assets/images/🍱 Bento (Dark).png') }}" style="width: 100%" alt="">
            </div>
         </div>
     </section>

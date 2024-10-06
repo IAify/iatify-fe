@@ -9,7 +9,7 @@
                 <div class="Plan-contant">
                     <h2 class="mt-5">@lang('messages.Choose the Right Plan for Your Business')</h2>
                     <p class="mt-5">
-                        @lang("messages.At iAtify, we offer flexible pricing plans tailored to fit the diverse needs of our clients. Whether you're a small startup or a large enterprise, our goal is to provide you with the most value and help you leverage the full potential of AI analytics.")
+                        @lang("messages.At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.")
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                                             <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
-                                            <span>@lang('messages.30 Tokens (Images)')</span>
+                                            <span>@lang('messages.50,000 Tokens')</span>
                                         </div>
                                     </li>
                                     <li class="mt-4">
@@ -99,7 +99,7 @@
                                             <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
-                                            <span>@lang('messages.50 Tokens (Images)')</span>
+                                            <span>@lang('messages.30 Tokens (Images)')</span>
                                         </div>
                                     </li>
                                     <li class="mt-4">
@@ -560,6 +560,14 @@
                                             <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
+                                            <span>@lang('messages.Image Generator')</span>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4">
+                                        <div>
+                                            <img src="assets/images/AI.svg" alt="" />
+                                        </div>
+                                        <div>
                                             <span>@lang('messages.(NEW) External Chatbot')</span>
                                         </div>
                                     </li>
@@ -751,6 +759,14 @@
                                         </div>
                                         <div>
                                             <span>@lang('messages.AI PDF, DOC, CSV')</span>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4">
+                                        <div>
+                                            <img src="assets/images/AI.svg" alt="" />
+                                        </div>
+                                        <div>
+                                            <span>@lang('messages.Image Generator')</span>
                                         </div>
                                     </li>
                                     <li class="mt-4">

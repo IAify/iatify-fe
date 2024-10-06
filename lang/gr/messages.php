@@ -5,6 +5,7 @@ return [
   'Support' => 'Unterstützung',
   'Faq' => 'Faq',
   'About us' => 'Über uns',
+  'About' => 'Über',
   'Pricing' => 'Preisgestaltung',
   'Contact' => 'Kontakt',
   'Get a demo' => 'Holen Sie Demo',
@@ -231,6 +232,7 @@ return [
     'Stable Diffusion 3 <br> (<b>New</b>) Flux AI Pro' => 'Stable Diffusion 3 <br> (<b>Neu</b>) Flux AI Pro',
     'Stable Diffusion 3 <br> (<b>New</b>) Flux Realism Lora' => 'Stable Diffusion 3 <br> (<b>Neu</b>) Flux Realism Lora',
 
+    'At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.'=> 'Bei IAtify bieten wir flexible Preise für Unternehmen jeder Größe. Unsere Pläne helfen Ihnen, KI-Tools zu maximieren und Zeit zu sparen. Entdecken Sie und finden Sie den Plan, der am besten zu Ihnen passt.',
 
   'How does the AI-driven predictive analytics feature work?' => 'Wie funktioniert die KI-gesteuerte Predictive Analytics-Funktion?',
 
@@ -239,6 +241,14 @@ return [
   'Can I integrate iAtify with other tools and platforms I
     currently use?' => 'Kann ich iAtify mit anderen Tools und Plattformen integrieren?
     aktuell genutzt?',
+
+    'Customize AI' => 'Passen Sie die KI an',
+    'Create / Clone Your Voice' => 'Erstellen/klonen Sie Ihre Stimme',
+    'Chatbot share in Website' => 'Chatbot-Freigabe auf der Website ',
+    'AI Social Media / Scheduled' => 'AI Social Media / Geplant ',
+    'Refund policy' => 'Rückerstattungsrichtlinie',
+    'Changelog' => 'Änderungsprotokoll',
+    'Feedback/Bugs' => 'Feedback/Fehler',
 
   'How is the pricing structured for iAtify? Are there any
     hidden fees?' => 'Wie ist die Preisgestaltung für iAtify strukturiert? Sind da irgendwelche

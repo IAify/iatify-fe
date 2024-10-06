@@ -5,6 +5,7 @@ return [
     'Support' => 'Apoyo',
     'Faq' => 'Preguntas más frecuentes',
     'About us' => 'Sobre nosotras',
+    'About' => 'Sobre ',
     'Pricing' => 'Precios',
     'Contact' => 'Contacto',
     'Get a demo' => 'Obtenga  demostración',
@@ -85,6 +86,17 @@ return [
   'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Sonnet'=>'GPT4o, o1-mini, Gemini 1.5 Pro, Claude 3.5 Soneto',
   '100 Tokens (Images)'=>'100 fichas (imágenes)',
   '200,000 Tokens'=>'200.000 fichas',
+
+  'At IAtify, we offer flexible pricing to suit businesses of all sizes. Our plans help you maximize AI tools and save time. Explore and find the plan that fits you best.'=> 'En IAtify, ofrecemos precios flexibles que se adaptan a empresas de todos los tamaños. Nuestros planes lo ayudan a maximizar las herramientas de inteligencia artificial y ahorrar tiempo. Explora y encuentra el plan que mejor se adapte a ti.',
+
+
+  'Customize AI' => 'Personalizar la IA',
+  'Create / Clone Your Voice' => 'Crea/clona tu voz',
+  'Chatbot share in Website' => 'Chatbot compartido en el sitio web',
+  'AI Social Media / Scheduled' => 'Redes sociales de IA / Programadas',
+  'Refund policy' => 'Política de reembolso',
+  'Changelog' => 'Registro de cambios',
+  'Feedback/Bugs' => 'Comentarios/Errores',
 
   'Choice of AI (OpenAI, Gemini, Claude)'=>"Elección de IA (OpenAI, Gemini, Claude)",
   'Unlimited Tokens'=>'Fichas ilimitadas',

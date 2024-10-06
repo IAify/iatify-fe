@@ -212,12 +212,7 @@
                         <img src="assets/images/images/iatify png.png" alt="Logo" />
                     </div>
                     <div class="mobile_menu_btn">
-                        <div class="demo">
-                            <a href="https://app.iatify.com/login/">@lang('messages.Sign in')</a>
-                        </div>
-                        <div class="start">
-                            <a href="https://app.iatify.com/register/">@lang('messages.Start your free trial')</a>
-                        </div>
+                       
                         <div class="close" onclick="CloseMenu()">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
@@ -301,7 +296,13 @@
                                 <i class="fa-solid fa-angle-down"></i>
                             </div>
                         </li>
+                       
+
                     </ul>
+                    <div class="nav-buttons  d-lg-none d-md-none ">
+                        <a href="https://app.iatify.com/login/" class="get-demo">@lang('messages.Sign in')</a>
+                        <a href="https://app.iatify.com/register/" class="start-trial">@lang('messages.Start your free trail')</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -322,38 +323,52 @@
                 </div>
             </div>
             <div class="footer-links-main">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-6">
+                <div class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1 gy-4">
+                    <div class="col">
                         <div class="footer-column">
-                            <ul>@lang('messages.About iAtify')
-                                <li><a href="">@lang('messages.Company Overview')</a></li>
-                                <li><a href="">@lang('messages.Careers')</a></li>
-                                <li><a href="">@lang('messages.Press & Media')</a></li>
-                                <li><a href="">@lang('messages.Testimonials')</a></li>
+                            <ul>@lang('messages.The future of AI')
+                                <li><a href="{{ lang_route('aiGenerator') }}">@lang('messages.AI Generator')</a></li>
+                                <li><a href="{{ lang_route('AIWriter') }}">@lang('messages.AI Writer')</a></li>
+                                <li><a href="{{ lang_route('BrandVoice') }}">@lang('messages.Brand Voice')</a></li>
+                                <li><a href="{{ lang_route('CustomizeChatbot') }}">@lang('messages.Customize AI')</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-6">
+
+                    <div class="col">
                         <div class="footer-column">
-                            <ul>@lang('messages.Resources')
+                            <ul>@lang('messages.Unleash Your Creativity')
+                                <li><a href="{{ lang_route('AIFIleChatAIVision') }}">@lang('messages.AI File Chat & AI Vison')</a></li>
+                                <li><a href="{{ lang_route('AiVoiceover') }}">@lang('messages.Create / Clone Your Voice')</a></li>
+                                <li><a href="#">@lang('messages.Chatbot share in Website')</a></li>
+                                <li><a href="{{ lang_route('AiSocialMedia') }}">@lang('messages.AI Social Media / Scheduled')</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="footer-column-about">
+                            <ul>@lang('messages.About')
+                                <li><a href="{{ lang_route('about-us') }}">@lang('messages.About us')</a></li>
                                 <li><a href="{{ lang_route('blog') }}">@lang('messages.Blog')</a></li>
-                                <li><a href="">@lang('messages.Help Center')</a></li>
-                                <li><a href="">@lang('messages.Webinars & Events')</a></li>
-                                <li><a href="">@lang('messages.Case Studies')</a></li>
+                                <li><a href="{{ lang_route('pricing') }}">@lang('messages.Pricing')</a></li>
+                                <li><a href="#">@lang('messages.Refund policy')</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-6 pad-mob">
+
+                    <div class="col">
                         <div class="footer-column">
                             <ul>@lang('messages.Support & Contact')
+                                <li><a href="#">@lang('messages.Help Center')</a></li>
                                 <li><a href="{{ lang_route('contact') }}">@lang('messages.Contact Us')</a></li>
-                                <li><a href="{{ lang_route('CookiePolicy') }}">@lang('messages.Cookie Policy')</a></li>
-                                <li><a href="{{ lang_route('PrivacyPolicy') }}">@lang('messages.Privacy Policy')</a></li>
-                                <li><a href="{{ lang_route('termAndCondition') }}">@lang('messages.Term and Condition')</a></li>
+                                <li><a href="#">@lang('messages.Feedback/Bugs')</a></li>
+                                <li><a href="#">@lang('messages.Changelog')</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-6 pad-mob">
+
+                    <div class="col">
                         <div class="socail-link">
                             <ul>@lang('messages.Connect')
                                 <li><a href=""><i class="fa-brands fa-facebook"></i>&nbsp;
@@ -372,13 +387,12 @@
             </div>
             <div class="copy-rights-main">
                 <div class="copy-right">
-                    <a href="">©2024 IAtify All Rights Reserved. Develop by <a
-                            href="https://fronxsolutions.com" target="blank">Fronxsoltions</a></a>
+                    <a href="">©2024 IAtify All Rights Reserved.</a>
                 </div>
                 <div class="terms">
                     <a href="{{ lang_route('termAndCondition') }}">@lang('messages.Term of use')</a>
-                    <a href="{{ lang_route('CookiePolicy') }}">@lang('messages.Privacy policy')</a>
-                    <a href="">@lang('messages.Security')</a>
+                    <a href="{{ lang_route('PrivacyPolicy') }}">@lang('messages.Privacy policy')</a>
+                    <a href="{{ lang_route('CookiePolicy') }}">@lang('messages.Cookie policy')</a>
                 </div>
             </div>
         </div>
@@ -488,7 +502,7 @@
             let isChecked = document.querySelector('#priceChangeCheckbox').checked;
 
             if (isChecked) {
-                Professional.innerText = "$ 390";
+                Professional.innerText = "$ 490";
                 basic.innerText = "$ 190";
                 Advanced.innerText = "$ 890";
                 month.innerText = "Per year";
