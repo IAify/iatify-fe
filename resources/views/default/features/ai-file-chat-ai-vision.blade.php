@@ -57,7 +57,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
                                 <h2>@lang('messages.Unlock Image Insights')</h2>
-                                <div class="d-flex align-items-center my-3">
+                                <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.png" alt="" />
                                     <span>@lang('messages.I want to know the recipe behind this photo.')</span>
                                 </div>
@@ -95,7 +95,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
                                 <h2>@lang('messages.Unlocking Data Insights with AI: Revolutionizing Data Analysis')</h2>
-                                <div class="d-flex align-items-center my-3">
+                                <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.png" alt="" />
                                     <span>@lang('messages.Embark on a journey of data-driven decision-making')</span>
                                 </div>

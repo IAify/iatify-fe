@@ -774,14 +774,6 @@
                                             <img src="assets/images/AI.svg" alt="" />
                                         </div>
                                         <div>
-                                            <span>@lang('messages.Image Generator')</span>
-                                        </div>
-                                    </li>
-                                    <li class="mt-4">
-                                        <div>
-                                            <img src="assets/images/AI.svg" alt="" />
-                                        </div>
-                                        <div>
                                             <span>@lang('messages.(NEW) External Chatbot')</span>
                                         </div>
                                     </li>

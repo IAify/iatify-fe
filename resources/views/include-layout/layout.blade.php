@@ -360,10 +360,10 @@
                     <div class="col">
                         <div class="footer-column">
                             <ul>@lang('messages.Support & Contact')
-                                <li><a href="#">@lang('messages.Help Center')</a></li>
+                                <li><a href="https://iatify.featurebase.app/help">@lang('messages.Help Center')</a></li>
                                 <li><a href="{{ lang_route('contact') }}">@lang('messages.Contact Us')</a></li>
-                                <li><a href="#">@lang('messages.Feedback/Bugs')</a></li>
-                                <li><a href="#">@lang('messages.Changelog')</a></li>
+                                <li><a href="https://iatify.featurebase.app/">@lang('messages.Feedback/Bugs')</a></li>
+                                <li><a href="https://iatify.featurebase.app/changelog">@lang('messages.Changelog')</a></li>
                             </ul>
                         </div>
                     </div>
@@ -371,14 +371,14 @@
                     <div class="col">
                         <div class="socail-link">
                             <ul>@lang('messages.Connect')
-                                <li><a href=""><i class="fa-brands fa-facebook"></i>&nbsp;
+                                <li><a href="https://www.facebook.com/profile.php?id=61566446237497"><i class="fa-brands fa-facebook"></i>&nbsp;
                                         @lang('messages.Facebook')</a></li>
-                                <li><a href=""><i class="fa-brands fa-square-instagram"></i>&nbsp;
+                                <li><a href="https://www.instagram.com/app_iatify/"><i class="fa-brands fa-square-instagram"></i>&nbsp;
                                         @lang('messages.Instagram')</a></li>
-                                <li><a href=""><i class="fa-brands fa-x-twitter"></i>&nbsp;
+                                <li><a href="https://x.com/app_iatify"><i class="fa-brands fa-x-twitter"></i>&nbsp;
                                         @lang('messages.Twitter / X')</a>
                                 </li>
-                                <li><a href=""><i class="fa-brands fa-linkedin"></i>&nbsp;
+                                <li><a href="https://www.linkedin.com/in/iatify-app-a8b918331/"><i class="fa-brands fa-linkedin"></i>&nbsp;
                                         @lang('messages.Linkedin')</a></li>
                             </ul>
                         </div>

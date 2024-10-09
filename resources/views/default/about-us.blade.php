@@ -93,7 +93,7 @@ About-Us
                 <div class="row">
                     <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/groupe_pc.jpg" alt="vision 1">
                     </div>
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/color_hand.jpg" alt="vision 2">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/color_hand.jpg" alt="vision 2" style="object-fit: cover;">
                     </div>
                     <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/three_woman_bl.jpg" alt="vision 3">
                     </div>
@@ -129,8 +129,8 @@ About-Us
                         <div class="Our-Commitment-img">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">
-                                    <div style=" height: 250px;">
-                                        <img src="assets/images/images_about_us/mac_table.jpg" alt="visionIMG">
+                                    <div >
+                                        <img src="assets/images/images_about_us/mac_table.jpg" alt="visionIMG" style="height: 200px;">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 my-2">

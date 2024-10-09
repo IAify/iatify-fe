@@ -303,11 +303,14 @@ Home
             </div>
             <div class="row align-items-center" style="padding-top: 100px;">
                 <div class="col-lg-6 features-col">
-                    <div class="features-img-wrp-forth">
-                        <img class="clonewhite" src="{{ url('assets/images/clone voice.png') }}" style="border-radius: 30px;">
-
-                        <img class="clonedark" src="{{ url('assets/images/clone voice (1).png') }}" style="border-radius: 30px;">
-                        
+                    <div class="features-img-wrp-second">
+                        <img src="{{ url('assets/images/function-second-img.jpg') }}" style="width: 100%; border-radius: 30px;">
+                        <div class="pose-card-img">
+                            <img src="{{ url('assets/images/Content.png') }}" style="border-radius: 0px;">
+                        </div>
+                        <div class="pose-card-img-second" id="pose-card-img-second" style="bottom: -20px;">
+                            <img src="{{ url('assets/images/Content1.png') }}" style="width: 100%; border-radius: 0px;">
+                          </div>
                     </div>
                 </div>
                 <div class="col-lg-6 features-col">
@@ -1494,14 +1497,6 @@ Home
                                     </div>
                                     <div>
                                         <span>@lang('messages.AI PDF, DOC, CSV')</span>
-                                    </div>
-                                </li>
-                                <li class="mt-4">
-                                    <div>
-                                        <img src="assets/images/AI.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span>@lang('messages.Image Generator')</span>
                                     </div>
                                 </li>
                                 <li class="mt-4">

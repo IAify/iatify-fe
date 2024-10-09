@@ -39,7 +39,7 @@
                                 <div class="container">
                                     <div class="video-main" style="background-image: url(assets/images/Ilustration\ graph\,\ icon.png); position: relative; width: 100%;">
                                         <div class="play-sec" style="position: relative; z-index: 1;">
-                                            <div class="play-btn">
+                                          <div class="play-btn">
                                                 <a href="#" onclick="playVideo(event)"><i class="fa-solid fa-play"></i></a>
                                             </div>
                                             <div class="play-btn-content">
@@ -49,7 +49,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <video id="demoVideo" width="100%" height="100%" controls style="display:none; position:absolute; top:0; left:0; z-index:2;">
+                                        <video id="demoVideo" width="100%" height="100%" controls style="display:none; position:absolute; top:0; left:0; z-index:2;  object-fit: cover; border-radius: 24px;">
                                             <source src="assets/images/AI_Speech_To_text/demo_AI Speech_Text.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>

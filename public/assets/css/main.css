@@ -346,6 +346,7 @@ body.main-body .features-img-wrp-forth .clonedark{
 }
 
 .Solutions-img img {
+  object-fit: cover;
   aspect-ratio: 3 / 2;
   width: 100%;
 

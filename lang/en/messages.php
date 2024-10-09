@@ -928,7 +928,7 @@ return [
   "AI File Chat & AI Vison" => "AI File Chat & AI Vison",
   "Easily upload a PDF, extract specific information, key insights, or summarize the entire document." => "Easily upload a PDF, extract specific information, key insights, or summarize the entire document.",
   "Create and share everywhere" => "Create and share everywhere",
-  "Cookie Policy" => "Cookie Policy",
+  "Cookie policy" => "  Cookie policy",
   "Term and Condition" => "Term and Condition",
   "AI Writer" => "AI Writer",
   "Your all-in-one solution for text generation and AI-powered copywriting assistance." => "Your all-in-one solution for text generation and AI-powered copywriting assistance.",

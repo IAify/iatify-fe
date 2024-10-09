@@ -648,7 +648,7 @@ return [
   // Customize your Chatbot page start
 
    // AI-FIle-Chat-&-AI-Vison page start
-  "Cookie Policy" => "Cookie-Richtlinie",
+  "Cookie policy" => "Cookie-Richtlinie",
 
   "Our platform supports various file types, including PDFs, images, text documents, and more, ensuring versatility in your data analysis needs." => "Unsere Plattform unterstützt verschiedene Dateitypen, darunter PDFs, Bilder, Textdokumente und mehr, und gewährleistet so Vielseitigkeit für Ihre Datenanalyseanforderungen.",
 "With AI Vision, gain insights from uploaded images beyond basic recognition. This feature provides detailed analysis and contextual information about depicted objects, people, or places, enhancing your understanding of visual content." => "Mit AI Vision gewinnen Sie Erkenntnisse aus hochgeladenen Bildern, die über die einfache Erkennung hinausgehen. Diese Funktion bietet detaillierte Analysen und Kontextinformationen zu abgebildeten Objekten, Personen oder Orten und verbessert so Ihr Verständnis visueller Inhalte.",

@@ -653,7 +653,7 @@ Prise en charge de plus de 30 langues.',
   // Customize your Chatbot page start
 
    // AI-FIle-Chat-&-AI-Vison page start
-  "Cookie Policy" => "Politique en matière de cookies",
+  "Cookie policy" => "Politique en matière de cookies",
 
    "AI-FIle-Chat-&-AI-Vison" => "AI-FIle-Chat-&-AI-Vision",
    'Revolutionize Your Data Strategy with IAtify AI Analytics' => 'Révolutionnez votre stratégie de données avec IAtify AI Analytics',

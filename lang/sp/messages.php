@@ -777,7 +777,7 @@ return [
     "By leveraging AI technology, our solution streamlines the social media publishing process, saving you time and effort. With automated campaign creation and scheduling, you can focus on other aspects of your business while AI ensures consistent and effective engagement on social media" => "Al aprovechar la tecnología de inteligencia artificial, nuestra solución agiliza el proceso de publicación en las redes sociales, ahorrándole tiempo y esfuerzo. Con la creación y programación automatizadas de campañas, puede concentrarse en otros aspectos de su negocio, mientras que la IA garantiza una participación consistente y efectiva en las redes sociales.",
     "Are there plans to add more social media platforms in the future?" => "¿Hay planes para agregar más plataformas de redes sociales en el futuro?",
     "Our development team is continuously exploring opportunities to expand our platform's capabilities. While we currently support a wide range of social media platforms, including the most popular ones, we are open to adding more in the future based on user feedback and market demand" => "Nuestro equipo de desarrollo explora continuamente oportunidades para ampliar las capacidades de nuestra plataforma. Si bien actualmente admitimos una amplia gama de plataformas de redes sociales, incluidas las más populares, estamos abiertos a agregar más en el futuro según los comentarios de los usuarios y la demanda del mercado.",
-  "Cookie Policy" => "Política de cookies",
+  "Cookie policy" => "Política de cookies",
   
     // Ai-social-media. page end
 // ars contct
