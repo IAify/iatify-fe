@@ -26,7 +26,7 @@ Route::group(['prefix' => '{locale?}', 'where' => ['locale' => '[a-zA-Z]{2}']], 
     Route::get('/AI-Writer', [WebsiteController::class, 'AIWriter'])->name('AIWriter');
     Route::get('/Brand-voice', [WebsiteController::class, 'BrandVoice'])->name('BrandVoice');
     Route::get('/Ai-Voiceover', [WebsiteController::class, 'AiVoiceover'])->name('AiVoiceover');
-    Route::get('/Ai-Voice-Instead', [WebsiteController::class, 'AiVoiceInstead'])->name('AiVoiceInstead');
+    Route::get('/customize-chatbot-external', [WebsiteController::class, 'AiVoiceInstead'])->name('AiVoiceInstead');
     Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 });
 
@@ -50,6 +50,6 @@ Route::group(['as' => 'default.'], function () {
     Route::get('/AI-Writer', [WebsiteController::class, 'AIWriter'])->name('AIWriter');
     Route::get('/Brand-voice', [WebsiteController::class, 'BrandVoice'])->name('BrandVoice');
     Route::get('/Ai-Voiceover', [WebsiteController::class, 'AiVoiceover'])->name('AiVoiceover');
-    Route::get('/Ai-Voice-Instead', [WebsiteController::class, 'AiVoiceInstead'])->name('AiVoiceInstead');
+    Route::get('/customize-chatbot-external', [WebsiteController::class, 'AiVoiceInstead'])->name('AiVoiceInstead');
     Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 });

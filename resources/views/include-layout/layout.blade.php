@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="{{ url('assets/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/main.css') }}">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KH1KD4G8CE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KH1KD4G8CE');
+    </script>
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -55,10 +64,11 @@
                         <div class="nav-links-main">
 
                             <div class="logo">
-                                <a href="{{ lang_route('home') }}"><img
-                                        src="{{ asset('assets/images/iatify png.png') }}" class="nor-logo"
+                                <a href="{{ lang_route('home') }}">
+                                    <img
+                                        src="{{ asset('assets/images/logo_iaitfy.svg') }}" class="nor-logo"
                                         alt="logo">
-                                    <img src="{{ asset('assets/images/iatify white.png') }}" class="dark-logo"
+                                    <img src="{{ asset('assets/images/logo_iatif_dark.svg') }}" class="dark-logo"
                                         alt="White logo"></a>
                             </div>
                             <div class="nav-links d-lg-block d-none">
@@ -316,9 +326,9 @@
         <div class="container">
             <div class="footer-head">
                 <div class="logo">
-                    <a href="{{ lang_route('home') }}"><img src="{{ asset('assets/images/iatify png.png') }}"
+                    <a href="{{ lang_route('home') }}"><img src="{{ asset('assets/images/logo_iaitfy.svg') }}"
                             class="nor-logo" alt="logo">
-                        <img src="{{ asset('assets/images/iatify white.png') }}" class="dark-logo"
+                        <img src="{{ asset('assets/images/logo_iatif_dark.svg') }}" class="dark-logo"
                             alt="White logo"></a>
                 </div>
             </div>

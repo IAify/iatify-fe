@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="assets/images/AI_Social_Media/social-schedule.png" alt="" />
+                        <img src="assets/images/AI_Social_Media/social-schedule.png" class="calender-shedule-img" alt=""/>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
                                 <h2>@lang("messages.Create Campaigns with AI-Powered Personalization")</h2>
-                                <div class="d-flex align-items-center my-3">
+                                <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
                                     <span>@lang("messages.Boost your presence effortlessly with automated publishing")</span>
                                 </div>
@@ -100,7 +100,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="unique-content mt-5">
                                 <h2>@lang("messages.Timing is Everything: AI-Powered <br> Optimal Posting")</h2>
-                                <div class="d-flex align-items-center my-3">
+                                <div class="d-flex align-items-center gap-2 my-3">
                                     <img src="assets/images/pack-li-img.svg" alt="" />
                                     <span>@lang("messages.AI optimizes timing, boosts engagement")</span>
                                 </div>

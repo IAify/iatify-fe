@@ -1938,7 +1938,7 @@ span.accordion-title::after {
   height: 1px;
   background-color: #c8cbd8;
   position: absolute;
-  bottom: 15px;
+  bottom: 26px;
   right: 0;
 }
 
@@ -2084,9 +2084,11 @@ span.accordion-title::after {
   color: #282b27;
 }
 .Our-img-contant img {
+  height: 127px;
+  /* aspect-ratio: 3 / 3; */
+  width: 100%;
   border-radius: 30px;
-  height: 120px;
-  width: 124.9px;
+  width: 160.9px;
 }
 .vision-contant h1 {
   font-size: 48px;
@@ -2099,7 +2101,9 @@ span.accordion-title::after {
 .vision-img img {
   border-radius: 40px;
   width: 100%;
-  height: 257px;
+  height: 250px;
+  max-width: 100%;
+  
 }
 .Our-service-contant h1 {
   font-size: 48px;
@@ -2522,6 +2526,7 @@ i.fa.fa-chevron-down {
 }
 
 .mobile_menu_btn {
+  color: black;
   display: flex;
   gap: 5px;
   align-items: center;
@@ -2546,7 +2551,7 @@ i.fa.fa-chevron-down {
 
 }
 .logo{
-  width: 100px;
+  width: 110px;
   padding: 10px 0;
 }
 .logo img {
@@ -2918,7 +2923,7 @@ i.fa.fa-chevron-down {
     height: 1px;
     background-color: #b8bccc;
     position: absolute;
-    bottom: 15px;
+    bottom: 26px;
     right: 0;
   }
 
@@ -2938,6 +2943,7 @@ i.fa.fa-chevron-down {
   .footer-head::after {
     content: "";
     width: 80%;
+    bottom: 26px;
   }
 
   .ai-drevin-banner {
@@ -3131,9 +3137,11 @@ i.fa.fa-chevron-down {
   #pose-card-img-second::before {
 
     top: 59px;
-
- 
-}
+  }
+  .calender-shedule-img{
+    width: 81% !important;
+    margin-left: 0px !important; 
+  }
 }
 
 @media (max-width: 600px) {
@@ -3171,7 +3179,8 @@ i.fa.fa-chevron-down {
 
   .footer-head::after {
     content: "";
-    width: 65%;
+    width: 75%;
+    margin-bottom: 0px;
   }
 
   .features-pos-card {
@@ -3286,6 +3295,11 @@ i.fa.fa-chevron-down {
   .Our-Customize-img{
     height: 200px;
   }
+  .footer-head::after {
+    content: "";
+    width: 70%;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -3346,6 +3360,11 @@ i.fa.fa-chevron-down {
   }
   #pose-card-img-second {
     height: 155px;
+  }
+  .footer-head::after {
+    content: "";
+    width: 68%;
+    margin-bottom: 0px;
   }
 }
 
@@ -3488,6 +3507,11 @@ i.fa.fa-chevron-down {
   .company-name img{
     padding: 10px;
   }
+  .footer-head::after {
+    content: "";
+    width: 58%;
+    margin-bottom: 0px;
+}
 }
 
 @media (max-width: 321px) {
@@ -3572,4 +3596,9 @@ i.fa.fa-chevron-down {
     width: 60%;
   }
  
+}
+
+.calender-shedule-img{
+  width: 81%;
+  margin-left: 91px;
 }

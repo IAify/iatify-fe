@@ -70,7 +70,7 @@ About-Us
                                 <img src="assets/images/images_about_us/man_woman.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/images_about_us/ai_phone.jpg" alt="">
+                                <img src="assets/images/images_about_us/acti_street.jpg" alt="" style="">
                             </div>
                             <div class="col-4">
                                 <img src="assets/images/images_about_us/three_peaple.jpg" alt="">
@@ -91,7 +91,7 @@ About-Us
             </div>
             <div class="vision-img mt-5">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/groupe_pc.jpg" alt="vision 1">
+                    <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/acti_creatives.jpg" alt="vision 1" style="    object-fit: cover;">
                     </div>
                     <div class="col-lg-3 col-md-6 my-4"><img src="./assets/images/images_about_us/color_hand.jpg" alt="vision 2" style="object-fit: cover;">
                     </div>
